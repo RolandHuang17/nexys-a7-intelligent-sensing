@@ -15,6 +15,26 @@
     "sha256": "7058114453adac66fbab6cfe1c15f0b688416d45b137ae118ae9674dc13d493d"
   },
   {
+    "path": "Get-RuntimeResources.ps1",
+    "bytes": 902,
+    "sha256": "e31e9b6ee6519dc7915b895c1903094009acfa99e85e8495f7a2694720e191bf"
+  },
+  {
+    "path": "README.md",
+    "bytes": 6334,
+    "sha256": "d180ca00d0b9905549d885b03aedffaa43c4d35f364d09b47c0cf547fc32f507"
+  },
+  {
+    "path": "Start-From-Source.ps1",
+    "bytes": 715,
+    "sha256": "9b18b11ebec395cb3cfa7dc4c964d91d8410d62d2573261ebed5fe46cd569a26"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 2518,
+    "sha256": "eeb04834f536c8f80749e7feeff462d332b7af4db20704cdfc238309e77582df"
+  },
+  {
     "path": "config/board_profile.json",
     "bytes": 2076,
     "sha256": "2414b030e51fecc99c9bd26ecebf3025c3c859a5fe55094c95a674110fe08fd1"
@@ -63,6 +83,11 @@
     "path": "constraints/nexys_a7_100t.xdc",
     "bytes": 6998,
     "sha256": "65fd06441943fd2b0b233c5bb6423138c1d6267d16cf440d9bbe34ed1d283c90"
+  },
+  {
+    "path": "evidence/UI-validation-summary.md",
+    "bytes": 2882,
+    "sha256": "cffb313224e3599d3e07bcf17e387254c25edc8b24cdb6086b3666edc55f0c15"
   },
   {
     "path": "evidence/final-complete-event/audio.wav",
@@ -128,16 +153,6 @@
     "path": "evidence/triple-abort-runtime.json",
     "bytes": 133014,
     "sha256": "ace693531f8a26e4380c740ab7bd903f66c87dd48a47a38a5888697429f69175"
-  },
-  {
-    "path": "evidence/UI-validation-summary.md",
-    "bytes": 2882,
-    "sha256": "cffb313224e3599d3e07bcf17e387254c25edc8b24cdb6086b3666edc55f0c15"
-  },
-  {
-    "path": "Get-RuntimeResources.ps1",
-    "bytes": 902,
-    "sha256": "e31e9b6ee6519dc7915b895c1903094009acfa99e85e8495f7a2694720e191bf"
   },
   {
     "path": "host/adept_probe.py",
@@ -1091,18 +1106,13 @@
   },
   {
     "path": "publication/release.json",
-    "bytes": 1811,
-    "sha256": "7d8b037632bb81375c3314e086b2b8bde689bf8cf0cdeeb716c29ab6c7a242b8"
+    "bytes": 1954,
+    "sha256": "fe0f9db49a7ac93691067aa3b48fbb07f8d4cd1796fab6ba8a21cecdd2801b1a"
   },
   {
     "path": "publication/source-boundary.md",
     "bytes": 702,
     "sha256": "de353139ad15acf95b4f627db32aac63e46f622f53ba213f5d20637249aa81a6"
-  },
-  {
-    "path": "README.md",
-    "bytes": 6334,
-    "sha256": "d180ca00d0b9905549d885b03aedffaa43c4d35f364d09b47c0cf547fc32f507"
   },
   {
     "path": "report/final/01-functions.tex",
@@ -1111,8 +1121,8 @@
   },
   {
     "path": "report/final/02-hardware.tex",
-    "bytes": 7489,
-    "sha256": "09cb637ec921c978a497de2b97953bae31a9c4105d944673a1fc528cfe4c8296"
+    "bytes": 7387,
+    "sha256": "bb5d8fdd8a93996bb7ec114f416fde8bd07a86c63ae80dd838dec2376e6f4e5e"
   },
   {
     "path": "report/final/03-software.tex",
@@ -1126,13 +1136,18 @@
   },
   {
     "path": "report/final/05-validation.tex",
-    "bytes": 8433,
-    "sha256": "8c1a6aa230a1b97ecee415ff79365560a05de03bbecb4af3d8ae3a487752afa6"
+    "bytes": 8292,
+    "sha256": "23cb2a2abbcea78f025cd39dd8f20df160ac70200219f5f48671258b9b1a1349"
   },
   {
     "path": "report/final/06-conclusion.tex",
-    "bytes": 2284,
-    "sha256": "36377b3c67390b9d5418cfe4a9c277297fa52d328e715a956501d2de925afad7"
+    "bytes": 1880,
+    "sha256": "775d573bc118124c78ef2055b33dee61158662f7810b773e71251dfcab3297ae"
+  },
+  {
+    "path": "report/final/WHUBachelor.cls",
+    "bytes": 10838,
+    "sha256": "fc34d46b4113a594d745347cd759e684342114c80d1f3784aa0831e349519816"
   },
   {
     "path": "report/final/appendix.tex",
@@ -1331,8 +1346,8 @@
   },
   {
     "path": "report/final/front.tex",
-    "bytes": 4261,
-    "sha256": "d17232a0cdd5721b8270398ceb6275a9c03d0bd2ffaffc69ea805319809479dd"
+    "bytes": 3590,
+    "sha256": "f96aec7e7e448df41565043611b06d2d66a15f1fad814bc2db6345f76730a4cc"
   },
   {
     "path": "report/final/main.tex",
@@ -1343,11 +1358,6 @@
     "path": "report/final/references.tex",
     "bytes": 2060,
     "sha256": "aaba5f2f921f0150dff65c01d0bbb5b2be71f003ae9ea627a17c7ebe35b01b55"
-  },
-  {
-    "path": "report/final/WHUBachelor.cls",
-    "bytes": 10838,
-    "sha256": "fc34d46b4113a594d745347cd759e684342114c80d1f3784aa0831e349519816"
   },
   {
     "path": "requirements-locked.txt",
@@ -1630,11 +1640,6 @@
     "sha256": "c4904d40b47687edb4dfdad8179c82ccc6c9681711a97a37f80abbb62d0d4d68"
   },
   {
-    "path": "Start-From-Source.ps1",
-    "bytes": 715,
-    "sha256": "9b18b11ebec395cb3cfa7dc4c964d91d8410d62d2573261ebed5fe46cd569a26"
-  },
-  {
     "path": "tests/tb_bank.sv",
     "bytes": 2709,
     "sha256": "4e175f5aeccb2b879acba19db8008b26fd1b5531264726434600541777bdbe41"
@@ -1710,9 +1715,19 @@
     "sha256": "33eb484b917e75f918d99d0063b3892334d42b0abf5cf07cee255c3943d3f857"
   },
   {
-    "path": "THIRD_PARTY_NOTICES.md",
-    "bytes": 2518,
-    "sha256": "eeb04834f536c8f80749e7feeff462d332b7af4db20704cdfc238309e77582df"
+    "path": "upstream/music/audfprint/LICENSE",
+    "bytes": 1112,
+    "sha256": "4126a69d389028fd8ed1ab2f3f36fc66227f6498b942afb1f9cb684cc088b9b1"
+  },
+  {
+    "path": "upstream/music/audfprint/README-dpwe-audfprint.txt",
+    "bytes": 5210,
+    "sha256": "6e1303a1617bae711974283bb3e51d77f51f11fe2abe040cb59b2d02eb7802d9"
+  },
+  {
+    "path": "upstream/music/audfprint/README.md",
+    "bytes": 9714,
+    "sha256": "b77f4e9b1b354ca219067f15b96d94ad33b5740053c7f3902615907c15775fdb"
   },
   {
     "path": "upstream/music/audfprint/__init__.py",
@@ -1768,21 +1783,6 @@
     "path": "upstream/music/audfprint/hash_table.py",
     "bytes": 16286,
     "sha256": "6e112ece3298e2d1f20bb44e640b2a78d1f8a994c31b75f4df8a0449f1a4a201"
-  },
-  {
-    "path": "upstream/music/audfprint/LICENSE",
-    "bytes": 1112,
-    "sha256": "4126a69d389028fd8ed1ab2f3f36fc66227f6498b942afb1f9cb684cc088b9b1"
-  },
-  {
-    "path": "upstream/music/audfprint/README-dpwe-audfprint.txt",
-    "bytes": 5210,
-    "sha256": "6e1303a1617bae711974283bb3e51d77f51f11fe2abe040cb59b2d02eb7802d9"
-  },
-  {
-    "path": "upstream/music/audfprint/README.md",
-    "bytes": 9714,
-    "sha256": "b77f4e9b1b354ca219067f15b96d94ad33b5740053c7f3902615907c15775fdb"
   },
   {
     "path": "upstream/music/audfprint/requirements.txt",

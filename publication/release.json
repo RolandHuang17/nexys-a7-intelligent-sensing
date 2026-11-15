@@ -27,8 +27,8 @@
     },
     {
       "name": "NexysMonitor-v1.6.0-Design-Report.pdf",
-      "bytes": 1438915,
-      "sha256": "60be3d2dbda29a4f1b35a922f8fe3522f52dc7ab45f3bfef77d268cb36bd8a95"
+      "bytes": 1436372,
+      "sha256": "650ffeff972e0f085de342ab2d61e8b5da6af00e6f9114815eaf12a55d54de56"
     },
     {
       "name": "NexysMonitor-v1.6.0-runtime-resources.zip",
@@ -40,5 +40,11 @@
       "bytes": 18339346,
       "sha256": "7c04a5153ca1135b3b1b8d2abc10eedf2c2011a3dc949a98757f38aa278831be"
     }
-  ]
+  ],
+  "report_revision": {
+    "date": "2026-11-16",
+    "source_ref": "report-20261116",
+    "pages": 31,
+    "runtime_changed": false
+  }
 }
