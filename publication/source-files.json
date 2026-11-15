@@ -21,8 +21,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 6334,
-    "sha256": "d180ca00d0b9905549d885b03aedffaa43c4d35f364d09b47c0cf547fc32f507"
+    "bytes": 6042,
+    "sha256": "994d20ca86b5f34e8d54999e70bd79f1964aae828769c69b38e27606185f1cad"
   },
   {
     "path": "Start-From-Source.ps1",
@@ -1106,8 +1106,8 @@
   },
   {
     "path": "publication/release.json",
-    "bytes": 1954,
-    "sha256": "fe0f9db49a7ac93691067aa3b48fbb07f8d4cd1796fab6ba8a21cecdd2801b1a"
+    "bytes": 2009,
+    "sha256": "ae067c5d4f604222fedb335306243e45137827b467dc90e61b5f4f3a2fcf27e8"
   },
   {
     "path": "publication/source-boundary.md",
@@ -1116,33 +1116,33 @@
   },
   {
     "path": "report/final/01-functions.tex",
-    "bytes": 7576,
-    "sha256": "631a40dec941aefacb0dce1f781dd5b8222b44ffa84538c1903279659157d2fc"
+    "bytes": 5366,
+    "sha256": "831e64c32bb36c84819b39cc93e5c6ce3edc8445bd634de72f982b80cf8eee87"
   },
   {
     "path": "report/final/02-hardware.tex",
-    "bytes": 7387,
-    "sha256": "bb5d8fdd8a93996bb7ec114f416fde8bd07a86c63ae80dd838dec2376e6f4e5e"
+    "bytes": 6842,
+    "sha256": "598d504605a9d65b654fa215488817305be56a96884708f7e559b80ccfcc9695"
   },
   {
     "path": "report/final/03-software.tex",
-    "bytes": 8028,
-    "sha256": "b68d063a107916b8b6c2f8fd96cf47eaf68ae5e1019f9ed4d8148a7ee98b6cf9"
+    "bytes": 6083,
+    "sha256": "1727ac21ad2fb91baa68f563c1007163e4112090db34d8345bd5e7c259d9e949"
   },
   {
     "path": "report/final/04-techniques.tex",
-    "bytes": 7825,
-    "sha256": "63e8774fbdcb849f03d49555321f5d7d29d44a77b140c13def37edfbb9d486c9"
+    "bytes": 6738,
+    "sha256": "81c2d71f6baf24e146fa7174a6f17a0e743b9cb045670248fd99b417c2799496"
   },
   {
     "path": "report/final/05-validation.tex",
-    "bytes": 8292,
-    "sha256": "23cb2a2abbcea78f025cd39dd8f20df160ac70200219f5f48671258b9b1a1349"
+    "bytes": 6043,
+    "sha256": "3470ef63ee1d37bbd5c0ec06ca8074c3a99b6240e7cee77f4b99c473d18137ca"
   },
   {
     "path": "report/final/06-conclusion.tex",
-    "bytes": 1880,
-    "sha256": "775d573bc118124c78ef2055b33dee61158662f7810b773e71251dfcab3297ae"
+    "bytes": 1236,
+    "sha256": "4ae179e1f1d57d212708a2d9b339e8fc0660627f557c648e2ee72d6f49f52c07"
   },
   {
     "path": "report/final/WHUBachelor.cls",
@@ -1151,8 +1151,8 @@
   },
   {
     "path": "report/final/appendix.tex",
-    "bytes": 2387,
-    "sha256": "da461fd978342fd26eef32c23148c07f05af5d32bc5649dbb3d01550289ce643"
+    "bytes": 1948,
+    "sha256": "462d705937f3871ab531e58e3626496c2880afb52537b1d59cd569665b514e5a"
   },
   {
     "path": "report/final/data/check_timing.rpt",
@@ -1246,8 +1246,8 @@
   },
   {
     "path": "report/final/diagrams/architecture.tex",
-    "bytes": 1096,
-    "sha256": "8fc8a46e5096a0bf0ebbd71f6f985becf94ea70a40d758d36218f15646755d54"
+    "bytes": 951,
+    "sha256": "6370574752d2810258bddaec9d1491fc969130465e1206cb583d5a8ef8923f64"
   },
   {
     "path": "report/final/diagrams/audio.tex",
@@ -1281,8 +1281,8 @@
   },
   {
     "path": "report/final/diagrams/game.tex",
-    "bytes": 907,
-    "sha256": "e996e13e1b0bf1195d3cf0bde4e86dcbc7cbdbacd94382802d1e0c3e491200ab"
+    "bytes": 910,
+    "sha256": "df3831c659e46a2d90de1367b0db8662996eb87451a5696f9912ec6aa87e0c7f"
   },
   {
     "path": "report/final/diagrams/hardware.tex",
@@ -1291,13 +1291,13 @@
   },
   {
     "path": "report/final/diagrams/intelligence.tex",
-    "bytes": 767,
-    "sha256": "9b292b1b94940f5467d3506e318f503bd35684c4121ad63c64e81adf0084217d"
+    "bytes": 1081,
+    "sha256": "1c320175e18ae478f45aff73c80c717e9f83973c12ac0fe9a34ad78d8bed765f"
   },
   {
     "path": "report/final/diagrams/music.tex",
     "bytes": 1138,
-    "sha256": "cf7e43730be2f952fe07bb234a1806af925cadbb6779c221311163d0aae41642"
+    "sha256": "c5700bd92a2248a58bb7cc08c7f829e5fb3a9c481cca8fa4f66456575970db44"
   },
   {
     "path": "report/final/diagrams/protocol.tex",
@@ -1346,18 +1346,18 @@
   },
   {
     "path": "report/final/front.tex",
-    "bytes": 3590,
-    "sha256": "f96aec7e7e448df41565043611b06d2d66a15f1fad814bc2db6345f76730a4cc"
+    "bytes": 3131,
+    "sha256": "3d5e3b771093be6b36cacc6b44f17cbd0d80e790652bf51bbd12ec5bd0311138"
   },
   {
     "path": "report/final/main.tex",
-    "bytes": 5002,
-    "sha256": "88ee005a7f8212a8347a5788f870cbd7950f83af283c77077ddfc56281eeb6b0"
+    "bytes": 4984,
+    "sha256": "0f0110e7ed3f98419431f21575a6beea3c6d75627dedfd8ad96aa1ccbc2c1eab"
   },
   {
     "path": "report/final/references.tex",
-    "bytes": 2060,
-    "sha256": "aaba5f2f921f0150dff65c01d0bbb5b2be71f003ae9ea627a17c7ebe35b01b55"
+    "bytes": 1774,
+    "sha256": "db9df9381c194f148014c22e3b8358e0ff91495f2c0633b1ae8bdbf4bf84afc6"
   },
   {
     "path": "requirements-locked.txt",

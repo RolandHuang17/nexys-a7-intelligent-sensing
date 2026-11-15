@@ -6,7 +6,7 @@
 \node[box,text width=24mm] (online) at (11.1,-2.3) {自动模式\\Shazam在线};
 \node[amber,text width=24mm] (local) at (7.4,-2.3) {本地音频指纹\\备用 / 仅离线};
 \node[green,text width=24mm] (result) at (3.7,-2.3) {结果 / 历史\\来源 / 收藏};
-\node[amber,text width=24mm] (cancel) at (0,-2.3) {中止当前任务\\核对编号并收尾};
+\node[amber,text width=24mm] (cancel) at (0,-2.3) {中止当前任务\\停止录音与识别};
 \draw[flow] (ready)--(tap);\draw[flow] (tap)--(rec);\draw[flow] (rec)--(save);
 \draw[flow] (save)--(online);\draw[flow] (online)--node[label,above]{失败 / 未匹配}(local);
 \draw[flow] (local)--(result);
