@@ -1,0 +1,15 @@
+\begin{tikzpicture}[base]
+\node[box,text width=32mm] (fpga) at (0,0) {FPGA / UART\\协议v1};
+\node[green,text width=34mm] (service) at (4.8,0) {唯一串口服务\\采集线程 / 命令队列};
+\node[box,text width=32mm] (gui) at (9.6,0) {GUI主线程\\监测 / 事件 / 页面};
+\node[amber,text width=32mm] (worker) at (0,-2.6) {独立识曲进程\\在线 / 本地指纹};
+\node[box,text width=34mm] (store) at (4.8,-2.6) {本地持久化\\WAV / JSON / SQLite};
+\node[green,text width=32mm] (game) at (9.6,-2.6) {游戏面板\\输入 / 引擎 / Canvas};
+\draw[flow,<->] (fpga)--(service);
+\draw[flow] (service)--node[label,above]{发布消息}(gui);
+\draw[control] (gui.north)--++(0,.7)-|(service.north);
+\draw[flow] (service.south)--(store.north);
+\draw[flow,<->] (store)--(worker);
+\draw[flow] (store.north east)--node[label,above,sloped]{历史 / 结果}(gui.south west);
+\draw[flow] (gui)--node[label,right]{共享数据}(game);
+\end{tikzpicture}

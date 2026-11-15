@@ -1,0 +1,5 @@
+# Isolated PC microphone tester; do not install into the board build environment.
+shazamio==0.9.0
+shazamio-core==2.0.0
+numpy==1.26.4
+PyInstaller==6.22.3

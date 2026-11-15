@@ -1,0 +1,53 @@
+{
+  "payload_sha256": "9c67491c741dc26b7569967b1a271798f365a74efb366d5c262eeff8092f2928",
+  "pcm_count": 24000,
+  "metadata": {
+    "event_id": 2,
+    "anchor_tick": 281289200820,
+    "first_pcm_index": 44998272,
+    "first_pcm_tick": 281239206231,
+    "pcm_count": 24000,
+    "xyz_count": 281,
+    "payload_length": 50810,
+    "payload_crc32": 4285303137,
+    "bank": 0,
+    "config_id": 0,
+    "mode": 0,
+    "t_audio": null,
+    "t_accel": null,
+    "t_confirm": 281289200820,
+    "window_start": 281239200820,
+    "window_end": 281389200820,
+    "source": "board_snap",
+    "export_s": 5.077999999997701,
+    "input_hash": "9c67491c741dc26b7569967b1a271798f365a74efb366d5c262eeff8092f2928",
+    "timestamp_semantics": "audio PCM data available / XYZ synchronized DATA_READY, tick=10 ns",
+    "audio_peak": 1045,
+    "audio_rms": 1006.2007941592308,
+    "audio_std": 10.619802922096374,
+    "audio_saturated_samples": 0,
+    "xyz_interval_ticks": {
+      "min": 533107,
+      "max": 536704,
+      "mean": 534809.5857142857
+    },
+    "gravity_mg": 751.9118285361858,
+    "programming": {
+      "build_run_id": "20261115T210422_219255_build",
+      "build_id": "ec0351f8",
+      "bitstream_sha256": "3e193418e7ec9ba208277e7f9af63601b042ccfa4eab1b16bef2ea7184d0aa48",
+      "config_sha256": "65fd06441943fd2b0b233c5bb6423138c1d6267d16cf440d9bbe34ed1d283c90",
+      "usb_serial": "210292B7F4F8",
+      "uart_port": "COM5"
+    },
+    "monitor_run_id": "20261115T220147_953836_monitor_session",
+    "epoch": 1,
+    "trigger_settings": {
+      "audio_threshold": 100,
+      "accel_threshold": 10,
+      "pair_window_ticks": 5000000,
+      "threshold_id": 0
+    }
+  },
+  "plot_reduction": "80-sample min/max envelope; original payload retained in evidence package"
+}

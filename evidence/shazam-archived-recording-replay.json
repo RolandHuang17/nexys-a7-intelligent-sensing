@@ -1,0 +1,251 @@
+{
+  "time": "2026-11-15T15:05:09.036+08:00",
+  "candidate_exe": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\.portable_build\\shazam_main_candidate\\开发板实时监测.exe",
+  "exe_sha256": "447b8c154e9d726a3540d8a3a15024efc528a4e34ab666890486a0f0b25d01a0",
+  "app_version": "1.2.0",
+  "kind": "packaged_main_worker_replay_of_real_archived_board_microphone_recordings",
+  "new_live_phone_recordings": false,
+  "self_check": {
+    "app_version": "1.2.0",
+    "frozen": true,
+    "resources_verified": true,
+    "firmware": {
+      "build_run_id": "20261114T204236_491028_build",
+      "build_id": "9f3f5cbf",
+      "bitstream_sha256": "9811ed2cc6904ee33dc51339b43ce17214c59688b2558651443dcbd7f2a908fe",
+      "config_sha256": "7c244be8d24c5f61cd87219f3577834704664cef5e9ae155dd229e3151cff253",
+      "board_model": "Nexys A7-100T",
+      "target_part": "xc7a100tcsg324-1",
+      "protocol_version": 1
+    },
+    "data_directory": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\runs\\verify_shazam_main_06f21eb183\\user_data",
+    "resource_directory": "C:\\Users\\roland\\AppData\\Local\\Temp\\_MEI00008ab42\\release_assets",
+    "devices": [
+      {
+        "serial": "210292B7F4F8",
+        "port": "COM5",
+        "description": "USB Serial Port (COM5)",
+        "location": ""
+      }
+    ],
+    "online_provider": "shazamio",
+    "online_components": {
+      "shazamio": "0.9.0",
+      "shazamio-core": "2.0.0",
+      "aiohttp": "3.14.5",
+      "aiohttp-retry": "2.9.1",
+      "numpy": "1.26.4"
+    }
+  },
+  "protected_files": {
+    "host/music_library.py": true,
+    "host/music_store.py": true,
+    "host/music_board.py": true,
+    "host/music_seed.py": true,
+    "host/tune_music_profile.py": true,
+    "release_assets/firmware/recorder_top.bit": true,
+    "deliver/报告.pdf": true
+  },
+  "original_asset_count": 101,
+  "all_original_asset_bytes_verified_in_EXE": true,
+  "AudioTag_client_and_credentials_absent_from_EXE": true,
+  "rows": [
+    {
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "original_wav": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\runs\\20261114T232159_686709_monitor_session\\music\\e1_record5_52b48085\\read_01\\first\\audio.wav",
+      "wav_sha256": "8132a4f7c060b8ff861266f748c2cbd6ff60938c77ab52de7bbbe0d74b6bef8a",
+      "result": {
+        "status": "matched",
+        "matched": true,
+        "title": "Hotel California",
+        "artist": "Eagles",
+        "track_key": "215540",
+        "source": "shazamio",
+        "message": "Shazam 返回歌曲匹配。",
+        "track_url": "https://www.shazam.com/track/215540/hotel-california",
+        "service_elapsed_s": 0.75,
+        "recognized_at": "2026-11-15T15:05:15.448+08:00",
+        "http_requests": 1,
+        "library_versions": {
+          "shazamio": "0.9.0",
+          "shazamio-core": "2.0.0",
+          "aiohttp": "3.14.5",
+          "aiohttp-retry": "2.9.1",
+          "numpy": "1.26.4"
+        },
+        "AudioTag_calls": 0,
+        "key_accesses": 0,
+        "paid_service_calls": 0,
+        "elapsed_s": 1.125,
+        "worker_exit_code": 0,
+        "provider": "shazamio",
+        "reason": "matched",
+        "preprocessing": {
+          "source_sha256": "8132a4f7c060b8ff861266f748c2cbd6ff60938c77ab52de7bbbe0d74b6bef8a",
+          "clip_sha256": "0c849718e270040e7f7ba660aad8f0943c1651b429404a982733c48c62fa9389",
+          "source_duration_s": 20.0,
+          "clip_start_s": 4.0,
+          "clip_duration_s": 12,
+          "sample_rate": 8000,
+          "samples": 96000,
+          "processing": "center_12s_only_no_gain_no_resample_no_AudioTag"
+        },
+        "online_elapsed_s": 1.125,
+        "cost_yuan": 0,
+        "local_evidence": {
+          "matched": false,
+          "not_run": true,
+          "reason": "online_priority_succeeded"
+        },
+        "recognition_order": "online_first",
+        "match_finished_monotonic_ns": 78281564352700,
+        "job_id": "d7a7fdfcc43d487eb19e50e5d8be59dc",
+        "mode": "auto",
+        "wav_sha256": "8132a4f7c060b8ff861266f748c2cbd6ff60938c77ab52de7bbbe0d74b6bef8a",
+        "wav": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\runs\\20261114T232159_686709_monitor_session\\music\\e1_record5_52b48085\\read_01\\first\\audio.wav",
+        "song_id": "3bbc095fa8bf108b52c98208e2dfc9206720dd44c5c4eafcf895822b0670750f",
+        "worker_run_id": "20261115T150514_382845_music_match"
+      },
+      "correct_online": true
+    },
+    {
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "original_wav": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\runs\\20261114T232159_686709_monitor_session\\music\\e1_record6_58a24768\\read_01\\first\\audio.wav",
+      "wav_sha256": "7a124bd063e258ce95c1ea034555de019a7b9da07e45b143d7bfe1a170d980e9",
+      "result": {
+        "status": "matched",
+        "matched": true,
+        "title": "Billie Jean",
+        "artist": "Michael Jackson",
+        "track_key": "43878997",
+        "source": "shazamio",
+        "message": "Shazam 返回歌曲匹配。",
+        "track_url": "https://www.shazam.com/track/43878997/billie-jean",
+        "service_elapsed_s": 0.7660000000032596,
+        "recognized_at": "2026-11-15T15:05:45.462+08:00",
+        "http_requests": 1,
+        "library_versions": {
+          "shazamio": "0.9.0",
+          "shazamio-core": "2.0.0",
+          "aiohttp": "3.14.5",
+          "aiohttp-retry": "2.9.1",
+          "numpy": "1.26.4"
+        },
+        "AudioTag_calls": 0,
+        "key_accesses": 0,
+        "paid_service_calls": 0,
+        "elapsed_s": 1.1090000000112923,
+        "worker_exit_code": 0,
+        "provider": "shazamio",
+        "reason": "matched",
+        "preprocessing": {
+          "source_sha256": "7a124bd063e258ce95c1ea034555de019a7b9da07e45b143d7bfe1a170d980e9",
+          "clip_sha256": "07ac77fbbb9bb0510e9db3fc3790b576da58f1465f3a130e126562abdd6f2be2",
+          "source_duration_s": 20.0,
+          "clip_start_s": 4.0,
+          "clip_duration_s": 12,
+          "sample_rate": 8000,
+          "samples": 96000,
+          "processing": "center_12s_only_no_gain_no_resample_no_AudioTag"
+        },
+        "online_elapsed_s": 1.1090000000112923,
+        "cost_yuan": 0,
+        "local_evidence": {
+          "matched": false,
+          "not_run": true,
+          "reason": "online_priority_succeeded"
+        },
+        "recognition_order": "online_first",
+        "match_finished_monotonic_ns": 78311574180500,
+        "job_id": "d67ea6561ec8413ca88f656058250aba",
+        "mode": "auto",
+        "wav_sha256": "7a124bd063e258ce95c1ea034555de019a7b9da07e45b143d7bfe1a170d980e9",
+        "wav": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\runs\\20261114T232159_686709_monitor_session\\music\\e1_record6_58a24768\\read_01\\first\\audio.wav",
+        "song_id": "8307ad315d5b65bd2009f2ea33876f37f098e7aab1a5c4f07acefcdff5203757",
+        "worker_run_id": "20261115T150515_550028_music_match"
+      },
+      "correct_online": true
+    },
+    {
+      "title": "We Will Rock You",
+      "artist": "Queen",
+      "original_wav": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\runs\\20261114T232159_686709_monitor_session\\music\\e1_record7_f1c6fb48\\read_01\\first\\audio.wav",
+      "wav_sha256": "a225218ee9d94c2f9b687a045ee345f14b76856ee11db1d61501f9bb962533ed",
+      "result": {
+        "status": "matched",
+        "matched": true,
+        "title": "We Will Rock You",
+        "artist": "Queen",
+        "track_key": "10574474",
+        "source": "shazamio",
+        "message": "Shazam 返回歌曲匹配。",
+        "track_url": "https://www.shazam.com/track/10574474/we-will-rock-you",
+        "service_elapsed_s": 0.7660000000032596,
+        "recognized_at": "2026-11-15T15:06:15.447+08:00",
+        "http_requests": 1,
+        "library_versions": {
+          "shazamio": "0.9.0",
+          "shazamio-core": "2.0.0",
+          "aiohttp": "3.14.5",
+          "aiohttp-retry": "2.9.1",
+          "numpy": "1.26.4"
+        },
+        "AudioTag_calls": 0,
+        "key_accesses": 0,
+        "paid_service_calls": 0,
+        "elapsed_s": 1.1089999999967404,
+        "worker_exit_code": 0,
+        "provider": "shazamio",
+        "reason": "matched",
+        "preprocessing": {
+          "source_sha256": "a225218ee9d94c2f9b687a045ee345f14b76856ee11db1d61501f9bb962533ed",
+          "clip_sha256": "adae9786c7af8fb88e60eb39790629ff173c787630e15c66fa38f6ba2ee09d1c",
+          "source_duration_s": 20.0,
+          "clip_start_s": 4.0,
+          "clip_duration_s": 12,
+          "sample_rate": 8000,
+          "samples": 96000,
+          "processing": "center_12s_only_no_gain_no_resample_no_AudioTag"
+        },
+        "online_elapsed_s": 1.1089999999967404,
+        "cost_yuan": 0,
+        "local_evidence": {
+          "matched": false,
+          "not_run": true,
+          "reason": "online_priority_succeeded"
+        },
+        "recognition_order": "online_first",
+        "match_finished_monotonic_ns": 78341560646900,
+        "job_id": "d041d542be61443391bcb67308bb3d83",
+        "mode": "auto",
+        "wav_sha256": "a225218ee9d94c2f9b687a045ee345f14b76856ee11db1d61501f9bb962533ed",
+        "wav": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\runs\\20261114T232159_686709_monitor_session\\music\\e1_record7_f1c6fb48\\read_01\\first\\audio.wav",
+        "song_id": "a9fb3c171f08293acff9d5151182c4543a4e227e2089b41d2a678afe34aa1aa2",
+        "worker_run_id": "20261115T150545_556562_music_match"
+      },
+      "correct_online": true
+    }
+  ],
+  "status": "passed",
+  "data_root": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\runs\\verify_shazam_main_06f21eb183\\user_data",
+  "correct": 3,
+  "total": 3,
+  "finished_at": "2026-11-15T15:06:16.458+08:00",
+  "component_check": {
+    "ok": true,
+    "provider": "shazamio",
+    "versions": {
+      "shazamio": "0.9.0",
+      "shazamio-core": "2.0.0",
+      "aiohttp": "3.14.5",
+      "aiohttp-retry": "2.9.1",
+      "numpy": "1.26.4"
+    },
+    "network_requests": 0,
+    "message": "ShazamIO识曲组件可用，无需API Key；本次未发送音频。",
+    "worker_run_id": "20261115T150514_160060_music_verify"
+  },
+  "Shazam_history_rows": 3
+}

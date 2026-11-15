@@ -1,0 +1,9 @@
+numpy==1.26.4
+matplotlib==3.10.1
+pyserial==3.5
+Pillow==12.0.0
+PyInstaller==6.22.3
+-r requirements-music.txt
+shazamio==0.9.0
+shazamio-core==2.0.0
+ttkbootstrap==2.2.7

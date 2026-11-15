@@ -1,0 +1,106 @@
+% !TEX program = xelatex
+% Build: latexmk -xelatex -interaction=nonstopmode -halt-on-error main.tex
+\documentclass[forprint]{WHUBachelor}
+\usepackage{booktabs,tabularx,longtable,array,siunitx,tikz,pgfplots,float,xurl,enumitem,qrcode,tcolorbox}
+\usetikzlibrary{arrows.meta,positioning,fit,calc,backgrounds,shapes.geometric,decorations.pathreplacing}
+\pgfplotsset{compat=1.18}
+\definecolor{navy}{HTML}{153C5B}
+\definecolor{teal}{HTML}{087F8C}
+\definecolor{gold}{HTML}{AD7323}
+\definecolor{muted}{HTML}{526477}
+\definecolor{paper}{HTML}{F0F5F8}
+\hypersetup{colorlinks=true,linkcolor=navy,urlcolor=teal,citecolor=navy,
+ pdftitle={基于FPGA的多模态智能感知与交互系统：设计方案报告},pdfauthor={黄玉成}}
+\ctexset{chapter={format=\heiti\zihao{3},beforeskip=8pt,afterskip=16pt},
+ section={format=\heiti\zihao{4},beforeskip=14pt,afterskip=7pt},
+ subsection={format=\heiti\zihao{-4},beforeskip=10pt,afterskip=5pt}}
+\setcounter{tocdepth}{1}
+\setcounter{secnumdepth}{2}
+\setlength{\cftbeforetoctitleskip}{0pt}
+\setlength{\cftaftertoctitleskip}{12pt}
+\setlength{\cftbeforechapskip}{6pt}
+\renewcommand\cftsecfont{\zihao{5}\usefonttimes}
+\renewcommand\cftsecpagefont{\zihao{5}\usefonttimes}
+\setlength{\parskip}{2pt}
+\setlength{\emergencystretch}{3em}
+\setlength{\textfloatsep}{10pt}
+\setlength{\intextsep}{10pt}
+\captionsetup{font=small,labelfont=bf,skip=6pt}
+\renewcommand{\arraystretch}{1.24}
+\setlist{nosep,leftmargin=2em,topsep=5pt}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\code}[1]{\texttt{\detokenize{#1}}}
+\newcommand{\note}[1]{\par\smallskip{\small\color{muted}#1}\par\smallskip}
+\newcommand{\fig}[3]{\begin{figure}[H]\centering\resizebox{.99\linewidth}{!}{\input{diagrams/#1.tex}}\caption{#2}\label{fig:#1}\if\relax\detokenize{#3}\relax\else\par{\footnotesize\color{muted}#3}\fi\end{figure}}
+\newcommand{\shot}[4]{\begin{figure}[H]\centering\includegraphics[width=#3\linewidth]{#1}\caption{#2}\par{\footnotesize\color{muted}#4}\end{figure}}
+\tcbset{colback=paper,colframe=teal,arc=1.5mm,boxrule=.7pt,left=3mm,right=3mm,top=2mm,bottom=2mm}
+\tikzset{base/.style={font=\sffamily\small,>=Latex,line cap=round,line join=round},
+ box/.style={draw=navy!65,fill=navy!5,rounded corners=1.5mm,minimum height=11mm,text width=27mm,align=center,inner sep=2mm},
+ green/.style={box,draw=teal,fill=teal!7},amber/.style={box,draw=gold,fill=gold!7},
+ flow/.style={->,line width=.8pt,draw=teal},control/.style={->,dashed,draw=gold,line width=.8pt},
+ label/.style={font=\sffamily\footnotesize,fill=white,inner sep=1.2pt,align=center},
+ group/.style={draw=navy!25,fill=paper,rounded corners=2mm,inner sep=4mm}}
+\input{data/values}
+\input{data/tables}
+\begin{document}
+\hypersetup{pageanchor=false}
+\begin{titlepage}
+\noindent\begin{minipage}[t][.96\textheight][t]{\linewidth}
+\centering
+\linespread{1.05}\selectfont
+\setlength{\parskip}{0pt}
+\includegraphics[width=17mm]{figures/whulogo.pdf}\par\vspace{5mm}
+{\songti\zihao{1}武汉大学计算机学院\par}
+\vspace{5mm}{\songti\zihao{2}嵌入式系统课程设计报告\par}
+\vspace{12mm}{\heiti\zihao{2}\color{navy}基于 FPGA 的\par 多模态智能感知与交互系统\par}
+\vspace{5mm}{\zihao{4}声振事件记录、智能音频识别与体感交互\par}
+\vspace{10mm}
+\begin{tcolorbox}
+\begin{minipage}[c]{.74\linewidth}
+{\heiti\large\color{navy}老师验收：直接下载 Windows 软件}\par\smallskip
+\href{\ExeURL}{\bfseries\color{teal}点击下载 EXE\quad v1.6.0 / Windows x64}\par
+\href{\ReleaseURL}{发布页：软件、报告、源码与校验清单}\par
+\href{\RepoURL}{源码仓库：RolandHuang17/nexys-a7-intelligent-sensing}\par\smallskip
+{\small 无需安装 Python 或 Vivado。硬件功能需 Nexys A7-100T；\newline 无开发板时可查看界面并使用键盘练习体感游戏。}
+\end{minipage}\hfill
+\begin{minipage}[c]{.23\linewidth}\centering
+\qrcode[height=25mm]{https://github.com/RolandHuang17/nexys-a7-intelligent-sensing/releases/tag/v1.6.0}\par
+{\scriptsize 扫码进入验收发布页}
+\end{minipage}
+\end{tcolorbox}
+\vspace{10mm}
+{\zihao{4}\renewcommand{\arraystretch}{1.25}\begin{tabular}{rl}
+专业名称：&计算机科学与技术\\
+课程名称：&嵌入式系统\\
+指导教师：&武小平\\
+学生姓名：&黄玉成\\
+学生学号：&2022302111419\\
+\end{tabular}\par}
+\vfill
+{\zihao{4}二〇二六年十一月十五日\par}
+\end{minipage}
+\end{titlepage}
+\frontmatter
+\hypersetup{pageanchor=true}
+\pagestyle{plain}
+\baselineskip=21pt
+\input{front}
+\clearpage
+\begingroup\linespread{1.08}\selectfont
+\setlength{\cftbeforechapskip}{3pt}
+\renewcommand\cftchapfont{\zihao{-4}\bfseries}
+\renewcommand\cftchappagefont{\zihao{-4}\bfseries}
+\tableofcontents\endgroup
+\mainmatter
+\raggedbottom
+\input{01-functions}
+\input{02-hardware}
+\input{03-software}
+\input{04-techniques}
+\input{05-validation}
+\input{06-conclusion}
+\input{references}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+\appendix
+\begingroup\small\linespread{1.15}\selectfont\input{appendix}\endgroup
+\end{document}

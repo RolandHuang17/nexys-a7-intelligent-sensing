@@ -1,0 +1,11 @@
+\begin{tikzpicture}[base]
+\node[box,text width=22mm] (p) at (0,0) {PDM输入\\2 MHz};
+\node[box,text width=24mm] (c) at (3.6,0) {三级CIC\\抽取125倍};
+\node[green,text width=24mm] (pcm) at (7.2,0) {PCM16\\16 kHz};
+\node[box,text width=24mm] (f) at (10.8,0) {事件 / 快照\\原速保存};
+\node[green,text width=24mm] (fir) at (7.2,-2.1) {31抽头FIR\\Q15低通};
+\node[amber,text width=24mm] (m) at (10.8,-2.1) {二倍抽取\\8 kHz音乐};
+\draw[flow] (p)--(c);\draw[flow] (c)--(pcm);\draw[flow] (pcm)--(f);
+\draw[flow] (pcm)--(fir);\draw[flow] (fir)--node[label,above]{160000点}(m);
+\node[align=left,font=\small,text=muted] at (2.1,-2.1) {整数流水与饱和处理\\原始采集链路持续工作};
+\end{tikzpicture}

@@ -1,0 +1,44 @@
+{
+  "app_version": "1.6.0",
+  "exe_sha256": "23079c2a76c0939dc407192c474db4e7055a56d8937ef376ff8c5c4fa47a4951",
+  "exe_bytes": 207471409,
+  "firmware": {
+    "build_run_id": "20261115T210422_219255_build",
+    "build_id": "ec0351f8",
+    "bitstream_sha256": "3e193418e7ec9ba208277e7f9af63601b042ccfa4eab1b16bef2ea7184d0aa48",
+    "config_sha256": "65fd06441943fd2b0b233c5bb6423138c1d6267d16cf440d9bbe34ed1d283c90",
+    "board_model": "Nexys A7-100T",
+    "target_part": "xc7a100tcsg324-1",
+    "protocol_version": 1
+  },
+  "online_provider": "shazamio",
+  "resource_manifest_sha256": "7bab8114bd5e883049c693defb21351b0eaca918a0ead580813d24698d1fc391",
+  "source_manifest_sha256": "b880923c26a68744fbcb2f0347bba61f7cd918e9ed2f4f3a13b5845baa7fe5d8",
+  "repository": "https://github.com/RolandHuang17/nexys-a7-intelligent-sensing",
+  "tag": "v1.6.0",
+  "accepted_host_files": 187,
+  "generated_at": "2026-11-15T23:35:09.550562+08:00",
+  "source_assets_manifest_sha256": "c58ea3b9e9da7fc60d8365a3f94d2331e2ac7658c88ad8d63062a554b2513662",
+  "asset_files": [
+    {
+      "name": "NexysMonitor-v1.6.0-win-x64.exe",
+      "bytes": 207471409,
+      "sha256": "23079c2a76c0939dc407192c474db4e7055a56d8937ef376ff8c5c4fa47a4951"
+    },
+    {
+      "name": "NexysMonitor-v1.6.0-Design-Report.pdf",
+      "bytes": 1438915,
+      "sha256": "60be3d2dbda29a4f1b35a922f8fe3522f52dc7ab45f3bfef77d268cb36bd8a95"
+    },
+    {
+      "name": "NexysMonitor-v1.6.0-runtime-resources.zip",
+      "bytes": 119202886,
+      "sha256": "73b2e4208be825c14427cff7d233b9675a173e1cc7263916dc2cc62bf34f4049"
+    },
+    {
+      "name": "NexysMonitor-v1.6.0-third-party-source.zip",
+      "bytes": 18339346,
+      "sha256": "7c04a5153ca1135b3b1b8d2abc10eedf2c2011a3dc949a98757f38aa278831be"
+    }
+  ]
+}

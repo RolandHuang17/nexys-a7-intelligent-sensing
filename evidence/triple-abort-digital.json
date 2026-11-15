@@ -1,0 +1,1079 @@
+{
+  "status": "passed",
+  "time": "2026-11-15T21:24:51.535228+08:00",
+  "app_version": "1.5.0",
+  "exe_sha256": "b5ba70ae74705334e56f9207c843cd8b1d1c0f1d5fcd610bb870537fa551b722",
+  "firmware": {
+    "build_run_id": "20261115T210422_219255_build",
+    "build_id": "ec0351f8",
+    "bitstream_sha256": "3e193418e7ec9ba208277e7f9af63601b042ccfa4eab1b16bef2ea7184d0aa48",
+    "config_sha256": "65fd06441943fd2b0b233c5bb6423138c1d6267d16cf440d9bbe34ed1d283c90",
+    "board_model": "Nexys A7-100T",
+    "target_part": "xc7a100tcsg324-1",
+    "protocol_version": 1
+  },
+  "kind": "digital_and_candidate_source_Tk_not_physical",
+  "hardware_used": false,
+  "serial_opened": false,
+  "network_requests": 0,
+  "physical_knock_detection_measured": false,
+  "api_hit_rate_measured": false,
+  "scope": {
+    "host": "真实业务方法以 spy/mock 验证三敲等待、中止双确认、过期结果丢弃；不证明实板时序或在线命中率。",
+    "rtl": "XSim 运行真实 RTL；三敲在原检测器的已注册 tap_pulse 边界注入，原加速度检测器另用数字 XYZ 验证；不代表真人敲击结果。",
+    "full_pcm": "完整160000点与128000点前缀 CRC 保持既有黄金值；1024点 FIR、半速采样与旧 double_seq 边界均通过。",
+    "ui": "真实源码 Tk 窗口检查，并以源码 SHA 绑定候选打包快照；这不是冻结 EXE 截图或实体设备检查，具体步骤见 UI smoke 原始报告。"
+  },
+  "checks": {
+    "host_unit_tests": true,
+    "source_contracts": true,
+    "source_exact_xsim": true,
+    "legacy_signal_and_crc_regressions": true,
+    "candidate_source_ui_smoke": true,
+    "candidate_host_sources_exact": true,
+    "firmware_inputs_exact": true
+  },
+  "binding": {
+    "candidate_metadata": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\state\\shazam_main_candidate.json",
+    "candidate_metadata_sha256": "6e0585b18b5cc93c974a6711cb663aa99661213146d2a3b0216b4d6dd0000d86",
+    "host_source_manifest": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\runs\\build_shazam_main_20261115T212312.215_bb2bff\\source\\source_manifest.json",
+    "host_source_manifest_sha256": "0449a87c4d50828e2cdad361ff31bd8a024b0d486cfc6b809e65ab5013fd9111",
+    "firmware_build_inputs": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\runs\\20261115T210422_219255_build\\build_inputs.json",
+    "firmware_build_inputs_sha256": "cffbc96cbffcb97aa4fd59691bf45e3b06a77e17753b125b65abee7b89dd5c43",
+    "firmware_status": {
+      "stage": "build",
+      "status": "passed",
+      "run_id": "20261115T210422_219255_build",
+      "upstream_revision": null,
+      "bitstream_sha256": "3e193418e7ec9ba208277e7f9af63601b042ccfa4eab1b16bef2ea7184d0aa48",
+      "config_sha256": "65fd06441943fd2b0b233c5bb6423138c1d6267d16cf440d9bbe34ed1d283c90",
+      "inputs": [],
+      "outputs": [
+        "runs/20261115T210422_219255_build/implementation/recorder_top.bit"
+      ],
+      "evidence": [
+        "runs/20261115T210422_219255_build/build_inputs.json"
+      ],
+      "reason": "实现与时序门槛通过",
+      "next_action": "进入实板自检",
+      "updated": "2026-11-15T21:14:15.321+08:00"
+    }
+  },
+  "host_tests": [
+    {
+      "test": "test_panel_contracts.py",
+      "status": "passed",
+      "case_count": 7,
+      "test_sha256": "229bf1eee66cbfc6752c4993b69c4c8e2b675fd56cbb8a6ccd2dd2210b6f1511",
+      "output": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\runs\\music15_digital_04235cfe5f\\test_panel_contracts.py.log",
+      "output_sha256": "0aef9b15e6e275796d3f8f507d9156425eaf98db1b37e462d310143d73022737"
+    },
+    {
+      "test": "test_panel_host.py",
+      "status": "passed",
+      "case_count": 24,
+      "test_sha256": "87823a3736089ef0a66f6233d08ba84efc1f138426f489ec232f5335141198be",
+      "output": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\runs\\music15_digital_04235cfe5f\\test_panel_host.py.log",
+      "output_sha256": "dc9664c8135431fd1ab496bc6f98a972b41e767654acf87c40f8e36101face89"
+    },
+    {
+      "test": "test_music_shazam.py",
+      "status": "passed",
+      "case_count": 9,
+      "test_sha256": "25bc167cd0994c9e78db2e24936a8ee34021f5998c5e9663873b48d4a089ea9c",
+      "output": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\runs\\music15_digital_04235cfe5f\\test_music_shazam.py.log",
+      "output_sha256": "1c25aa4879fc8d77a2105f202359ae85aff45dc683f9728faa1c668e55072326"
+    },
+    {
+      "test": "test_music_engine_cancel.py",
+      "status": "passed",
+      "case_count": 7,
+      "test_sha256": "041ae3fde70ebdc718c178894a62f1d7c3dabe5468f57ec05ebeb10361506ea8",
+      "output": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\runs\\music15_digital_04235cfe5f\\test_music_engine_cancel.py.log",
+      "output_sha256": "923e891ed91275fd9b4c088da54a25a79d4cee6dd1ade231eaf3f12813aaecf6"
+    },
+    {
+      "test": "test_music_cancel.py",
+      "status": "passed",
+      "case_count": 14,
+      "test_sha256": "6da985485e0923bd6e0ff318074446da5b164472d2a5d0adc9e8e95aa42dcc08",
+      "output": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\runs\\music15_digital_04235cfe5f\\test_music_cancel.py.log",
+      "output_sha256": "590092721c562ff0a2b6ffc20f98718c040375da7cf58632b433ede5f2fba719"
+    },
+    {
+      "test": "test_music_board_cancel.py",
+      "status": "passed",
+      "case_count": 14,
+      "test_sha256": "b9c08c3be9a02fadb7035540b6cae920173265a8cd3ed969db9967393cdd1940",
+      "output": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\runs\\music15_digital_04235cfe5f\\test_music_board_cancel.py.log",
+      "output_sha256": "8a3b99830e56c5d870d17e954c655aadb889ee63713e5ec5eaa8d689852be314"
+    }
+  ],
+  "host_case_count": 75,
+  "rtl": {
+    "abort_and_full160000": {
+      "path": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\runs\\20261115T210428_653218_test_music_abort_rtl\\result.json",
+      "sha256": "22e5431d4176696748529f225b3539120384998f5ba8cf5f7f3442fb740601c0",
+      "result": {
+        "kind": "XSim_digital_injection_not_physical",
+        "firmware_programmed": false,
+        "serial_opened": false,
+        "network_requests": 0,
+        "abort_cases": [
+          "early_record_discard",
+          "duplicate_current_id_idempotent",
+          "discarded_buffer_unreadable",
+          "old_record_and_bad_length_rejected",
+          "simultaneous_start_priority",
+          "drain_crc_job_cancel",
+          "frozen_record_cancel",
+          "matching_empty_and_ack_cache_cancel",
+          "triple_restart_and_crc"
+        ],
+        "abort_case_count": 9,
+        "restart32_crc32": 1304270162,
+        "existing_full160000_crc32": 2295490285,
+        "existing_prefix128000_crc32": 1119236490,
+        "existing_full_regression_passed": true,
+        "status": "passed",
+        "run_id": "20261115T210428_653218_test_music_abort_rtl",
+        "sources": {
+          "rtl\\00_recorder_pkg.sv": "157fb406e175c6006f6a548fcf13995f8614bfd4809785a075e08b46f308cc31",
+          "rtl\\music_decimator.sv": "dded5fdd9ca32dd9cf8cfd6aa4e6cd0adc97ad319ea707ab5d67015daac3ae35",
+          "rtl\\music_core.sv": "71130281338e0876c2d064558f64d59b21acbe8691571e5bf86846fe6de21c74",
+          "tests\\tb_music_abort.sv": "716c14329750695774af2f0f1c8fe3c95fc42391357d54ac7c1d17d28d1c22a3",
+          "tests\\tb_music.sv": "64cedc2afd8d307ccfffd6b269722b0eaa9bee087490096514b79c312b32f88e"
+        }
+      }
+    },
+    "triple_600ms": {
+      "path": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\runs\\20261115T210340_987031_test_music_triple_rtl\\result.json",
+      "sha256": "af40d4f4905dcac289144659452eadd7fce533163fd382e3fbd0e4ca7e979e92",
+      "result": {
+        "status": "passed",
+        "kind": "XSim_registered_detector_boundary_not_physical",
+        "run_id": "20261115T210340_987031_test_music_triple_rtl",
+        "case_count": 11,
+        "cases": [
+          "one_two_wait_three_start_no_uart_bypass",
+          "adjacent_min_max_inclusive",
+          "pre_entry_taps_not_carried",
+          "quiet_restarts_sequence",
+          "cancel_restarts_sequence",
+          "configuration_restarts_sequence",
+          "same_clock_config_and_quiet_barriers",
+          "wake_required_and_clean_rearm",
+          "busy_taps_never_queue_capture",
+          "reset_clears_pending",
+          "game_has_no_manual_backdoor"
+        ],
+        "CLOCK_HZ": 1000,
+        "max_adjacent_gap_ms": 600,
+        "sources": {
+          "rtl\\00_recorder_pkg.sv": "157fb406e175c6006f6a548fcf13995f8614bfd4809785a075e08b46f308cc31",
+          "rtl\\music_decimator.sv": "dded5fdd9ca32dd9cf8cfd6aa4e6cd0adc97ad319ea707ab5d67015daac3ae35",
+          "rtl\\music_core.sv": "71130281338e0876c2d064558f64d59b21acbe8691571e5bf86846fe6de21c74",
+          "tests\\tb_music_triple.sv": "33eb484b917e75f918d99d0063b3892334d42b0abf5cf07cee255c3943d3f857"
+        },
+        "firmware_programmed": false,
+        "serial_opened": false,
+        "network_requests": 0
+      }
+    },
+    "triple_1000ms": {
+      "path": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\runs\\20261115T210428_659299_test_music_triple_rtl\\result.json",
+      "sha256": "767bf96915d67a2b35758dec2e8dbe74a5c06704267fd62f086db2a168158967",
+      "result": {
+        "status": "passed",
+        "kind": "XSim_registered_detector_boundary_not_physical",
+        "run_id": "20261115T210428_659299_test_music_triple_rtl",
+        "case_count": 11,
+        "cases": [
+          "one_two_wait_three_start_no_uart_bypass",
+          "adjacent_min_max_inclusive",
+          "pre_entry_taps_not_carried",
+          "quiet_restarts_sequence",
+          "cancel_restarts_sequence",
+          "configuration_restarts_sequence",
+          "same_clock_config_and_quiet_barriers",
+          "wake_required_and_clean_rearm",
+          "busy_taps_never_queue_capture",
+          "reset_clears_pending",
+          "game_has_no_manual_backdoor"
+        ],
+        "CLOCK_HZ": 1000,
+        "max_adjacent_gap_ms": 1000,
+        "sources": {
+          "rtl\\00_recorder_pkg.sv": "157fb406e175c6006f6a548fcf13995f8614bfd4809785a075e08b46f308cc31",
+          "rtl\\music_decimator.sv": "dded5fdd9ca32dd9cf8cfd6aa4e6cd0adc97ad319ea707ab5d67015daac3ae35",
+          "rtl\\music_core.sv": "71130281338e0876c2d064558f64d59b21acbe8691571e5bf86846fe6de21c74",
+          "runs\\20261115T210428_659299_test_music_triple_rtl\\tb_music_triple1000.sv": "65732566767242ecbc4c9f767760ad0725c2effa8e575b72f12897794eca487e"
+        },
+        "firmware_programmed": false,
+        "serial_opened": false,
+        "network_requests": 0
+      }
+    },
+    "fir_and_half_capture": {
+      "path": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\runs\\20261115T210435_889586_music_decimator_test\\result.json",
+      "sha256": "37a61fd42c4f94a3412ce02e0bc00183f59356a5a67eb874847743908f5dcd48",
+      "result": {
+        "source": "digital_not_physical",
+        "bit_exact_samples": 1024,
+        "lowpass": {
+          "taps": 31,
+          "cutoff_hz": 3200,
+          "window": "Hamming",
+          "input_hz": 16000,
+          "output_hz": 8000,
+          "coefficients_q15": [
+            0,
+            -64,
+            -57,
+            86,
+            210,
+            0,
+            -439,
+            -378,
+            516,
+            1130,
+            0,
+            -2107,
+            -1868,
+            2949,
+            9839,
+            13134,
+            9839,
+            2949,
+            -1868,
+            -2107,
+            0,
+            1130,
+            516,
+            -378,
+            -439,
+            0,
+            210,
+            86,
+            -57,
+            -64,
+            0
+          ],
+          "sum_q15": 32768,
+          "gain_1k_dB": 0.0020436098707434735,
+          "gain_6k_dB": -61.14593182494308,
+          "group_delay_input_samples": 15,
+          "storage_note": "20秒8kHz仍是160000点；原16kHz前端与事件不改"
+        },
+        "half_capture": {
+          "state": 3,
+          "flags": 27,
+          "record_id": 1,
+          "target_samples": 32,
+          "samples": 32,
+          "sample_rate": 8000,
+          "crc32": 898177820,
+          "first_tick": 5940,
+          "last_tick": 10900,
+          "first_index": 71,
+          "start_tick": 5901,
+          "tick": 12309,
+          "tap_seq": 0,
+          "double_seq": 0,
+          "tap_tick": 0,
+          "double_tick": 0,
+          "center_seq": 0,
+          "high": 80,
+          "low": 32,
+          "center_tick": 0,
+          "human_tick": 0,
+          "prefix_crc32": 0,
+          "overruns": 0,
+          "delta": 0,
+          "max_samples": 32
+        },
+        "passed": true,
+        "sources": {
+          "rtl\\00_recorder_pkg.sv": "157fb406e175c6006f6a548fcf13995f8614bfd4809785a075e08b46f308cc31",
+          "rtl\\music_decimator.sv": "dded5fdd9ca32dd9cf8cfd6aa4e6cd0adc97ad319ea707ab5d67015daac3ae35",
+          "rtl\\music_core.sv": "71130281338e0876c2d064558f64d59b21acbe8691571e5bf86846fe6de21c74",
+          "tests\\tb_music_decimator.sv": "6aa4733da8b17838a83410050a6d53c1f6e6a363066c9326cbbfb900ed237876",
+          "tests\\tb_music_half.sv": "d2f0d9dac39078f98529ec19d61ab25a854c029daa33d39f56f51b09d3b4c5bb"
+        }
+      }
+    },
+    "old_double_diagnostics_600ms": {
+      "path": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\runs\\20261115T210446_283359_test_music_tap\\result.json",
+      "sha256": "37034bf81854ddbfa4b6cad8edec7a708654af4c157b32d0a62ba2bd300e5c8d",
+      "result": {
+        "source": "digital_injection_not_physical",
+        "cases": [
+          "double_seq 149ms rejected",
+          "double_seq 150ms accepted",
+          "double_seq 600ms accepted",
+          "double_seq 601ms rejected",
+          "two taps never start capture",
+          "centre press edges"
+        ],
+        "passed": true,
+        "sources": {
+          "rtl\\00_recorder_pkg.sv": "157fb406e175c6006f6a548fcf13995f8614bfd4809785a075e08b46f308cc31",
+          "rtl\\music_decimator.sv": "dded5fdd9ca32dd9cf8cfd6aa4e6cd0adc97ad319ea707ab5d67015daac3ae35",
+          "rtl\\music_core.sv": "71130281338e0876c2d064558f64d59b21acbe8691571e5bf86846fe6de21c74",
+          "tests\\tb_music_tap.sv": "65a20391b84819618273c5f7b2a8c19cf76dcc9befc55cccea8c44d4f4a434d0"
+        }
+      }
+    },
+    "old_double_diagnostics_1000ms": {
+      "path": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\runs\\20261115T210452_562113_music_tap_1000_boundary\\result.json",
+      "sha256": "be0bba1ad5d6698d59a7da89a7f49d07ac2c59e641377b53c172680422847133",
+      "result": {
+        "source": "digital_not_physical",
+        "boundaries_ms": [
+          149,
+          150,
+          1000,
+          1001
+        ],
+        "passed": true,
+        "sources": {
+          "rtl\\00_recorder_pkg.sv": "157fb406e175c6006f6a548fcf13995f8614bfd4809785a075e08b46f308cc31",
+          "rtl\\music_decimator.sv": "dded5fdd9ca32dd9cf8cfd6aa4e6cd0adc97ad319ea707ab5d67015daac3ae35",
+          "rtl\\music_core.sv": "71130281338e0876c2d064558f64d59b21acbe8691571e5bf86846fe6de21c74",
+          "runs\\20261115T210452_562113_music_tap_1000_boundary\\tb_music_tap1000.sv": "3a2ec1e0d22eb4321b333cb1bf15abed88af195456d9237451dd2978b0a64cbc"
+        },
+        "template_source": {
+          "path": "tests/tb_music_tap.sv",
+          "sha256": "65a20391b84819618273c5f7b2a8c19cf76dcc9befc55cccea8c44d4f4a434d0"
+        }
+      }
+    },
+    "quiet_integration": {
+      "path": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\runs\\20261115T210443_170248_test_music_panel_quiet\\result.json",
+      "sha256": "d7d65c7ff9b29831fee216e54015ac94257ce2123048e96d94108942214184e7",
+      "result": {
+        "status": "passed",
+        "kind": "XSim_real_MusicCore_digital_injection_not_physical",
+        "run_id": "20261115T210443_170248_test_music_panel_quiet",
+        "cases": [
+          "quiet_blocks_triple_wake",
+          "manual_start_never_bypasses_triple",
+          "quiet_preserves_160000_pcm_crc",
+          "unquiet_restores_triple_wake",
+          "quiet_blocks_game_human_lock",
+          "unquiet_restores_one_shot_human_lock"
+        ],
+        "samples": 160000,
+        "pcm_crc32": 2295490285,
+        "prefix_crc32": 1119236490,
+        "CLOCK_HZ": 1000,
+        "sources": {
+          "rtl\\00_recorder_pkg.sv": "157fb406e175c6006f6a548fcf13995f8614bfd4809785a075e08b46f308cc31",
+          "rtl\\music_decimator.sv": "dded5fdd9ca32dd9cf8cfd6aa4e6cd0adc97ad319ea707ab5d67015daac3ae35",
+          "rtl\\music_core.sv": "71130281338e0876c2d064558f64d59b21acbe8691571e5bf86846fe6de21c74",
+          "tests\\tb_music_panel_quiet.sv": "238288938cff54d94c2660e810f394efd9f9765a3fca4ff7d1f629e93bb245ba"
+        },
+        "firmware_programmed": false,
+        "serial_opened": false
+      }
+    },
+    "board_panel": {
+      "path": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\runs\\20261115T210218_364213_test_board_panel_rtl\\result.json",
+      "sha256": "2f2176163a59011a2a83c70a86a3008e4fee77f5c0e64149fe1b649f77c47238",
+      "result": {
+        "status": "passed",
+        "kind": "XSim_real_RTL_digital_injection_not_physical",
+        "run_id": "20261115T210218_364213_test_board_panel_rtl",
+        "CLOCK_HZ": 1000,
+        "cases": [
+          "reset_local_fallback",
+          "invalid_commands",
+          "session_sync",
+          "duplicate_heartbeat_no_restart",
+          "stale_session_record_sequence",
+          "actual_or_unknown_progress",
+          "local_record_priority",
+          "game_neutral",
+          "watchdog_and_new_session",
+          "scan_blank_mutual_exclusion",
+          "pwm_endpoints",
+          "blackout_display_only",
+          "builtin_sources_read_only",
+          "physical_glyphs_and_decimal",
+          "true_progress_bar_and_orange_rgb",
+          "favourite_600ms_retrigger_only_new_sequence",
+          "miss_two_inward_waves",
+          "ready_triplepulse_and_words",
+          "manual_ready_never_advertises_wake",
+          "calm_center_out_and_actual_speed",
+          "no_pc_stage_means_unknown_hold"
+        ],
+        "case_count": 21,
+        "sources": {
+          "rtl\\board_panel.sv": "b63743a44ed52b70b17dd65bb4933a885fa07ad58025a53acd7d5fe62ac89fe3",
+          "tests\\tb_board_panel.sv": "7b90d345b7210bd0eb9de71114192065044e2e3bd184aceafc8316aafcb6ce03"
+        },
+        "firmware_programmed": false,
+        "serial_opened": false,
+        "network_requests": 0,
+        "scope": "display-only logic; existing160000PCM/CRC regression remains separately required"
+      }
+    }
+  },
+  "ui_smoke": {
+    "path": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\runs\\music15_ui_smoke\\result.json",
+    "sha256": "5279ccee747d8b4354597e0ca5e0e4f0ca7acb6d8f7325dc3baebea27caf543c",
+    "result": {
+      "status": "passed",
+      "kind": "minimal_actual_Tk_layout_probe",
+      "app_version": "1.5.0",
+      "execution_mode": "source_actual_Tk_not_frozen_EXE",
+      "hardware_used": false,
+      "network_requests": 0,
+      "performance_measurements": false,
+      "stress_test": false,
+      "callback_errors": [],
+      "cases": [
+        {
+          "requested_size": [
+            960,
+            600
+          ],
+          "actual_size": [
+            960,
+            600
+          ],
+          "theme": "浅色",
+          "row_size": [
+            734,
+            39
+          ],
+          "tabs": [
+            {
+              "tab": 0,
+              "persistent_controls_visible": true,
+              "controls": [
+                {
+                  "text": "进入识曲（敲三下）",
+                  "bounds": [
+                    0,
+                    0,
+                    147,
+                    39
+                  ]
+                },
+                {
+                  "text": "中止本次识曲",
+                  "bounds": [
+                    155,
+                    0,
+                    108,
+                    39
+                  ]
+                },
+                {
+                  "text": "退出识曲，恢复监测",
+                  "bounds": [
+                    271,
+                    0,
+                    147,
+                    39
+                  ]
+                }
+              ],
+              "cancel_disabled": true
+            },
+            {
+              "tab": 1,
+              "persistent_controls_visible": true,
+              "controls": [
+                {
+                  "text": "进入识曲（敲三下）",
+                  "bounds": [
+                    0,
+                    0,
+                    147,
+                    39
+                  ]
+                },
+                {
+                  "text": "中止本次识曲",
+                  "bounds": [
+                    155,
+                    0,
+                    108,
+                    39
+                  ]
+                },
+                {
+                  "text": "退出识曲，恢复监测",
+                  "bounds": [
+                    271,
+                    0,
+                    147,
+                    39
+                  ]
+                }
+              ],
+              "cancel_disabled": true
+            },
+            {
+              "tab": 2,
+              "persistent_controls_visible": true,
+              "controls": [
+                {
+                  "text": "进入识曲（敲三下）",
+                  "bounds": [
+                    0,
+                    0,
+                    147,
+                    39
+                  ]
+                },
+                {
+                  "text": "中止本次识曲",
+                  "bounds": [
+                    155,
+                    0,
+                    108,
+                    39
+                  ]
+                },
+                {
+                  "text": "退出识曲，恢复监测",
+                  "bounds": [
+                    271,
+                    0,
+                    147,
+                    39
+                  ]
+                }
+              ],
+              "cancel_disabled": true
+            },
+            {
+              "tab": 3,
+              "persistent_controls_visible": true,
+              "controls": [
+                {
+                  "text": "进入识曲（敲三下）",
+                  "bounds": [
+                    0,
+                    0,
+                    147,
+                    39
+                  ]
+                },
+                {
+                  "text": "中止本次识曲",
+                  "bounds": [
+                    155,
+                    0,
+                    108,
+                    39
+                  ]
+                },
+                {
+                  "text": "退出识曲，恢复监测",
+                  "bounds": [
+                    271,
+                    0,
+                    147,
+                    39
+                  ]
+                }
+              ],
+              "cancel_disabled": true
+            }
+          ]
+        },
+        {
+          "requested_size": [
+            960,
+            600
+          ],
+          "actual_size": [
+            960,
+            600
+          ],
+          "theme": "深色",
+          "row_size": [
+            734,
+            39
+          ],
+          "tabs": [
+            {
+              "tab": 0,
+              "persistent_controls_visible": true,
+              "controls": [
+                {
+                  "text": "进入识曲（敲三下）",
+                  "bounds": [
+                    0,
+                    0,
+                    147,
+                    39
+                  ]
+                },
+                {
+                  "text": "中止本次识曲",
+                  "bounds": [
+                    155,
+                    0,
+                    108,
+                    39
+                  ]
+                },
+                {
+                  "text": "退出识曲，恢复监测",
+                  "bounds": [
+                    271,
+                    0,
+                    147,
+                    39
+                  ]
+                }
+              ],
+              "cancel_disabled": true
+            },
+            {
+              "tab": 1,
+              "persistent_controls_visible": true,
+              "controls": [
+                {
+                  "text": "进入识曲（敲三下）",
+                  "bounds": [
+                    0,
+                    0,
+                    147,
+                    39
+                  ]
+                },
+                {
+                  "text": "中止本次识曲",
+                  "bounds": [
+                    155,
+                    0,
+                    108,
+                    39
+                  ]
+                },
+                {
+                  "text": "退出识曲，恢复监测",
+                  "bounds": [
+                    271,
+                    0,
+                    147,
+                    39
+                  ]
+                }
+              ],
+              "cancel_disabled": true
+            },
+            {
+              "tab": 2,
+              "persistent_controls_visible": true,
+              "controls": [
+                {
+                  "text": "进入识曲（敲三下）",
+                  "bounds": [
+                    0,
+                    0,
+                    147,
+                    39
+                  ]
+                },
+                {
+                  "text": "中止本次识曲",
+                  "bounds": [
+                    155,
+                    0,
+                    108,
+                    39
+                  ]
+                },
+                {
+                  "text": "退出识曲，恢复监测",
+                  "bounds": [
+                    271,
+                    0,
+                    147,
+                    39
+                  ]
+                }
+              ],
+              "cancel_disabled": true
+            },
+            {
+              "tab": 3,
+              "persistent_controls_visible": true,
+              "controls": [
+                {
+                  "text": "进入识曲（敲三下）",
+                  "bounds": [
+                    0,
+                    0,
+                    147,
+                    39
+                  ]
+                },
+                {
+                  "text": "中止本次识曲",
+                  "bounds": [
+                    155,
+                    0,
+                    108,
+                    39
+                  ]
+                },
+                {
+                  "text": "退出识曲，恢复监测",
+                  "bounds": [
+                    271,
+                    0,
+                    147,
+                    39
+                  ]
+                }
+              ],
+              "cancel_disabled": true
+            }
+          ]
+        },
+        {
+          "requested_size": [
+            1280,
+            800
+          ],
+          "actual_size": [
+            1280,
+            800
+          ],
+          "theme": "浅色",
+          "row_size": [
+            1054,
+            39
+          ],
+          "tabs": [
+            {
+              "tab": 0,
+              "persistent_controls_visible": true,
+              "controls": [
+                {
+                  "text": "进入识曲（敲三下）",
+                  "bounds": [
+                    0,
+                    0,
+                    147,
+                    39
+                  ]
+                },
+                {
+                  "text": "中止本次识曲",
+                  "bounds": [
+                    155,
+                    0,
+                    108,
+                    39
+                  ]
+                },
+                {
+                  "text": "退出识曲，恢复监测",
+                  "bounds": [
+                    271,
+                    0,
+                    147,
+                    39
+                  ]
+                }
+              ],
+              "cancel_disabled": true
+            },
+            {
+              "tab": 1,
+              "persistent_controls_visible": true,
+              "controls": [
+                {
+                  "text": "进入识曲（敲三下）",
+                  "bounds": [
+                    0,
+                    0,
+                    147,
+                    39
+                  ]
+                },
+                {
+                  "text": "中止本次识曲",
+                  "bounds": [
+                    155,
+                    0,
+                    108,
+                    39
+                  ]
+                },
+                {
+                  "text": "退出识曲，恢复监测",
+                  "bounds": [
+                    271,
+                    0,
+                    147,
+                    39
+                  ]
+                }
+              ],
+              "cancel_disabled": true
+            },
+            {
+              "tab": 2,
+              "persistent_controls_visible": true,
+              "controls": [
+                {
+                  "text": "进入识曲（敲三下）",
+                  "bounds": [
+                    0,
+                    0,
+                    147,
+                    39
+                  ]
+                },
+                {
+                  "text": "中止本次识曲",
+                  "bounds": [
+                    155,
+                    0,
+                    108,
+                    39
+                  ]
+                },
+                {
+                  "text": "退出识曲，恢复监测",
+                  "bounds": [
+                    271,
+                    0,
+                    147,
+                    39
+                  ]
+                }
+              ],
+              "cancel_disabled": true
+            },
+            {
+              "tab": 3,
+              "persistent_controls_visible": true,
+              "controls": [
+                {
+                  "text": "进入识曲（敲三下）",
+                  "bounds": [
+                    0,
+                    0,
+                    147,
+                    39
+                  ]
+                },
+                {
+                  "text": "中止本次识曲",
+                  "bounds": [
+                    155,
+                    0,
+                    108,
+                    39
+                  ]
+                },
+                {
+                  "text": "退出识曲，恢复监测",
+                  "bounds": [
+                    271,
+                    0,
+                    147,
+                    39
+                  ]
+                }
+              ],
+              "cancel_disabled": true
+            }
+          ]
+        },
+        {
+          "requested_size": [
+            1280,
+            800
+          ],
+          "actual_size": [
+            1280,
+            800
+          ],
+          "theme": "深色",
+          "row_size": [
+            1054,
+            39
+          ],
+          "tabs": [
+            {
+              "tab": 0,
+              "persistent_controls_visible": true,
+              "controls": [
+                {
+                  "text": "进入识曲（敲三下）",
+                  "bounds": [
+                    0,
+                    0,
+                    147,
+                    39
+                  ]
+                },
+                {
+                  "text": "中止本次识曲",
+                  "bounds": [
+                    155,
+                    0,
+                    108,
+                    39
+                  ]
+                },
+                {
+                  "text": "退出识曲，恢复监测",
+                  "bounds": [
+                    271,
+                    0,
+                    147,
+                    39
+                  ]
+                }
+              ],
+              "cancel_disabled": true
+            },
+            {
+              "tab": 1,
+              "persistent_controls_visible": true,
+              "controls": [
+                {
+                  "text": "进入识曲（敲三下）",
+                  "bounds": [
+                    0,
+                    0,
+                    147,
+                    39
+                  ]
+                },
+                {
+                  "text": "中止本次识曲",
+                  "bounds": [
+                    155,
+                    0,
+                    108,
+                    39
+                  ]
+                },
+                {
+                  "text": "退出识曲，恢复监测",
+                  "bounds": [
+                    271,
+                    0,
+                    147,
+                    39
+                  ]
+                }
+              ],
+              "cancel_disabled": true
+            },
+            {
+              "tab": 2,
+              "persistent_controls_visible": true,
+              "controls": [
+                {
+                  "text": "进入识曲（敲三下）",
+                  "bounds": [
+                    0,
+                    0,
+                    147,
+                    39
+                  ]
+                },
+                {
+                  "text": "中止本次识曲",
+                  "bounds": [
+                    155,
+                    0,
+                    108,
+                    39
+                  ]
+                },
+                {
+                  "text": "退出识曲，恢复监测",
+                  "bounds": [
+                    271,
+                    0,
+                    147,
+                    39
+                  ]
+                }
+              ],
+              "cancel_disabled": true
+            },
+            {
+              "tab": 3,
+              "persistent_controls_visible": true,
+              "controls": [
+                {
+                  "text": "进入识曲（敲三下）",
+                  "bounds": [
+                    0,
+                    0,
+                    147,
+                    39
+                  ]
+                },
+                {
+                  "text": "中止本次识曲",
+                  "bounds": [
+                    155,
+                    0,
+                    108,
+                    39
+                  ]
+                },
+                {
+                  "text": "退出识曲，恢复监测",
+                  "bounds": [
+                    271,
+                    0,
+                    147,
+                    39
+                  ]
+                }
+              ],
+              "cancel_disabled": true
+            }
+          ]
+        }
+      ],
+      "data_root": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\runs\\music15_ui_smoke\\profile_e42412",
+      "case_count": 4,
+      "tab_layout_checks": 16,
+      "controls": [
+        "进入识曲（敲三下）",
+        "中止本次识曲",
+        "退出识曲，恢复监测"
+      ],
+      "cancel_initially_disabled": true,
+      "no_serial_worker": true,
+      "checks": {
+        "light_dark_two_sizes": true,
+        "all_tabs_persistent_controls": true,
+        "controls_not_clipped": true,
+        "cancel_initially_disabled": true,
+        "no_Tk_callback_errors": true,
+        "no_serial_worker": true,
+        "no_recognition_submissions": true
+      },
+      "runtime_source_sha256": {
+        "host\\music_gui.py": "939cc62f1fb4c9e72486330e3ecd42be39cc4bccbeb80d7592b496afda8d7551",
+        "host\\monitor_gui.py": "18a3eb1f4dc134e16e588302a48978caed51ddacc58f8c541ba99e997e1aefe7",
+        "host\\ui\\dashboard.py": "fc9d80017657ac5a8fb57d61de6b9bb8050646b5a3e2e00dfd911a4b779ee530",
+        "host\\ui\\theme.py": "f7cba1341eb4be7281d6e38763983a7ad4c730416c778280a83fdf25e8e31c21"
+      }
+    }
+  },
+  "verifier_sha256": "7b751f36b53ec9adf3bebc7171741c15a06ca96761bcc960fd7474771d8439f4",
+  "result_directory": "D:\\projects\\2222wuxiaoping_codex_ui\\nexys-event-recorder\\runs\\music15_digital_04235cfe5f"
+}

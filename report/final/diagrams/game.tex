@@ -1,0 +1,12 @@
+\begin{tikzpicture}[base]
+\node[box,text width=24mm] (data) at (0,0) {共享XYZ / 按键\\按实际tick去重};
+\node[green,text width=24mm] (cal) at (3.7,0) {自然握持校准\\平滑 / 方向映射};
+\node[green,text width=24mm] (logic) at (7.4,0) {120 Hz逻辑\\运动 / 碰撞 / 机关};
+\node[box,text width=24mm] (render) at (11.1,0) {Canvas绘制\\场景缓存 / 图元复用};
+\draw[flow] (data)--(cal);\draw[flow] (cal)--(logic);\draw[flow] (logic)--(render);
+\node[amber,text width=29mm] (enter) at (0,-2.4) {进入：检查互斥\\保存并暂停自动触发};
+\node[amber,text width=29mm] (pause) at (5.5,-2.4) {失焦 / 离页 / 数据旧\\暂停，手动继续};
+\node[amber,text width=29mm] (exit) at (11.1,-2.4) {退出：核对会话\\恢复原配置与状态};
+\draw[control] (enter)--(pause);\draw[control] (pause)--(exit);
+\draw[control] (pause.north)--(logic.south);
+\end{tikzpicture}

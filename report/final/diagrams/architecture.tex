@@ -1,0 +1,16 @@
+\begin{tikzpicture}[base]
+\node[box,text width=32mm] (s) at (0,0) {物理信号\\声音 / XYZ};
+\node[green,text width=32mm] (f) at (4.6,0) {FPGA边缘采集\\时基·特征·缓存};
+\node[box,text width=32mm] (h) at (9.2,0) {主机数据服务\\协议·存储·调度};
+\node[box,text width=32mm] (a) at (0,-2.8) {实时感知\\曲线 / FFT / 状态};
+\node[green,text width=32mm] (b) at (4.6,-2.8) {事件与音频识别\\记录·检索·标签};
+\node[amber,text width=32mm] (c) at (9.2,-2.8) {体感交互\\校准·游戏·收藏};
+\node[amber,text width=32mm] (net) at (9.2,1.9) {在线识别服务\\Shazam};
+\draw[flow] (s)--(f);\draw[flow] (f)--node[label,above]{USB UART}(h);
+\draw[flow] (h)--(net);\draw[control] (net.east)--++(.6,0)|-(h.east);
+\draw[flow] (h.south)--++(0,-.55)-|(a.north);
+\draw[flow] (h.south)--++(0,-.55)-|(b.north);
+\draw[flow] (h.south)--(c.north);
+\draw[control] (h.north west)--++(0,.4)-|(f.north);
+\node[font=\small,text=muted,align=center] at (4.6,-4) {一套硬件数据基础\quad $\longrightarrow$\quad 多类智能感知与交互应用};
+\end{tikzpicture}

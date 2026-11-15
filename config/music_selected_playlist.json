@@ -1,0 +1,79 @@
+{
+  "tracks": [
+    {
+      "id": "05a18226f9874bf3a517c6eeb0165a6359cd3b7031eb147be42fd51721bf9d2d",
+      "song_id": "a12a039e5170b8cef602308cacd99ec432c22916ce2c20aaca5995535214e355",
+      "original_sha256": "db1710333d68a215277f77e4e17e1a64bf4ed38f87c70f8d0f56b16b6aa4f884",
+      "canonical_sha256": "05a18226f9874bf3a517c6eeb0165a6359cd3b7031eb147be42fd51721bf9d2d",
+      "file": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\music\\canonical\\05a18226f9874bf3a517c6eeb0165a6359cd3b7031eb147be42fd51721bf9d2d.wav",
+      "duration": 136.6204081632653,
+      "created_at": "2026-11-14T18:57:00.696+08:00",
+      "title": "Sneaky Snitch",
+      "artist": "Kevin MacLeod"
+    },
+    {
+      "id": "14d778c633707a78dcb5a3dfef4aa2e7b5ec165f17127e8323490f838b346884",
+      "song_id": "844572f9c5ae609e4271b8a2df7e12fe872a189a1095ce91e0b6e378c9ffc46d",
+      "original_sha256": "d3d0614535a61d748e2fd8d5117fc4d781022a7624794802a2462d8af3fdd522",
+      "canonical_sha256": "14d778c633707a78dcb5a3dfef4aa2e7b5ec165f17127e8323490f838b346884",
+      "file": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\music\\canonical\\14d778c633707a78dcb5a3dfef4aa2e7b5ec165f17127e8323490f838b346884.wav",
+      "duration": 231.26204081632653,
+      "created_at": "2026-11-14T18:57:00.696+08:00",
+      "title": "Cipher",
+      "artist": "Kevin MacLeod"
+    },
+    {
+      "id": "fe04602e24f419e04be5dd34727b63b351da1088d897fe109f1ad321b3af7c7f",
+      "song_id": "4c31324f0b5831f3a0efe464cbc6adf507f660b8952c93f9f88a377dc87ee7a9",
+      "original_sha256": "8433b770a630d9b1594fd484442c677907ece899a4d149954cd2e74fd733e311",
+      "canonical_sha256": "fe04602e24f419e04be5dd34727b63b351da1088d897fe109f1ad321b3af7c7f",
+      "file": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\music\\canonical\\fe04602e24f419e04be5dd34727b63b351da1088d897fe109f1ad321b3af7c7f.wav",
+      "duration": 205.1395918367347,
+      "created_at": "2026-11-14T18:57:00.696+08:00",
+      "title": "Carefree",
+      "artist": "Kevin MacLeod"
+    },
+    {
+      "id": "7bc7cd27685c1c066857db48072c7b9a749a44ec480d96ff29b83e144f302c78",
+      "song_id": "412be8a853305904f1b26febf0e4d86a8ca5a3eb542cd3a22810cc2885e94821",
+      "original_sha256": "6f0f11a085ecafac40c6badd45a78eda232a55c8a0977d79a7d5159615dd3351",
+      "canonical_sha256": "7bc7cd27685c1c066857db48072c7b9a749a44ec480d96ff29b83e144f302c78",
+      "file": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\music\\canonical\\7bc7cd27685c1c066857db48072c7b9a749a44ec480d96ff29b83e144f302c78.wav",
+      "duration": 173.10476190476192,
+      "created_at": "2026-11-14T20:45:03.522+08:00",
+      "title": "Tequila Sunrise",
+      "artist": "Eagles"
+    },
+    {
+      "id": "e48ce03d2b3038e7d41538c5597cf9f22d3996b22f6a058930c999cc65534d72",
+      "song_id": "767b63fff674006dca26175eecdbfe7ecc68bbd03d595165419522263ea2b986",
+      "original_sha256": "1a2b68fa97d5727e123f9d3edb1c77dbe9d2b9ef71ecf4c2fa8d094f15f03dc2",
+      "canonical_sha256": "e48ce03d2b3038e7d41538c5597cf9f22d3996b22f6a058930c999cc65534d72",
+      "file": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\music\\canonical\\e48ce03d2b3038e7d41538c5597cf9f22d3996b22f6a058930c999cc65534d72.wav",
+      "duration": 212.34648526077098,
+      "created_at": "2026-11-14T20:45:03.522+08:00",
+      "title": "Take It Easy",
+      "artist": "Eagles"
+    }
+  ],
+  "selected_by_user": [
+    "Take It Easy",
+    "Tequila Sunrise"
+  ],
+  "source_manifest": "music_user/manifest.json",
+  "pop_audio_distributed": false,
+  "formal_outside_tracks": [
+    {
+      "title": "Hotel California",
+      "artist": "Eagles"
+    },
+    {
+      "title": "Billie Jean",
+      "artist": "Michael Jackson"
+    },
+    {
+      "title": "We Will Rock You",
+      "artist": "Queen"
+    }
+  ]
+}

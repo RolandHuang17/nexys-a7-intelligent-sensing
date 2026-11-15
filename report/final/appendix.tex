@@ -1,0 +1,26 @@
+\chapter{版本校验与复现入口}
+\section{正式交付身份}
+\noindent\begin{tabularx}{\linewidth}{p{27mm}Y}\toprule 项目 & 固定值\\\midrule
+软件版本 &1.6.0，Windows 10/11 x64\\
+固件构建 &\code{ec0351f8}，目标\code{xc7a100tcsg324-1}\\
+代码与发布 &\href{\RepoURL}{公开仓库}；\href{\ReleaseURL}{v1.6.0发布页}\\
+EXE SHA-256 &\footnotesize\nolinkurl{23079c2a76c0939dc407192c474db4e7055a56d8937ef376ff8c5c4fa47a4951}\\
+位流 SHA-256 &\footnotesize\nolinkurl{3e193418e7ec9ba208277e7f9af63601b042ccfa4eab1b16bef2ea7184d0aa48}\\\bottomrule
+\end{tabularx}
+
+\section{源码与验证数据的使用}
+仓库包含FPGA源码与约束、主机源码与测试、依赖锁、最终报告源码及正文引用的数据。Release提供直接可运行的EXE、报告PDF、源码压缩包、运行资源包和第三方对应源码包。完整历史工作目录保留在本地，公开包按明确清单选取，避免混入个人数据库、凭据、缓存和商业歌曲完整原曲。
+
+\begin{table}[H]\centering\caption{报告证据与公开材料的对应关系}\small
+\begin{tabularx}{\linewidth}{p{35mm}Y}\toprule 正文结论 & 相对入口\\\midrule
+最终资源与时序 &\code{report/final/data/utilization_routed.rpt}、\code{timing_summary.rpt}\\
+量化表格与输入索引 &\code{report/final/data/measured.json}及同目录CSV/JSON\\
+前期声振对照 &\code{report/final/data/trigger_comparison.json}\\
+游戏与最终集成 &\code{evidence/}内精选原验收记录与完整事件\\
+运行资源与固件 &Release的\code{NexysMonitor-v1.6.0-runtime-resources.zip}\\
+第三方源码与许可证 &Release的\code{NexysMonitor-v1.6.0-third-party-source.zip}及\code{THIRD_PARTY_NOTICES.md}\\\bottomrule
+\end{tabularx}\end{table}
+
+报告复编译：在\code{report/final}目录运行\code{latexmk -xelatex main.tex}。使用XeLaTeX、中文字体及完整TeX Live；图稿、表格输入和图片均为相对路径。Windows源码运行及重新打包步骤见仓库README，资源包按原目录展开后使用固定依赖环境。
+
+EXE用户数据位于{\ttfamily\%LOCALAPPDATA\%/NexysMonitor/}。封面直链指向固定版本EXE，下载后可用PowerShell的\code{Get-FileHash}核对SHA-256。源码重建用于复现功能和版本组成，不承诺不同工具环境生成字节相同的EXE；本报告所指正式文件以该固定哈希为准。

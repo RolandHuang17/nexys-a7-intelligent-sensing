@@ -1,0 +1,13 @@
+\begin{tikzpicture}[base]
+\node[box] (in) at (0,0) {时间戳数据\\PCM / XYZ};
+\node[green,text width=35mm] (a) at (4.7,1.2) {事件组A\\环形前段$\to$后段$\to$冻结};
+\node[green,text width=35mm] (b) at (4.7,-1.2) {事件组B\\与A交替使用};
+\node[box] (out) at (9.5,0) {主机完整读取\\验证后ACK释放};
+\node[amber,text width=82mm] (music) at (4.7,-3.1) {独立音乐缓冲：最多160000点PCM16\\10秒16 kHz / 20秒8 kHz；按编号冻结与读取};
+\draw[flow] (in.east)--++(.6,0)|-(a.west);
+\draw[flow] (in.east)--++(.6,0)|-(b.west);
+\draw[flow] (a.east)--++(.6,0)|-(out.west);
+\draw[flow] (b.east)--++(.6,0)|-(out.west);
+\draw[control] (out.south)--++(0,-2)-|(b.south);
+\draw[flow] (in.south)|-(music.west);
+\end{tikzpicture}

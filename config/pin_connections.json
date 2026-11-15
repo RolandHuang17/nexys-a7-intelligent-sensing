@@ -1,0 +1,263 @@
+[
+  {
+    "signal": "CLK100MHZ",
+    "fpga_pin": "E3",
+    "direction_from_fpga": "input",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "LED[0]",
+    "fpga_pin": "H17",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "LED[1]",
+    "fpga_pin": "K15",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "LED[2]",
+    "fpga_pin": "J13",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "LED[3]",
+    "fpga_pin": "N14",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "LED[4]",
+    "fpga_pin": "R18",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "LED[5]",
+    "fpga_pin": "V17",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "LED[6]",
+    "fpga_pin": "U17",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "LED[7]",
+    "fpga_pin": "U16",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "LED[8]",
+    "fpga_pin": "V16",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "LED[9]",
+    "fpga_pin": "T15",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "LED[10]",
+    "fpga_pin": "U14",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "LED[11]",
+    "fpga_pin": "T16",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "LED[12]",
+    "fpga_pin": "V15",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "LED[13]",
+    "fpga_pin": "V14",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "LED[14]",
+    "fpga_pin": "V12",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "LED[15]",
+    "fpga_pin": "V11",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "BTNU",
+    "fpga_pin": "M18",
+    "direction_from_fpga": "input",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "ACL_MISO",
+    "fpga_pin": "E15",
+    "direction_from_fpga": "input",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "ACL_MOSI",
+    "fpga_pin": "F14",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "ACL_SCLK",
+    "fpga_pin": "F15",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "ACL_CSN",
+    "fpga_pin": "D15",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "ACL_INT[1]",
+    "fpga_pin": "B13",
+    "direction_from_fpga": "input",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "ACL_INT[2]",
+    "fpga_pin": "C16",
+    "direction_from_fpga": "input",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "M_CLK",
+    "fpga_pin": "J5",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "M_DATA",
+    "fpga_pin": "H5",
+    "direction_from_fpga": "input",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "M_LRSEL",
+    "fpga_pin": "F5",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "UART_TXD_IN",
+    "fpga_pin": "C4",
+    "direction_from_fpga": "input",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  },
+  {
+    "signal": "UART_RXD_OUT",
+    "fpga_pin": "D4",
+    "direction_from_fpga": "output",
+    "io_standard": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2",
+    "physical_revision_match": "PB200-292 REV D; common pins independently matched in archived D.2/D.3 netlists"
+  }
+]

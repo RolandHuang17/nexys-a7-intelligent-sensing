@@ -1,0 +1,89 @@
+{
+  "logic_sha256": "ec0351f8004d5b07ac0bd7b76458368484b5049aa55b9fde8bcf3b359537c668",
+  "build_id": "ec0351f8",
+  "files": [
+    {
+      "path": "rtl/00_recorder_pkg.sv",
+      "sha256": "157fb406e175c6006f6a548fcf13995f8614bfd4809785a075e08b46f308cc31"
+    },
+    {
+      "path": "rtl/adt7420.sv",
+      "sha256": "8f7cee6608db2db9239855e50d3ca5035a358224328071a88dd56f5b2f35004b"
+    },
+    {
+      "path": "rtl/adxl362.sv",
+      "sha256": "b00edd637521746a3fa567608aa67f503e9678bbd6313996e2dcbb04d25c76f0"
+    },
+    {
+      "path": "rtl/analysis_engine.sv",
+      "sha256": "ae41e1dc2639c5acbdd17289ca2c5df812d9e2e3395a1b82f780c92bdffb3a5f"
+    },
+    {
+      "path": "rtl/board_panel.sv",
+      "sha256": "b63743a44ed52b70b17dd65bb4933a885fa07ad58025a53acd7d5fe62ac89fe3"
+    },
+    {
+      "path": "rtl/feature_core.sv",
+      "sha256": "7e2ee4ee7d394170446b44cb400b5eaf2f87813bd7aad9f79c9e0d77826cb48b"
+    },
+    {
+      "path": "rtl/gpio_monitor.sv",
+      "sha256": "cabcb96e50e0a7602d8b3937c4805bf3f344cbc9caf5048e8934053ddae3a109"
+    },
+    {
+      "path": "rtl/i2c_register.sv",
+      "sha256": "22deb34da49c725d37f64c9f41d3d2b2aa60d9d3633ae1f903e82248ed5c5d94"
+    },
+    {
+      "path": "rtl/monitor_core.sv",
+      "sha256": "b4c5b93b1edd3366844a45f4bf432597099d6d6703110ec52dbace762930b6f4"
+    },
+    {
+      "path": "rtl/music_core.sv",
+      "sha256": "71130281338e0876c2d064558f64d59b21acbe8691571e5bf86846fe6de21c74"
+    },
+    {
+      "path": "rtl/music_decimator.sv",
+      "sha256": "dded5fdd9ca32dd9cf8cfd6aa4e6cd0adc97ad319ea707ab5d67015daac3ae35"
+    },
+    {
+      "path": "rtl/packet_link.sv",
+      "sha256": "8c5ed93fd251a800201a566b98cc523b697ef335f2414ce9298cde35cdabe7d8"
+    },
+    {
+      "path": "rtl/pdm_cic.sv",
+      "sha256": "4fcf857dbe4f66eed54d27e7daf73dd3db3462a2bb4e9b7e0797433d2d9768da"
+    },
+    {
+      "path": "rtl/record_bank.sv",
+      "sha256": "600ccf1fb970a674699c71c1f030383a97fe4fcbf3ad42da0c966dc5aad88a1d"
+    },
+    {
+      "path": "rtl/recorder_top.sv",
+      "sha256": "5ac82dd335737d7405ee222159916947cbc38e8915266b4f9df544f3c9ed5572"
+    },
+    {
+      "path": "rtl/spi_master.sv",
+      "sha256": "47587bea347239f9b2d732fe639608faf43adc986ec9f176060449800425ece1"
+    },
+    {
+      "path": "rtl/trigger_core.sv",
+      "sha256": "dd894787fc76259f911dc0446bf4a75575759afd2360444e2406911bbd499b1e"
+    },
+    {
+      "path": "rtl/uart.sv",
+      "sha256": "544a22519ce85db8b3de8b7de2108269ad6c7c03fedb2af67918094114f40230"
+    },
+    {
+      "path": "rtl/xadc_monitor.sv",
+      "sha256": "7858710a628cad10110d6f2c9c3d08e13d581a93a49e10e3cf2c9215f1ad0714"
+    },
+    {
+      "path": "constraints/nexys_a7_100t.xdc",
+      "sha256": "65fd06441943fd2b0b233c5bb6423138c1d6267d16cf440d9bbe34ed1d283c90"
+    }
+  ],
+  "parameters": {
+    "MUSIC_MAX_SAMPLES": 160000
+  }
+}

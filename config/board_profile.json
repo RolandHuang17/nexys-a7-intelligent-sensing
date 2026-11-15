@@ -1,0 +1,64 @@
+{
+  "observed_usb": [
+    {
+      "Class": "USB",
+      "FriendlyName": "USB Serial Converter B",
+      "InstanceId": "USB\\VID_0403&PID_6010&MI_01\\7&6532DBB&0&0001",
+      "Status": "OK"
+    },
+    {
+      "Class": "USBDevice",
+      "FriendlyName": "Digilent USB Device",
+      "InstanceId": "USB\\VID_0403&PID_6010&MI_00\\7&6532DBB&0&0000",
+      "Status": "OK"
+    },
+    {
+      "Class": "USB",
+      "FriendlyName": "USB Composite Device",
+      "InstanceId": "USB\\VID_0403&PID_6010\\210292B7F4F8",
+      "Status": "OK"
+    },
+    {
+      "Class": "Ports",
+      "FriendlyName": "USB Serial Port (COM5)",
+      "InstanceId": "FTDIBUS\\VID_0403+PID_6010+210292B7F4F8B\\0000",
+      "Status": "OK"
+    }
+  ],
+  "jtag_targets": [],
+  "jtag_devices": [],
+  "enumeration_run_id": "20261113T200929_095876_doctor",
+  "board_name": "Digilent Nexys A7-100T",
+  "pcb_revision": "D",
+  "physical_verified": true,
+  "pins_verified": true,
+  "chip_marking_observation": {
+    "verbatim": "artix-7-100t-csg324",
+    "run_id": "20261113T200250_965226_physical_observation"
+  },
+  "photo_evidence": "runs/20261113T200556_515188_board_photo/board_original.jpg",
+  "photo_sha256": "259d5408acefd058c6577357bf0a0527ebed06b5c670255f0892a9998b27a8a9",
+  "jtag_transport": "OpenOCD FTDI via existing WinUSB",
+  "jtag_idcode": "0x13631093",
+  "usb_serial": "210292B7F4F8",
+  "uart_port": "COM5",
+  "pcb_revision_observation": {
+    "verbatim": "PB200-292     REV D",
+    "run_id": "20261113T201728_590613_revision_confirmed",
+    "status": "verified"
+  },
+  "pin_verification_scope": "官方通用 100T XDC 与 D.2/D.3 的 29 个共用引脚",
+  "pin_evidence": "runs/20261113T200752_110014_pin_compatibility/compatibility.json",
+  "microphone_actual_part": null,
+  "unverified": [
+    "装配版本未细分",
+    "实际麦克风料号未确认"
+  ],
+  "openocd_idcodes": [
+    "0x13631093"
+  ],
+  "jtag_unique_verified": true,
+  "pcb_part_number": "PB200-292",
+  "pcb_revision_verified": true,
+  "assembly_revision": null
+}

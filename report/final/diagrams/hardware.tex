@@ -1,0 +1,15 @@
+\begin{tikzpicture}[base]
+\node[box] (mic) at (0,2.3) {板载数字麦克风\\PDM};
+\node[box] (acc) at (0,.2) {ADXL362\\XYZ / 数据就绪};
+\node[box] (tmp) at (0,-1.9) {ADT7420\\板载温度};
+\node[green,minimum height=53mm,text width=28mm] (fpga) at (5.2,.2) {Artix-7 FPGA\\100 MHz时基\\采集与记录\\\smallskip XADC片内监测};
+\node[box] (usb) at (10.4,2.3) {FT2232 / USB\\电脑};
+\node[amber] (panel) at (10.4,.2) {LED / RGB\\八位数码管};
+\node[amber] (gpio) at (10.4,-1.9) {16个开关\\5个方向按键};
+\draw[flow,<->] (mic.east)--node[label,above]{CLK / LRSEL / DATA}(fpga.north west);
+\draw[flow,<->] (acc)--node[label,above]{SPI / INT1}(fpga);
+\draw[flow,<->] (tmp)--node[label,below]{I²C / 告警}(fpga.south west);
+\draw[flow,<->] (fpga.north east)--node[label,above]{UART / JTAG}(usb.west);
+\draw[flow] (fpga)--node[label,above]{显示输出}(panel);
+\draw[flow] (gpio.west)--node[label,below]{同步 / 去抖}(fpga.south east);
+\end{tikzpicture}

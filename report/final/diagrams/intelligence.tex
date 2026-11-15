@@ -1,0 +1,10 @@
+\begin{tikzpicture}[base]
+\node[box,fill=navy,text=white,text width=25mm] (s) at (0,0) {物理感知\\PDM / XYZ / GPIO};
+\node[green,text width=25mm] (f) at (3.8,0) {特征表达\\声振 / 指纹 / 姿态};
+\node[green,text width=25mm] (d) at (7.6,0) {识别与决策\\事件 / 歌曲 / 控制};
+\node[box,fill=navy,text=white,text width=25mm] (o) at (11.4,0) {结果反馈\\可视化 / 灯光 / 动作};
+\draw[flow] (s)--(f);\draw[flow] (f)--(d);\draw[flow] (d)--(o);
+\node[amber,text width=96mm] (future) at (5.7,-2.1) {未来AI扩展：声事件分类 / 学习式融合 / 量化推理\\复用数据格式与采集链路，另行训练并独立评价};
+\draw[control] (f.south)--(future.north west);
+\draw[control] (future.north east)--(d.south);
+\end{tikzpicture}

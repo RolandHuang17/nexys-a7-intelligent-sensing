@@ -1,0 +1,170 @@
+[
+  {
+    "signal": "SW[0]",
+    "pin": "J15",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "SW[1]",
+    "pin": "L16",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "SW[2]",
+    "pin": "M13",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "SW[3]",
+    "pin": "R15",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "SW[4]",
+    "pin": "R17",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "SW[5]",
+    "pin": "T18",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "SW[6]",
+    "pin": "U18",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "SW[7]",
+    "pin": "R13",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "SW[8]",
+    "pin": "T8",
+    "IOSTANDARD": "LVCMOS18",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "SW[9]",
+    "pin": "U8",
+    "IOSTANDARD": "LVCMOS18",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "SW[10]",
+    "pin": "R16",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "SW[11]",
+    "pin": "T13",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "SW[12]",
+    "pin": "H6",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "SW[13]",
+    "pin": "U12",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "SW[14]",
+    "pin": "U11",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "SW[15]",
+    "pin": "V10",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "BTND",
+    "pin": "P18",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "BTNL",
+    "pin": "P17",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "BTNR",
+    "pin": "M17",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "BTNC",
+    "pin": "N17",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "TMP_SCL",
+    "pin": "C14",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "TMP_SDA",
+    "pin": "C15",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "TMP_INT",
+    "pin": "D13",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  },
+  {
+    "signal": "TMP_CT",
+    "pin": "B14",
+    "IOSTANDARD": "LVCMOS33",
+    "source": "upstream/assets/Nexys-A7-100T-Master.xdc",
+    "source_sha256": "40b8d2b557673d90fbb20018210e4e3460c52e071696edaebd4b6ad5b00599e2"
+  }
+]

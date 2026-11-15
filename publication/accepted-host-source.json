@@ -1,0 +1,937 @@
+[
+  {
+    "path": "adept_probe.py",
+    "sha256": "3c4ab52eff4d6eaf6bb1ab3cb06e22e5144491c3bf67236d3d7baa1590b258de",
+    "bytes": 2248
+  },
+  {
+    "path": "after_collect.py",
+    "sha256": "83537cb92ef32b1a9ccba673451b0203640fc2deb8b20d65671b324d391e0778",
+    "bytes": 2178
+  },
+  {
+    "path": "app_paths.py",
+    "sha256": "4eaa9abda1880271d02b3cc16c8c3680f532cdd60bf6357674b90f6e77887f96",
+    "bytes": 739
+  },
+  {
+    "path": "archive_portable_acceptance.py",
+    "sha256": "c970601991bbc0a48e40dcfe9bb4c2b599d526d33bf7b9168c5fcd41d48bade0",
+    "bytes": 5424
+  },
+  {
+    "path": "archive_portable_hotplug.py",
+    "sha256": "802eed95af4c62870d04ddf79c6e69c55e6d933f9e4567d71b201079d8a58bcb",
+    "bytes": 2703
+  },
+  {
+    "path": "audio_probe.py",
+    "sha256": "898ea01d46699075b3788b28055f2ea588f64fb54a08661b8fa6bc4c96c8b6fb",
+    "bytes": 1296
+  },
+  {
+    "path": "audio_stimulus.py",
+    "sha256": "c9642fb4698a1588b567ce2f5db66add1c536ce58a40b5bdb2f93ca702372759",
+    "bytes": 3019
+  },
+  {
+    "path": "audit.py",
+    "sha256": "7a1fb5cf4a555376983d18ea90230585c9a6b1ab183b3edcf8a77ad19ef72a56",
+    "bytes": 9803
+  },
+  {
+    "path": "board_replay_check.py",
+    "sha256": "703d697515afcf62917c69988f0b0c77c81d0c1c42ba1627b8f6fab2bb44a84e",
+    "bytes": 2559
+  },
+  {
+    "path": "build_download_tool.py",
+    "sha256": "152af8ff71a73461b5dfadb23a82de105fa0183a056716410d634805151c8465",
+    "bytes": 2654
+  },
+  {
+    "path": "build_logic.py",
+    "sha256": "46a18f147810812a930c1b2e4bb08674cbdf35c2aa9116a5a775c3a7f9763f4c",
+    "bytes": 2809
+  },
+  {
+    "path": "build_pc_mic_tester.py",
+    "sha256": "94e33f52657df7058cdedba32924cac837b0b17282ba0984e764515ace35a7d0",
+    "bytes": 2404
+  },
+  {
+    "path": "build_pc_shazam_tester.py",
+    "sha256": "d4566e4ea2a684b982d7bf8a057020d00cff708eda55e28801b8d4a7f7aab6b3",
+    "bytes": 4377
+  },
+  {
+    "path": "build_portable.py",
+    "sha256": "94df5b30cdbb302ef62a600fd43aabda88bad30d976aa8ea90abdb114661dfe3",
+    "bytes": 6528
+  },
+  {
+    "path": "build_shazam_main.py",
+    "sha256": "3aa20c5ed5946803139c6df3ce615704e4d347231ce25d922314e9ec13575391",
+    "bytes": 8872
+  },
+  {
+    "path": "build_songrec_probe.py",
+    "sha256": "165671f3e035d44eed1b7ebea0ae676a4631178ecb74f2f342af6b29def575d5",
+    "bytes": 3979
+  },
+  {
+    "path": "build_tilt_game.py",
+    "sha256": "2940f3efd964fb792b8c8dcd3e364d91ba4751704ca4072bc6368ab6c151cb09",
+    "bytes": 5400
+  },
+  {
+    "path": "capture.py",
+    "sha256": "3118df16bfb46557c2c1897dcb28ea1471890644e63768befaa2fb33cffd8c59",
+    "bytes": 6782
+  },
+  {
+    "path": "check_layout.py",
+    "sha256": "ab3cd61a10fca5957c8513a4eccdec7bb602a95d12c6f9ead7388cb752790ff8",
+    "bytes": 933
+  },
+  {
+    "path": "check_output_constraints.py",
+    "sha256": "cb4ce4c49f0d9c891ff08e6f652f54c16bf52a3d2bd958750d51d6c4f50308ff",
+    "bytes": 488
+  },
+  {
+    "path": "check_portable_exe.py",
+    "sha256": "aaf4dd00afcbaf01e0a6b7fe65d5ebc1506e8d12201ba8618473b077148836df",
+    "bytes": 1787
+  },
+  {
+    "path": "collect.py",
+    "sha256": "7f61f4b3275f523baa3ad6a08da1f383a6c89aacaa6eadee9544e0a245887a6a",
+    "bytes": 15301
+  },
+  {
+    "path": "design_music_decimator.py",
+    "sha256": "02243bad0fbb522e004ada6c292c70eaf0d62e0d73782ec11ca8b7f0454dbb8b",
+    "bytes": 2973
+  },
+  {
+    "path": "device_discovery.py",
+    "sha256": "47cd89f30e5fa20d25fad1eaab790e9ef573789a0c2f8ef5f046fedfee676e24",
+    "bytes": 1478
+  },
+  {
+    "path": "diagnose_music_density.py",
+    "sha256": "5b0166e66a9a53f2174518173856ea48c8ca1b00149fdcfd095ed6ab326dff0d",
+    "bytes": 2419
+  },
+  {
+    "path": "diagnose_music_match.py",
+    "sha256": "466e7951de0adda7ab56c355444676d3bd82c5b15a9bb5b29bb6841acedc0650",
+    "bytes": 1653
+  },
+  {
+    "path": "driver_setup.py",
+    "sha256": "62a7f0f81229b034b5d0121421b1691a11bad425ed7aa800020b422bd213d06e",
+    "bytes": 2137
+  },
+  {
+    "path": "evaluate.py",
+    "sha256": "275c6557f12c187a5e55c7b6362e0be75efd220623d2751c9413df11a3c37bf5",
+    "bytes": 12118
+  },
+  {
+    "path": "experiment.py",
+    "sha256": "cd8e50e6dda1b0ef2b210d28dcfc663fd26759159c4928dba744caaed4c71a11",
+    "bytes": 3999
+  },
+  {
+    "path": "export_visual_gallery.py",
+    "sha256": "97a1634edb058a8307c3733311edfee3d18d5d88f420bbdbd348e3aaa60ff1df",
+    "bytes": 2928
+  },
+  {
+    "path": "features.py",
+    "sha256": "22ff8f5cab8d0948997e08fc8881c6a1ebabc0e455e9f43ebfbdaea5d48dae02",
+    "bytes": 5275
+  },
+  {
+    "path": "fetch_assets.py",
+    "sha256": "ef5401c0728474b52ac3c9f3f447c0230283773681fd4b6587a7e0952bb8f74d",
+    "bytes": 5235
+  },
+  {
+    "path": "fetch_selected_music.py",
+    "sha256": "270b1c5f03bb75ebdc921eb110583ea9278ad7567931e3ced6a4b8595bbad0ce",
+    "bytes": 1574
+  },
+  {
+    "path": "figures.py",
+    "sha256": "7a404d5e8fd02aaa1d315f5cd55d5ad01e9bf5018bcf452dcee3acc99cdf43f7",
+    "bytes": 6083
+  },
+  {
+    "path": "finalize_delivery.py",
+    "sha256": "aa6456b810074f2036ca33291c3302637698cf3c780fde85d544e90dc59ad2f9",
+    "bytes": 10090
+  },
+  {
+    "path": "finalize_monitor_delivery.py",
+    "sha256": "dd346c2bbef6d67108704327d4ee44a55c9a1f8538d90c54b8cdcabb439a86d0",
+    "bytes": 16477
+  },
+  {
+    "path": "finalize_music_delivery.py",
+    "sha256": "c5b0383d488e6a24a2ac42b137aedc8e2f53fafcd28b7859182399b996e40927",
+    "bytes": 6577
+  },
+  {
+    "path": "finalize_pc_shazam.py",
+    "sha256": "892ac442dfd4cddd5a118fceb321928bf5d230a32c0f0bf8378af13bd96dbced",
+    "bytes": 6926
+  },
+  {
+    "path": "finalize_portable_delivery.py",
+    "sha256": "4d696528221a4ca06afbadb02dbdfa65d17aa20a25bbc9ca79b8fb43161925da",
+    "bytes": 10709
+  },
+  {
+    "path": "finalize_report_revision.py",
+    "sha256": "4e370413c50d66775e3890b63a06ca52323b9587fe53b0e40841027e1dea013a",
+    "bytes": 8451
+  },
+  {
+    "path": "finalize_shazam_main.py",
+    "sha256": "90827b186524ec732ba488a741b5d0f14ec2e1096366b0372e99d93998914e58",
+    "bytes": 6318
+  },
+  {
+    "path": "finalize_tilt_game.py",
+    "sha256": "280467d62027fc615664b8cb72e4ff2f48ec20531f68261a1ff9fc5e8b72f409",
+    "bytes": 7129
+  },
+  {
+    "path": "finalize_visual_delivery.py",
+    "sha256": "a1519f494ada9d73f62abcc6742c0120077d73ee17a1dc5bd5eff5f1b0f8832c",
+    "bytes": 9114
+  },
+  {
+    "path": "game_session.py",
+    "sha256": "20038b1fb1f431406abfe1f76d64e3536909ac7a880eb6732f95cf39409808c2",
+    "bytes": 3832
+  },
+  {
+    "path": "guidance.py",
+    "sha256": "ffa2631478bca0a2a11df71966b3cf79846c466591ca8a77593764d9cc2d1483",
+    "bytes": 3033
+  },
+  {
+    "path": "guided_flow.py",
+    "sha256": "d625825366e46251fcef46348e3849580bb006673218860646877c6a34add4c3",
+    "bytes": 1399
+  },
+  {
+    "path": "hardware.py",
+    "sha256": "73bd64a588a97c65d48ad659865437785604bf655b9e953f52e1b88cb8fe7d84",
+    "bytes": 3446
+  },
+  {
+    "path": "harness.py",
+    "sha256": "393a5e38e3acd6d040ac3840ffcc049aca38df032a614d5202ac9c0b9b09e9b2",
+    "bytes": 6756
+  },
+  {
+    "path": "inspect_references.py",
+    "sha256": "a11e3e5580cf169e54a521323fe7670993f40f79c19e26cb91b2aad01355b3c9",
+    "bytes": 2766
+  },
+  {
+    "path": "launch_guided_flow.py",
+    "sha256": "fcbbb034e1289ad7aee51774ff9bad418c5d0968527928777c2219e7253f99b5",
+    "bytes": 1109
+  },
+  {
+    "path": "launch_monitor.py",
+    "sha256": "15deaae6448f7d477ffbc65f237f86668bc9e771d124f3c81c560df12607346e",
+    "bytes": 1259
+  },
+  {
+    "path": "monitor_control.py",
+    "sha256": "c7c3f09d39ef53bbe59f438c5c82c9e72837292dbb07362617a5aa4f31d44ad8",
+    "bytes": 1262
+  },
+  {
+    "path": "monitor_demo_sound.py",
+    "sha256": "a444466393422b32b9acafa47c8af516fe42bbbc91e84a00de202233c509b51e",
+    "bytes": 654
+  },
+  {
+    "path": "monitor_gui.py",
+    "sha256": "5fb579e2405020c3080a9ec58d40d48863f97606b34d8abbb3936320136c2ce7",
+    "bytes": 40642
+  },
+  {
+    "path": "monitor_probe.py",
+    "sha256": "1eb19dc6b65001a36cb5c5c26b462332bc14822cb68752c34d1affdfddc04c23",
+    "bytes": 4010
+  },
+  {
+    "path": "monitor_protocol.py",
+    "sha256": "e732cdc3a7a7f4d148b745a2ac7d903fc86e221dcfc0c7069a008613f35d96c7",
+    "bytes": 5334
+  },
+  {
+    "path": "monitor_regression.py",
+    "sha256": "f3c1f4c9fad0b7cbb215b6e5e8eb206ca3c4deb16d9098ace9955d5f5d0e58e2",
+    "bytes": 4739
+  },
+  {
+    "path": "monitor_report_content.py",
+    "sha256": "d7391ea875d5228c1acad352e137c0aaa342f087c1257bd6d7c1ff5c82538203",
+    "bytes": 18830
+  },
+  {
+    "path": "monitor_service.py",
+    "sha256": "02a6367f550bf9462d926b09613fa838e5b7b9324e3743ee969ab76ccced7ce4",
+    "bytes": 18478
+  },
+  {
+    "path": "music_api_wizard.py",
+    "sha256": "f5bf71817781eeb20ae2345d11805e6bda326228b2f50a39a465a4e702959a22",
+    "bytes": 6800
+  },
+  {
+    "path": "music_board.py",
+    "sha256": "7921e1b6697a57369918707024f3fefc4b12d0708730d6a4cf450091cbc0a3f1",
+    "bytes": 17336
+  },
+  {
+    "path": "music_credentials.py",
+    "sha256": "d6a2af17276ebe1e8b1db7ae889acf9fa52925a19c801f5891b90235be927f26",
+    "bytes": 4060
+  },
+  {
+    "path": "music_evidence.py",
+    "sha256": "1271dd89041ddedc4677c6c04c71527a657d46c58b89356dc1828979bf12bbd7",
+    "bytes": 4176
+  },
+  {
+    "path": "music_gui.py",
+    "sha256": "939cc62f1fb4c9e72486330e3ecd42be39cc4bccbeb80d7592b496afda8d7551",
+    "bytes": 37357
+  },
+  {
+    "path": "music_gui_pilot.py",
+    "sha256": "438719059f38d94a1ed896ef1b38d142be835bbb0ededb779b4ee606792be051",
+    "bytes": 2568
+  },
+  {
+    "path": "music_library.py",
+    "sha256": "a684c50c9ed93cf1e66238f1ded1182a0e7f735b22b97b026e9fd6199c278e21",
+    "bytes": 9697
+  },
+  {
+    "path": "music_native_online_probe.py",
+    "sha256": "690d6a05c519dcabb6d615d8f0ec9b0b5e951e61edfefa88df8074415773feef",
+    "bytes": 2724
+  },
+  {
+    "path": "music_online.py",
+    "sha256": "0a1839287bb339106bf7825ecc6f0d4f8f8c2e3e391dc39b552a157ebb5e36cb",
+    "bytes": 14649
+  },
+  {
+    "path": "music_online_acceptance.py",
+    "sha256": "f966a916b1b0f7fd454927f85974ddf17819f98f49480002c02d70a439f4d628",
+    "bytes": 3114
+  },
+  {
+    "path": "music_online_wizard.py",
+    "sha256": "9b3a672512decaddfdc6c5a256d8f74e2484f761989ad39071a04e1bfc855b96",
+    "bytes": 11893
+  },
+  {
+    "path": "music_physical_probe.py",
+    "sha256": "cf4f88d8fb952ca31d10097587b082e89cdae373d302be8019e0e32684346345",
+    "bytes": 7378
+  },
+  {
+    "path": "music_protocol.py",
+    "sha256": "2e16c6029f9e6137798139ab329323a89b3e40dbdc9ab497a0a09dcf1a878d2b",
+    "bytes": 4085
+  },
+  {
+    "path": "music_report_content.py",
+    "sha256": "aa8a3ff9d62424f2b88e254e8efc3c5b86b31d1d399a962c0dc97e2eb9bb3604",
+    "bytes": 35772
+  },
+  {
+    "path": "music_seed.py",
+    "sha256": "78d87194df9bc452c4553aedd09ad906e16f88818f39564170ff33f30c99ac81",
+    "bytes": 2489
+  },
+  {
+    "path": "music_service_length_probe.py",
+    "sha256": "b05c7747653d74c0b55bf613367047741f06494fe9207fc01669f5ca29fa8d06",
+    "bytes": 1467
+  },
+  {
+    "path": "music_shazam.py",
+    "sha256": "a092f385e79fd19ac3a7a9fe292c43cd0832eb53443500cdb4189b16df7cb41f",
+    "bytes": 6082
+  },
+  {
+    "path": "music_store.py",
+    "sha256": "837066458d011ed59b154e332710c60e22fd05082021c18814d41b8e78e6690f",
+    "bytes": 5710
+  },
+  {
+    "path": "music_upload.py",
+    "sha256": "827711d007699f8c29ebd4198bf4ddce4f36590c3a9b16e87f2150bdf36ba0ec",
+    "bytes": 2149
+  },
+  {
+    "path": "music_wizard.py",
+    "sha256": "4c22726a2e769cb30feb72a2a67d39fc79f7112a66edfd86649580ddc8f67a0d",
+    "bytes": 32964
+  },
+  {
+    "path": "music_worker.py",
+    "sha256": "435596eaa62fb05da903e92b36fd39ef4c8bcf5f8243ae1b5afa9736494dd20c",
+    "bytes": 11461
+  },
+  {
+    "path": "panel_control.py",
+    "sha256": "1e739e6e7d0ac6619e0b0dcc691977d31f4fc0d1b0fa49e4dd82da3e7a8d048d",
+    "bytes": 8548
+  },
+  {
+    "path": "panel_protocol.py",
+    "sha256": "f94fe309c825611c00a709aa2812ba6a8295602d7c9906ff1860aca9230cd5f8",
+    "bytes": 1928
+  },
+  {
+    "path": "pause_music.py",
+    "sha256": "d03cce23736efb998c48971c7a5feb8feb1ab7196797c055f427ea772e6b5c7b",
+    "bytes": 10462
+  },
+  {
+    "path": "pc_mic_backend.py",
+    "sha256": "cf4f89ed73178f2988cc59fba3faa9bc96effe63189829bf39091eef396f17c6",
+    "bytes": 6176
+  },
+  {
+    "path": "pc_mic_capture.py",
+    "sha256": "4c62d745f85d8cf400bb3f9c4e89146932fdc6f04560b675ea9d47a8fc91a923",
+    "bytes": 5490
+  },
+  {
+    "path": "pc_mic_tester.py",
+    "sha256": "62f36a570ec6b0e6eed3139d824c1dc99181534279785b1bafb6c5b68e1aff8a",
+    "bytes": 17035
+  },
+  {
+    "path": "pc_shazam_backend.py",
+    "sha256": "93c47e135e46078d6e100406a9244a97ab119caaad196236245345b0a1de4dfe",
+    "bytes": 14909
+  },
+  {
+    "path": "pc_shazam_tester.py",
+    "sha256": "9f3ca3eefea27d9e11972ec7bac38a2b8113bbace2777151ec55a1a25d070a9f",
+    "bytes": 18858
+  },
+  {
+    "path": "plot_style.py",
+    "sha256": "3123f3ead891432997239358af12cfcbbbc64fb87d120e1c8f231195193b6dc2",
+    "bytes": 1064
+  },
+  {
+    "path": "portable_main.py",
+    "sha256": "820460b84700907198dde6c3c0c9b87a48ac488b518318df9dcd9c7e739153e8",
+    "bytes": 3276
+  },
+  {
+    "path": "portable_program.py",
+    "sha256": "d091438e908a4c27df252aaa8b0397e771824af203dd34de80e48358365c5940",
+    "bytes": 3956
+  },
+  {
+    "path": "portable_report_content.py",
+    "sha256": "95045a6fa050febbf7b8c2068c740b70ecb86fb71fcbb6797d25160fe46e1885",
+    "bytes": 9741
+  },
+  {
+    "path": "prepare_monitor_pins.py",
+    "sha256": "c54d331c32118ca5ec52c66c8b40da37ad1461e91c22305503198920f05e4a48",
+    "bytes": 2118
+  },
+  {
+    "path": "prepare_monitor_ui_review.py",
+    "sha256": "6df64ee2db0d306b45fccb7a3716ae4b965595b043df4c47a3bab50d2e981853",
+    "bytes": 1706
+  },
+  {
+    "path": "prepare_music.py",
+    "sha256": "bb54c7830a613d46f847d4068aa539f97aeb0eafc19f27a508cfff7114e0d27f",
+    "bytes": 5542
+  },
+  {
+    "path": "prepare_music_library.py",
+    "sha256": "1e90500d0a7ab16d8294c54d2c7617de2f72d3a07c4d08f4f01d4880123b20e1",
+    "bytes": 2290
+  },
+  {
+    "path": "prepare_portable_tools.py",
+    "sha256": "1eaa5d84c8e91aed60f39d7983fbb85d0e4829be04c0c3bfe6a45cd64d8a777e",
+    "bytes": 2315
+  },
+  {
+    "path": "prepare_report.py",
+    "sha256": "17c5fdcc1773f1a11e7995bc5850816800ca862386a15728bdb92338b47bf63a",
+    "bytes": 3043
+  },
+  {
+    "path": "pressure_check.py",
+    "sha256": "04c09a8cf35a67556dd55015a05621e8e75ca94820f7c8fbafa164c6e786c9d4",
+    "bytes": 2131
+  },
+  {
+    "path": "probe_openocd.py",
+    "sha256": "34a9137400d9ed416e6b1f89b2ba2055cac66380a8aac617f312682bcdd6510c",
+    "bytes": 1300
+  },
+  {
+    "path": "program.py",
+    "sha256": "76c472c8929ba9b90fdfca97d53e2f7ab373aa74617ae1565e7f2c01f202197d",
+    "bytes": 2159
+  },
+  {
+    "path": "program_monitor.py",
+    "sha256": "d235b36e9c4c7b8e01d8f32ea3c7f26b580fa8e301fad48352ad5860026bf7fa",
+    "bytes": 385
+  },
+  {
+    "path": "protocol.py",
+    "sha256": "4dd0848bcacc08452f7d93b2b14e0439573a2a9639d1ab470d088bb426a9a1ac",
+    "bytes": 4219
+  },
+  {
+    "path": "recover_build.py",
+    "sha256": "742935be3d0009456df15897d3e472399c7f602a869ac94c8a4fa636b8d2f669",
+    "bytes": 1922
+  },
+  {
+    "path": "reference.py",
+    "sha256": "088b5c61c71e27c1ef9bb4d9babb8a98d5b603cdc5d688a7a01db181bb86d29e",
+    "bytes": 4034
+  },
+  {
+    "path": "refine.py",
+    "sha256": "2352a3806b3368e4bbd715610332d5a1ddfda332693ffed8cbf59961b48d412a",
+    "bytes": 1528
+  },
+  {
+    "path": "refine_music_tap_from_evidence.py",
+    "sha256": "c802ea646216472eeeb4ce20920eb82d58c4de890d743514e9cc2e4e8b978252",
+    "bytes": 1656
+  },
+  {
+    "path": "render_pdf.py",
+    "sha256": "24753d6ee07c3a448e1c8e872d93d14b1c4aeb7a302a2ec25bec1b71de61e3af",
+    "bytes": 1150
+  },
+  {
+    "path": "report.py",
+    "sha256": "b3590a9361371ce4b8b20115ac24804a48507f3e55b6933f5ffd7afef76c3c5b",
+    "bytes": 10150
+  },
+  {
+    "path": "report_content.py",
+    "sha256": "359b4547ce13acaf7983c0b34c9dcca78aeea16e5db65170b5da1bbc8548ba67",
+    "bytes": 23013
+  },
+  {
+    "path": "report_visuals.py",
+    "sha256": "26e14e1fb39846c521480b6ceb1a56dd54c1348e3cb57fac4b0dd2fad00ef37d",
+    "bytes": 35013
+  },
+  {
+    "path": "resume_route.py",
+    "sha256": "5e72a5ffa3fe204c939e05def9fea280c299ec5041c21f50879f9f48254ddb33",
+    "bytes": 1281
+  },
+  {
+    "path": "save_pause.py",
+    "sha256": "413def99442b769516f548d7ed84901608e64a5d1f0880961d46a3aaa20dc064",
+    "bytes": 2787
+  },
+  {
+    "path": "select_music_playlist.py",
+    "sha256": "18671c2bcd294f26ec14639d7ffab46246e9873b5ffa046c7facb30bd8e6bc32",
+    "bytes": 1625
+  },
+  {
+    "path": "selftest.py",
+    "sha256": "2b8c471915d272feadb7d7b653153a15217cf487cc9e5e122395eb3945b4e22f",
+    "bytes": 5880
+  },
+  {
+    "path": "songrec_probe.py",
+    "sha256": "ff8d70a642d2a73e289eb2789694f1ae790a765610bd50baf0db93ec8ad294e2",
+    "bytes": 16939
+  },
+  {
+    "path": "songrec_probe_gui.py",
+    "sha256": "b2cfb650f770028876735f08098d3e936599f8d766bd0bb650449bdb703f6a00",
+    "bytes": 14609
+  },
+  {
+    "path": "stage_music_assets.py",
+    "sha256": "58f67a32276c785f170a959d8aff10f6c90aeb4abf84f84a220eee1b4896d535",
+    "bytes": 1839
+  },
+  {
+    "path": "stop_build.py",
+    "sha256": "5ab63b0f19c572025c9824d9bb2e885b3a5d3f3d2adea802bbf089e9aa3971c4",
+    "bytes": 757
+  },
+  {
+    "path": "test_board_panel_rtl.py",
+    "sha256": "f2f3488a3c2d80bc0585cb09b8151a4f2056d1c7f7a4df66274df8b554b9c701",
+    "bytes": 2558
+  },
+  {
+    "path": "test_engine.py",
+    "sha256": "777a707624b7426f2450ceea0911934a2dd89ebabafafc50771d0e29ead6fe29",
+    "bytes": 4688
+  },
+  {
+    "path": "test_features.py",
+    "sha256": "ddabd0bbfcfd4087861fe184e5c722cdd7d97692e05a7a90225e67e05cf4b3e4",
+    "bytes": 1864
+  },
+  {
+    "path": "test_game_integration_contracts.py",
+    "sha256": "cb89b12a36958f8bdbab5e9bed2c1ade09b9d33fe149c1da85fe2ced4e23d0bb",
+    "bytes": 2000
+  },
+  {
+    "path": "test_game_session.py",
+    "sha256": "83afe5f93fae726b6ff72003afb05f1c4aefb5be9ca63a6df8d8873a5cb8fa6e",
+    "bytes": 6238
+  },
+  {
+    "path": "test_latency.py",
+    "sha256": "8bb63a009a550890d64de6b5ffe422b8fd4c7842a53a5c6e025c775b66bb3504",
+    "bytes": 3083
+  },
+  {
+    "path": "test_link.py",
+    "sha256": "8751eba162fa8ad0ab3b1397e3f325d87344da0aa97a392736da37e9241fda43",
+    "bytes": 1642
+  },
+  {
+    "path": "test_monitor.py",
+    "sha256": "b9721689f4b6014cff0939ea4a028cd7fd3a8f0d434615ff912ea320ad7da56b",
+    "bytes": 3718
+  },
+  {
+    "path": "test_music_abort_rtl.py",
+    "sha256": "b606452f8e6620e6be49a3e79bdae94fd1cd7cc5edd18a7b922b6a5a3f464bd9",
+    "bytes": 3039
+  },
+  {
+    "path": "test_music_api.py",
+    "sha256": "19a9122cf1bc638889487bc990b5fd6113ce80c44309f88cbb1344d2af1f23b2",
+    "bytes": 4612
+  },
+  {
+    "path": "test_music_api_wizard.py",
+    "sha256": "fb8a5ee222cb4c82a9ca85e4f3a6b5cff403419977891bbe1dab3815bcffa03a",
+    "bytes": 2405
+  },
+  {
+    "path": "test_music_board_cancel.py",
+    "sha256": "b9c08c3be9a02fadb7035540b6cae920173265a8cd3ed969db9967393cdd1940",
+    "bytes": 14850
+  },
+  {
+    "path": "test_music_cancel.py",
+    "sha256": "6da985485e0923bd6e0ff318074446da5b164472d2a5d0adc9e8e95aa42dcc08",
+    "bytes": 10010
+  },
+  {
+    "path": "test_music_decimator.py",
+    "sha256": "dc16c801fe8451f5ae4fd0fdf7560deee8febe9052cf53583a924abc5e133b9a",
+    "bytes": 2376
+  },
+  {
+    "path": "test_music_engine_cancel.py",
+    "sha256": "041ae3fde70ebdc718c178894a62f1d7c3dabe5468f57ec05ebeb10361506ea8",
+    "bytes": 7139
+  },
+  {
+    "path": "test_music_packaged.py",
+    "sha256": "53b6be4596e7bcc4eddb777b7677b8285d1dd83742b4ed5a0150fc33cf10d110",
+    "bytes": 3292
+  },
+  {
+    "path": "test_music_panel_quiet.py",
+    "sha256": "ed7c1505eeff2f9f7c0a2d6dbedfdc38398b4ea8b77053eecfb7d99a4c6b94eb",
+    "bytes": 2095
+  },
+  {
+    "path": "test_music_resume.py",
+    "sha256": "909717bb8b0b48b77e6fc4da8266baa2de1967e55feb89ddfcb941a0dc3343d4",
+    "bytes": 4238
+  },
+  {
+    "path": "test_music_rtl.py",
+    "sha256": "ba4f610b06cc70d04c65c06e5776dad487d20dcbbfc4456393c442a40225bca6",
+    "bytes": 2095
+  },
+  {
+    "path": "test_music_seed.py",
+    "sha256": "efe2091cb95e8fb870a218d2ac70ff272db29646bcdddad9d8f222ab45b71c5d",
+    "bytes": 1677
+  },
+  {
+    "path": "test_music_shazam.py",
+    "sha256": "25bc167cd0994c9e78db2e24936a8ee34021f5998c5e9663873b48d4a089ea9c",
+    "bytes": 5435
+  },
+  {
+    "path": "test_music_software.py",
+    "sha256": "5af5a7d3c2263e95416a55e61086c4d4e7568b2705f33f1b847729f294d48545",
+    "bytes": 7212
+  },
+  {
+    "path": "test_music_tap.py",
+    "sha256": "73d813c6c1edaa416c76c40b848a7fa46074f0aef182ddd853bd31b77e836d38",
+    "bytes": 950
+  },
+  {
+    "path": "test_music_tap1000.py",
+    "sha256": "94755523d0ecb39ed64286eb454a46e3c5977b0ca8dcdab49725abb5add90b00",
+    "bytes": 1265
+  },
+  {
+    "path": "test_music_triple_rtl.py",
+    "sha256": "f19231cc2ac0171056c6ac2363ce07a26aed6fffa1c1a33d1732d7194390c239",
+    "bytes": 2510
+  },
+  {
+    "path": "test_numeric.py",
+    "sha256": "9e9fb47964fbe931c8a3ecc6aeb078cf846bce3dba464cd936f7392d8671d809",
+    "bytes": 2145
+  },
+  {
+    "path": "test_panel_contracts.py",
+    "sha256": "229bf1eee66cbfc6752c4993b69c4c8e2b675fd56cbb8a6ccd2dd2210b6f1511",
+    "bytes": 5754
+  },
+  {
+    "path": "test_panel_host.py",
+    "sha256": "87823a3736089ef0a66f6233d08ba84efc1f138426f489ec232f5335141198be",
+    "bytes": 22557
+  },
+  {
+    "path": "test_pc_mic_tester.py",
+    "sha256": "54d6ea37bb085324633fa8d05e600489f547b818157233b919b6b7a5557ac7bd",
+    "bytes": 3804
+  },
+  {
+    "path": "test_pc_shazam.py",
+    "sha256": "e4f91632c707aed99ea847c8315f85051f6735135f72c8761bea2af294619005",
+    "bytes": 7717
+  },
+  {
+    "path": "test_portable.py",
+    "sha256": "f9af572e0aeb66e4d006b058137026726f8b7717c3b48783c5f9d27f799ab9a5",
+    "bytes": 3667
+  },
+  {
+    "path": "test_rtl.py",
+    "sha256": "ccbf0283d38c69cbad5f8f573793d69ae2ecc9fb476716a308ff49bd2baef58b",
+    "bytes": 2124
+  },
+  {
+    "path": "test_songrec_probe.py",
+    "sha256": "cd381b755f378d62814e5124f6ed98eb8d0914799708cf4f6a34d3d73e73e158",
+    "bytes": 5492
+  },
+  {
+    "path": "test_tilt_game.py",
+    "sha256": "888392b4d106ce239581bbeb466944b5a6674e035338321241f8276e46d29ba2",
+    "bytes": 10247
+  },
+  {
+    "path": "test_tilt_game_board.py",
+    "sha256": "d60bd42235b68d12f38da08b639512d33ee53aa6c8cddcb95199558f639e59b2",
+    "bytes": 2641
+  },
+  {
+    "path": "test_triggers.py",
+    "sha256": "8ce030d8fe76598aa933a70a44165086f8f1f4b2b8adad47393af0b7f94fdffb",
+    "bytes": 2861
+  },
+  {
+    "path": "test_ui_contracts.py",
+    "sha256": "6fba33b0b410230c00be2fbb486207e6a3210b7ea69aca2a9ca399fb82f19944",
+    "bytes": 7315
+  },
+  {
+    "path": "tilt_game/__init__.py",
+    "sha256": "02dca50243d628ba84f17d1894a7a284a9d0e34a392d43cc3344679312bf77f3",
+    "bytes": 119
+  },
+  {
+    "path": "tilt_game/app.py",
+    "sha256": "d0a3ac30e8dd68ab1f01861e897577a9e74b2c9b971054e73451c7854873a3e2",
+    "bytes": 32009
+  },
+  {
+    "path": "tilt_game/audio.py",
+    "sha256": "6605ec9d5235c8344b44cfa244c8ea601ae9e6e6148d306ca680f7d60526e31d",
+    "bytes": 1669
+  },
+  {
+    "path": "tilt_game/board.py",
+    "sha256": "127e53748b8ba0a5363f60288f3d56c5803ead489e7c6e0dfbf37f3803a8c67f",
+    "bytes": 3466
+  },
+  {
+    "path": "tilt_game/embedded.py",
+    "sha256": "56333c04fa7e7aa23351503236e0c0319f918c91b7e4d66d67dc708d068b750e",
+    "bytes": 7724
+  },
+  {
+    "path": "tilt_game/engine.py",
+    "sha256": "0eda531550c1b343b287000573087fce403dfb464c7a54adf1f7d0673c65b192",
+    "bytes": 6517
+  },
+  {
+    "path": "tilt_game/input.py",
+    "sha256": "738e8b04c18a0d904fb818e93485bdc7e761f7d8852d0e9931a1231113332682",
+    "bytes": 8188
+  },
+  {
+    "path": "tilt_game/levels.py",
+    "sha256": "0e0e907bb3a7092da2908951f50c933123833e29e76f633818b62e4722745fad",
+    "bytes": 4748
+  },
+  {
+    "path": "tilt_game/render.py",
+    "sha256": "c7d6591121d23da93702f39cbd0a64572f9d1b6957def3de83d5c29ccf8ed118",
+    "bytes": 19951
+  },
+  {
+    "path": "tilt_game/storage.py",
+    "sha256": "fba1790df817e8f3d505b48b3bbd3a911e05963aa178a0f2dc7192a547bce40c",
+    "bytes": 4039
+  },
+  {
+    "path": "tilt_game_main.py",
+    "sha256": "eda3520cd979cca7593ea6ff6f279b749c0d90efbfcbc8e322d6ed983e9adfb9",
+    "bytes": 9888
+  },
+  {
+    "path": "tune_music_profile.py",
+    "sha256": "ef8e8d45af1f50d2704f5dedc6cf4c8ebd693a8e617abe49831739a3d80c5879",
+    "bytes": 4970
+  },
+  {
+    "path": "ui/__init__.py",
+    "sha256": "fe46190a2929aefbf1d4da853867086ce4caa3d5f928710e170b905e0f2afc9e",
+    "bytes": 80
+  },
+  {
+    "path": "ui/dashboard.py",
+    "sha256": "93ec5fe05ab4fc67280847323d33aea052df75c8855d515e8658bcbcc4748b7f",
+    "bytes": 10327
+  },
+  {
+    "path": "ui/theme.py",
+    "sha256": "f7cba1341eb4be7281d6e38763983a7ad4c730416c778280a83fdf25e8e31c21",
+    "bytes": 7060
+  },
+  {
+    "path": "ui_benchmark.py",
+    "sha256": "811733f1bbed94092891123909f813a9d1c6b9423db63ca0302c871fda3f06c4",
+    "bytes": 15215
+  },
+  {
+    "path": "ui_smoke.py",
+    "sha256": "79d93aa25e8577381f8f153aa68dafa440a760e8bf7fe9e3b3fdb068ca116edd",
+    "bytes": 13819
+  },
+  {
+    "path": "verify_game_embedding.py",
+    "sha256": "8612f46baa0c53fce16045744e0abc5430dfb2156de852cfadd6ed71ea2c8d62",
+    "bytes": 2526
+  },
+  {
+    "path": "verify_game_frozen.py",
+    "sha256": "508cb62e74d09aa241dbde21546a1a3c5cef4c459082c7d4a7d32e6dd51afbc3",
+    "bytes": 3328
+  },
+  {
+    "path": "verify_game_integration_live.py",
+    "sha256": "8bb7ec91c5abaa9a91e60c28c7b636ce7a1dc0d5fcb3334b46c03ee40acc1be6",
+    "bytes": 6611
+  },
+  {
+    "path": "verify_music_account.py",
+    "sha256": "1a686c6dc4734f180dbb060470adec808936b0a263b8b2814ea81fee773dc4d9",
+    "bytes": 1024
+  },
+  {
+    "path": "verify_music_api_capture.py",
+    "sha256": "59b142fb8a57e343a1c08e6a95f913a6ede62e5618575b60db378314d00022f9",
+    "bytes": 3643
+  },
+  {
+    "path": "verify_music_priority.py",
+    "sha256": "4c93921f84692ee354756b666969495eb22858cdb8480cbbdea4b4aec7731dbc",
+    "bytes": 2333
+  },
+  {
+    "path": "verify_offline.py",
+    "sha256": "d6718b273fdb3004bc87f1848be69109c929332e2511ca696aa1e097c5892f54",
+    "bytes": 1225
+  },
+  {
+    "path": "verify_pin_compatibility.py",
+    "sha256": "b5f03bc9bdfbc1f03461a3ad92c5964efc5c342abbdf866de4837dd4acfb60a8",
+    "bytes": 2506
+  },
+  {
+    "path": "verify_shazam_main.py",
+    "sha256": "5d6f243760eaaffc6c6b9deb4970dae1d511766c0508afb4239c08dc4461db3e",
+    "bytes": 6094
+  },
+  {
+    "path": "verify_speaker.py",
+    "sha256": "850e1d968ed8fb8391742985159260e4538fe1b792bf11728d9a22d3b99538c6",
+    "bytes": 2684
+  },
+  {
+    "path": "verify_tilt_game.py",
+    "sha256": "d160fbae9e3ce73d64281b1641e4bcf946c4d9e864e7b82320a8398f798a70d7",
+    "bytes": 8639
+  },
+  {
+    "path": "verify_tilt_game_physical.py",
+    "sha256": "107545b34d2618a59d242a4150dde20d1f00813c799d6fbc146d7223879dbb02",
+    "bytes": 3712
+  },
+  {
+    "path": "verify_tilt_game_ui.py",
+    "sha256": "6291d60eba0cba889811a2436adeeee99f660949cb0dd1d4e2dabd113fee5d1c",
+    "bytes": 5297
+  },
+  {
+    "path": "watch_portable_hotplug.py",
+    "sha256": "1e12395ba3d298db656298ae76b7611b2601fc2eee61175ea5d13489f4237b3c",
+    "bytes": 1597
+  }
+]

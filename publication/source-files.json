@@ -1,0 +1,1822 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 9,
+    "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 549,
+    "sha256": "6ac17f4c21db7dcbd3d2c88f4b55a325974423f229113edf20095635fd2e2d85"
+  },
+  {
+    "path": "Build-Report.ps1",
+    "bytes": 264,
+    "sha256": "7058114453adac66fbab6cfe1c15f0b688416d45b137ae118ae9674dc13d493d"
+  },
+  {
+    "path": "config/board_profile.json",
+    "bytes": 2076,
+    "sha256": "2414b030e51fecc99c9bd26ecebf3025c3c859a5fe55094c95a674110fe08fd1"
+  },
+  {
+    "path": "config/cover_information.json",
+    "bytes": 307,
+    "sha256": "26b9b71f89ba1641653e127caeef2d416941ab0fce37633c12ca3ebb39481f7d"
+  },
+  {
+    "path": "config/monitor_golden_frames.json",
+    "bytes": 6036,
+    "sha256": "04c768851e62bb0842d2199b5b69f918cb4123c52b017a52830875fcad49e3c6"
+  },
+  {
+    "path": "config/monitor_pin_connections.json",
+    "bytes": 5603,
+    "sha256": "ea185fa3e7f96189362bd58c8c80f83e1598174c68c19fbeca20591b3e7574ab"
+  },
+  {
+    "path": "config/music_8000_golden_frames.json",
+    "bytes": 402,
+    "sha256": "5f7fde2f8af19e3be5ae36d46d0c8931e6fc4b1cac9e9210d20300c1c1885110"
+  },
+  {
+    "path": "config/music_decimator.json",
+    "bytes": 669,
+    "sha256": "4cd80178255d62ede8233b36eeb1eb0b3e53efb673bf368d50f0629f860e31bf"
+  },
+  {
+    "path": "config/music_golden_frames.json",
+    "bytes": 1185,
+    "sha256": "538c016654d1566a9c9dec628792a5d9a13549fe92ce783e8d7e954385a6dcaa"
+  },
+  {
+    "path": "config/music_selected_playlist.json",
+    "bytes": 3892,
+    "sha256": "dca3de9314bf1892414b75fb0e2b4f76e325dd9acfe2fd9325e1215c21e58562"
+  },
+  {
+    "path": "config/pin_connections.json",
+    "bytes": 11422,
+    "sha256": "e7d212ea3df7063aab00b35ccac1111d66de216733e402a86344bbbb583a13a3"
+  },
+  {
+    "path": "constraints/nexys_a7_100t.xdc",
+    "bytes": 6998,
+    "sha256": "65fd06441943fd2b0b233c5bb6423138c1d6267d16cf440d9bbe34ed1d283c90"
+  },
+  {
+    "path": "evidence/final-complete-event/audio.wav",
+    "bytes": 48044,
+    "sha256": "f1ddffd0ea1c44fb64152500eca8508685554d110c680b40d2dee8b6fee1cafc"
+  },
+  {
+    "path": "evidence/final-complete-event/crc_blocks.json",
+    "bytes": 8141,
+    "sha256": "9eae934543ff7c04dad43df80ab97252c0a37677cba82900bb42c26c9549c3a4"
+  },
+  {
+    "path": "evidence/final-complete-event/metadata.json",
+    "bytes": 1492,
+    "sha256": "fc420cbc07e9d5e37527bab718d1bf442b44d25620f040c40d937a1dee919cb5"
+  },
+  {
+    "path": "evidence/final-complete-event/payload.bin",
+    "bytes": 50810,
+    "sha256": "9c67491c741dc26b7569967b1a271798f365a74efb366d5c262eeff8092f2928"
+  },
+  {
+    "path": "evidence/final-complete-event/xyz.csv",
+    "bytes": 13302,
+    "sha256": "4d8afd7c4519d5c8dab9a3b36c80e8c08f93502e2c0f1e6ae381ecba77f5bb01"
+  },
+  {
+    "path": "evidence/final-host-source-manifest.json",
+    "bytes": 27860,
+    "sha256": "b880923c26a68744fbcb2f0347bba61f7cd918e9ed2f4f3a13b5845baa7fe5d8"
+  },
+  {
+    "path": "evidence/fpga-build-inputs.json",
+    "bytes": 2925,
+    "sha256": "cffbc96cbffcb97aa4fd59691bf45e3b06a77e17753b125b65abee7b89dd5c43"
+  },
+  {
+    "path": "evidence/game-integration.json",
+    "bytes": 6490,
+    "sha256": "d1258e731f760cc7ecf848bb8982949cbed27479d74715e3a7bb3e9539af0b93"
+  },
+  {
+    "path": "evidence/game-physical-eight-levels.json",
+    "bytes": 3175,
+    "sha256": "d5164496ac97eb7e64666e6fbc7aab170dcee07f9951fef33f60742ebe01f7fd"
+  },
+  {
+    "path": "evidence/index.json",
+    "bytes": 1815,
+    "sha256": "c48b9739574379cf31e94eca61081671ef666334f8db5a294f9e54d3ed06b911"
+  },
+  {
+    "path": "evidence/shazam-archived-recording-replay.json",
+    "bytes": 10478,
+    "sha256": "bdc331d0c8819ef5f342e7f8ef5c1067aa30ebbff10661d007a6c1f9565371d9"
+  },
+  {
+    "path": "evidence/triple-abort-digital.json",
+    "bytes": 37203,
+    "sha256": "9a51fdfad40aac1dc83999dd54597fdafa64235eabcfbfdb88c727906e5c3e4e"
+  },
+  {
+    "path": "evidence/triple-abort-runtime.json",
+    "bytes": 133014,
+    "sha256": "ace693531f8a26e4380c740ab7bd903f66c87dd48a47a38a5888697429f69175"
+  },
+  {
+    "path": "evidence/UI-validation-summary.md",
+    "bytes": 2882,
+    "sha256": "cffb313224e3599d3e07bcf17e387254c25edc8b24cdb6086b3666edc55f0c15"
+  },
+  {
+    "path": "Get-RuntimeResources.ps1",
+    "bytes": 902,
+    "sha256": "e31e9b6ee6519dc7915b895c1903094009acfa99e85e8495f7a2694720e191bf"
+  },
+  {
+    "path": "host/adept_probe.py",
+    "bytes": 2248,
+    "sha256": "3c4ab52eff4d6eaf6bb1ab3cb06e22e5144491c3bf67236d3d7baa1590b258de"
+  },
+  {
+    "path": "host/after_collect.py",
+    "bytes": 2178,
+    "sha256": "83537cb92ef32b1a9ccba673451b0203640fc2deb8b20d65671b324d391e0778"
+  },
+  {
+    "path": "host/app_paths.py",
+    "bytes": 739,
+    "sha256": "4eaa9abda1880271d02b3cc16c8c3680f532cdd60bf6357674b90f6e77887f96"
+  },
+  {
+    "path": "host/archive_portable_acceptance.py",
+    "bytes": 5424,
+    "sha256": "c970601991bbc0a48e40dcfe9bb4c2b599d526d33bf7b9168c5fcd41d48bade0"
+  },
+  {
+    "path": "host/archive_portable_hotplug.py",
+    "bytes": 2703,
+    "sha256": "802eed95af4c62870d04ddf79c6e69c55e6d933f9e4567d71b201079d8a58bcb"
+  },
+  {
+    "path": "host/audio_probe.py",
+    "bytes": 1296,
+    "sha256": "898ea01d46699075b3788b28055f2ea588f64fb54a08661b8fa6bc4c96c8b6fb"
+  },
+  {
+    "path": "host/audio_stimulus.py",
+    "bytes": 3019,
+    "sha256": "c9642fb4698a1588b567ce2f5db66add1c536ce58a40b5bdb2f93ca702372759"
+  },
+  {
+    "path": "host/audit.py",
+    "bytes": 9803,
+    "sha256": "7a1fb5cf4a555376983d18ea90230585c9a6b1ab183b3edcf8a77ad19ef72a56"
+  },
+  {
+    "path": "host/board_replay_check.py",
+    "bytes": 2559,
+    "sha256": "703d697515afcf62917c69988f0b0c77c81d0c1c42ba1627b8f6fab2bb44a84e"
+  },
+  {
+    "path": "host/build_download_tool.py",
+    "bytes": 2654,
+    "sha256": "152af8ff71a73461b5dfadb23a82de105fa0183a056716410d634805151c8465"
+  },
+  {
+    "path": "host/build_logic.py",
+    "bytes": 2809,
+    "sha256": "46a18f147810812a930c1b2e4bb08674cbdf35c2aa9116a5a775c3a7f9763f4c"
+  },
+  {
+    "path": "host/build_pc_mic_tester.py",
+    "bytes": 2404,
+    "sha256": "94e33f52657df7058cdedba32924cac837b0b17282ba0984e764515ace35a7d0"
+  },
+  {
+    "path": "host/build_pc_shazam_tester.py",
+    "bytes": 4377,
+    "sha256": "d4566e4ea2a684b982d7bf8a057020d00cff708eda55e28801b8d4a7f7aab6b3"
+  },
+  {
+    "path": "host/build_portable.py",
+    "bytes": 6528,
+    "sha256": "94df5b30cdbb302ef62a600fd43aabda88bad30d976aa8ea90abdb114661dfe3"
+  },
+  {
+    "path": "host/build_shazam_main.py",
+    "bytes": 8872,
+    "sha256": "3aa20c5ed5946803139c6df3ce615704e4d347231ce25d922314e9ec13575391"
+  },
+  {
+    "path": "host/build_songrec_probe.py",
+    "bytes": 3979,
+    "sha256": "165671f3e035d44eed1b7ebea0ae676a4631178ecb74f2f342af6b29def575d5"
+  },
+  {
+    "path": "host/build_tilt_game.py",
+    "bytes": 5400,
+    "sha256": "2940f3efd964fb792b8c8dcd3e364d91ba4751704ca4072bc6368ab6c151cb09"
+  },
+  {
+    "path": "host/capture.py",
+    "bytes": 6782,
+    "sha256": "3118df16bfb46557c2c1897dcb28ea1471890644e63768befaa2fb33cffd8c59"
+  },
+  {
+    "path": "host/check_layout.py",
+    "bytes": 933,
+    "sha256": "ab3cd61a10fca5957c8513a4eccdec7bb602a95d12c6f9ead7388cb752790ff8"
+  },
+  {
+    "path": "host/check_output_constraints.py",
+    "bytes": 488,
+    "sha256": "cb4ce4c49f0d9c891ff08e6f652f54c16bf52a3d2bd958750d51d6c4f50308ff"
+  },
+  {
+    "path": "host/check_portable_exe.py",
+    "bytes": 1787,
+    "sha256": "aaf4dd00afcbaf01e0a6b7fe65d5ebc1506e8d12201ba8618473b077148836df"
+  },
+  {
+    "path": "host/collect.py",
+    "bytes": 15301,
+    "sha256": "7f61f4b3275f523baa3ad6a08da1f383a6c89aacaa6eadee9544e0a245887a6a"
+  },
+  {
+    "path": "host/design_music_decimator.py",
+    "bytes": 2973,
+    "sha256": "02243bad0fbb522e004ada6c292c70eaf0d62e0d73782ec11ca8b7f0454dbb8b"
+  },
+  {
+    "path": "host/device_discovery.py",
+    "bytes": 1478,
+    "sha256": "47cd89f30e5fa20d25fad1eaab790e9ef573789a0c2f8ef5f046fedfee676e24"
+  },
+  {
+    "path": "host/diagnose_music_density.py",
+    "bytes": 2419,
+    "sha256": "5b0166e66a9a53f2174518173856ea48c8ca1b00149fdcfd095ed6ab326dff0d"
+  },
+  {
+    "path": "host/diagnose_music_match.py",
+    "bytes": 1653,
+    "sha256": "466e7951de0adda7ab56c355444676d3bd82c5b15a9bb5b29bb6841acedc0650"
+  },
+  {
+    "path": "host/driver_setup.py",
+    "bytes": 2137,
+    "sha256": "62a7f0f81229b034b5d0121421b1691a11bad425ed7aa800020b422bd213d06e"
+  },
+  {
+    "path": "host/evaluate.py",
+    "bytes": 12118,
+    "sha256": "275c6557f12c187a5e55c7b6362e0be75efd220623d2751c9413df11a3c37bf5"
+  },
+  {
+    "path": "host/experiment.py",
+    "bytes": 3999,
+    "sha256": "cd8e50e6dda1b0ef2b210d28dcfc663fd26759159c4928dba744caaed4c71a11"
+  },
+  {
+    "path": "host/export_visual_gallery.py",
+    "bytes": 2928,
+    "sha256": "97a1634edb058a8307c3733311edfee3d18d5d88f420bbdbd348e3aaa60ff1df"
+  },
+  {
+    "path": "host/features.py",
+    "bytes": 5275,
+    "sha256": "22ff8f5cab8d0948997e08fc8881c6a1ebabc0e455e9f43ebfbdaea5d48dae02"
+  },
+  {
+    "path": "host/fetch_assets.py",
+    "bytes": 5235,
+    "sha256": "ef5401c0728474b52ac3c9f3f447c0230283773681fd4b6587a7e0952bb8f74d"
+  },
+  {
+    "path": "host/fetch_selected_music.py",
+    "bytes": 1574,
+    "sha256": "270b1c5f03bb75ebdc921eb110583ea9278ad7567931e3ced6a4b8595bbad0ce"
+  },
+  {
+    "path": "host/figures.py",
+    "bytes": 6083,
+    "sha256": "7a404d5e8fd02aaa1d315f5cd55d5ad01e9bf5018bcf452dcee3acc99cdf43f7"
+  },
+  {
+    "path": "host/finalize_delivery.py",
+    "bytes": 10090,
+    "sha256": "aa6456b810074f2036ca33291c3302637698cf3c780fde85d544e90dc59ad2f9"
+  },
+  {
+    "path": "host/finalize_monitor_delivery.py",
+    "bytes": 16477,
+    "sha256": "dd346c2bbef6d67108704327d4ee44a55c9a1f8538d90c54b8cdcabb439a86d0"
+  },
+  {
+    "path": "host/finalize_music_delivery.py",
+    "bytes": 6577,
+    "sha256": "c5b0383d488e6a24a2ac42b137aedc8e2f53fafcd28b7859182399b996e40927"
+  },
+  {
+    "path": "host/finalize_pc_shazam.py",
+    "bytes": 6926,
+    "sha256": "892ac442dfd4cddd5a118fceb321928bf5d230a32c0f0bf8378af13bd96dbced"
+  },
+  {
+    "path": "host/finalize_portable_delivery.py",
+    "bytes": 10709,
+    "sha256": "4d696528221a4ca06afbadb02dbdfa65d17aa20a25bbc9ca79b8fb43161925da"
+  },
+  {
+    "path": "host/finalize_report_revision.py",
+    "bytes": 8451,
+    "sha256": "4e370413c50d66775e3890b63a06ca52323b9587fe53b0e40841027e1dea013a"
+  },
+  {
+    "path": "host/finalize_shazam_main.py",
+    "bytes": 6318,
+    "sha256": "90827b186524ec732ba488a741b5d0f14ec2e1096366b0372e99d93998914e58"
+  },
+  {
+    "path": "host/finalize_tilt_game.py",
+    "bytes": 7129,
+    "sha256": "280467d62027fc615664b8cb72e4ff2f48ec20531f68261a1ff9fc5e8b72f409"
+  },
+  {
+    "path": "host/finalize_visual_delivery.py",
+    "bytes": 9114,
+    "sha256": "a1519f494ada9d73f62abcc6742c0120077d73ee17a1dc5bd5eff5f1b0f8832c"
+  },
+  {
+    "path": "host/game_session.py",
+    "bytes": 3832,
+    "sha256": "20038b1fb1f431406abfe1f76d64e3536909ac7a880eb6732f95cf39409808c2"
+  },
+  {
+    "path": "host/guidance.py",
+    "bytes": 3033,
+    "sha256": "ffa2631478bca0a2a11df71966b3cf79846c466591ca8a77593764d9cc2d1483"
+  },
+  {
+    "path": "host/guided_flow.py",
+    "bytes": 1399,
+    "sha256": "d625825366e46251fcef46348e3849580bb006673218860646877c6a34add4c3"
+  },
+  {
+    "path": "host/hardware.py",
+    "bytes": 3446,
+    "sha256": "73bd64a588a97c65d48ad659865437785604bf655b9e953f52e1b88cb8fe7d84"
+  },
+  {
+    "path": "host/harness.py",
+    "bytes": 6756,
+    "sha256": "393a5e38e3acd6d040ac3840ffcc049aca38df032a614d5202ac9c0b9b09e9b2"
+  },
+  {
+    "path": "host/inspect_references.py",
+    "bytes": 2766,
+    "sha256": "a11e3e5580cf169e54a521323fe7670993f40f79c19e26cb91b2aad01355b3c9"
+  },
+  {
+    "path": "host/launch_guided_flow.py",
+    "bytes": 1109,
+    "sha256": "fcbbb034e1289ad7aee51774ff9bad418c5d0968527928777c2219e7253f99b5"
+  },
+  {
+    "path": "host/launch_monitor.py",
+    "bytes": 1259,
+    "sha256": "15deaae6448f7d477ffbc65f237f86668bc9e771d124f3c81c560df12607346e"
+  },
+  {
+    "path": "host/monitor_control.py",
+    "bytes": 1262,
+    "sha256": "c7c3f09d39ef53bbe59f438c5c82c9e72837292dbb07362617a5aa4f31d44ad8"
+  },
+  {
+    "path": "host/monitor_demo_sound.py",
+    "bytes": 654,
+    "sha256": "a444466393422b32b9acafa47c8af516fe42bbbc91e84a00de202233c509b51e"
+  },
+  {
+    "path": "host/monitor_gui.py",
+    "bytes": 40642,
+    "sha256": "5fb579e2405020c3080a9ec58d40d48863f97606b34d8abbb3936320136c2ce7"
+  },
+  {
+    "path": "host/monitor_probe.py",
+    "bytes": 4010,
+    "sha256": "1eb19dc6b65001a36cb5c5c26b462332bc14822cb68752c34d1affdfddc04c23"
+  },
+  {
+    "path": "host/monitor_protocol.py",
+    "bytes": 5334,
+    "sha256": "e732cdc3a7a7f4d148b745a2ac7d903fc86e221dcfc0c7069a008613f35d96c7"
+  },
+  {
+    "path": "host/monitor_regression.py",
+    "bytes": 4739,
+    "sha256": "f3c1f4c9fad0b7cbb215b6e5e8eb206ca3c4deb16d9098ace9955d5f5d0e58e2"
+  },
+  {
+    "path": "host/monitor_report_content.py",
+    "bytes": 18830,
+    "sha256": "d7391ea875d5228c1acad352e137c0aaa342f087c1257bd6d7c1ff5c82538203"
+  },
+  {
+    "path": "host/monitor_service.py",
+    "bytes": 18478,
+    "sha256": "02a6367f550bf9462d926b09613fa838e5b7b9324e3743ee969ab76ccced7ce4"
+  },
+  {
+    "path": "host/music_api_wizard.py",
+    "bytes": 6800,
+    "sha256": "f5bf71817781eeb20ae2345d11805e6bda326228b2f50a39a465a4e702959a22"
+  },
+  {
+    "path": "host/music_board.py",
+    "bytes": 17336,
+    "sha256": "7921e1b6697a57369918707024f3fefc4b12d0708730d6a4cf450091cbc0a3f1"
+  },
+  {
+    "path": "host/music_credentials.py",
+    "bytes": 4060,
+    "sha256": "d6a2af17276ebe1e8b1db7ae889acf9fa52925a19c801f5891b90235be927f26"
+  },
+  {
+    "path": "host/music_evidence.py",
+    "bytes": 4176,
+    "sha256": "1271dd89041ddedc4677c6c04c71527a657d46c58b89356dc1828979bf12bbd7"
+  },
+  {
+    "path": "host/music_gui.py",
+    "bytes": 37357,
+    "sha256": "939cc62f1fb4c9e72486330e3ecd42be39cc4bccbeb80d7592b496afda8d7551"
+  },
+  {
+    "path": "host/music_gui_pilot.py",
+    "bytes": 2568,
+    "sha256": "438719059f38d94a1ed896ef1b38d142be835bbb0ededb779b4ee606792be051"
+  },
+  {
+    "path": "host/music_library.py",
+    "bytes": 9697,
+    "sha256": "a684c50c9ed93cf1e66238f1ded1182a0e7f735b22b97b026e9fd6199c278e21"
+  },
+  {
+    "path": "host/music_native_online_probe.py",
+    "bytes": 2724,
+    "sha256": "690d6a05c519dcabb6d615d8f0ec9b0b5e951e61edfefa88df8074415773feef"
+  },
+  {
+    "path": "host/music_online.py",
+    "bytes": 14649,
+    "sha256": "0a1839287bb339106bf7825ecc6f0d4f8f8c2e3e391dc39b552a157ebb5e36cb"
+  },
+  {
+    "path": "host/music_online_acceptance.py",
+    "bytes": 3114,
+    "sha256": "f966a916b1b0f7fd454927f85974ddf17819f98f49480002c02d70a439f4d628"
+  },
+  {
+    "path": "host/music_online_wizard.py",
+    "bytes": 11893,
+    "sha256": "9b3a672512decaddfdc6c5a256d8f74e2484f761989ad39071a04e1bfc855b96"
+  },
+  {
+    "path": "host/music_physical_probe.py",
+    "bytes": 7378,
+    "sha256": "cf4f88d8fb952ca31d10097587b082e89cdae373d302be8019e0e32684346345"
+  },
+  {
+    "path": "host/music_protocol.py",
+    "bytes": 4085,
+    "sha256": "2e16c6029f9e6137798139ab329323a89b3e40dbdc9ab497a0a09dcf1a878d2b"
+  },
+  {
+    "path": "host/music_report_content.py",
+    "bytes": 35772,
+    "sha256": "aa8a3ff9d62424f2b88e254e8efc3c5b86b31d1d399a962c0dc97e2eb9bb3604"
+  },
+  {
+    "path": "host/music_seed.py",
+    "bytes": 2489,
+    "sha256": "78d87194df9bc452c4553aedd09ad906e16f88818f39564170ff33f30c99ac81"
+  },
+  {
+    "path": "host/music_service_length_probe.py",
+    "bytes": 1467,
+    "sha256": "b05c7747653d74c0b55bf613367047741f06494fe9207fc01669f5ca29fa8d06"
+  },
+  {
+    "path": "host/music_shazam.py",
+    "bytes": 6082,
+    "sha256": "a092f385e79fd19ac3a7a9fe292c43cd0832eb53443500cdb4189b16df7cb41f"
+  },
+  {
+    "path": "host/music_store.py",
+    "bytes": 5710,
+    "sha256": "837066458d011ed59b154e332710c60e22fd05082021c18814d41b8e78e6690f"
+  },
+  {
+    "path": "host/music_upload.py",
+    "bytes": 2149,
+    "sha256": "827711d007699f8c29ebd4198bf4ddce4f36590c3a9b16e87f2150bdf36ba0ec"
+  },
+  {
+    "path": "host/music_wizard.py",
+    "bytes": 32964,
+    "sha256": "4c22726a2e769cb30feb72a2a67d39fc79f7112a66edfd86649580ddc8f67a0d"
+  },
+  {
+    "path": "host/music_worker.py",
+    "bytes": 11461,
+    "sha256": "435596eaa62fb05da903e92b36fd39ef4c8bcf5f8243ae1b5afa9736494dd20c"
+  },
+  {
+    "path": "host/panel_control.py",
+    "bytes": 8548,
+    "sha256": "1e739e6e7d0ac6619e0b0dcc691977d31f4fc0d1b0fa49e4dd82da3e7a8d048d"
+  },
+  {
+    "path": "host/panel_protocol.py",
+    "bytes": 1928,
+    "sha256": "f94fe309c825611c00a709aa2812ba6a8295602d7c9906ff1860aca9230cd5f8"
+  },
+  {
+    "path": "host/pause_music.py",
+    "bytes": 10462,
+    "sha256": "d03cce23736efb998c48971c7a5feb8feb1ab7196797c055f427ea772e6b5c7b"
+  },
+  {
+    "path": "host/pc_mic_backend.py",
+    "bytes": 6176,
+    "sha256": "cf4f89ed73178f2988cc59fba3faa9bc96effe63189829bf39091eef396f17c6"
+  },
+  {
+    "path": "host/pc_mic_capture.py",
+    "bytes": 5490,
+    "sha256": "4c62d745f85d8cf400bb3f9c4e89146932fdc6f04560b675ea9d47a8fc91a923"
+  },
+  {
+    "path": "host/pc_mic_tester.py",
+    "bytes": 17035,
+    "sha256": "62f36a570ec6b0e6eed3139d824c1dc99181534279785b1bafb6c5b68e1aff8a"
+  },
+  {
+    "path": "host/pc_shazam_backend.py",
+    "bytes": 14909,
+    "sha256": "93c47e135e46078d6e100406a9244a97ab119caaad196236245345b0a1de4dfe"
+  },
+  {
+    "path": "host/pc_shazam_tester.py",
+    "bytes": 18858,
+    "sha256": "9f3ca3eefea27d9e11972ec7bac38a2b8113bbace2777151ec55a1a25d070a9f"
+  },
+  {
+    "path": "host/plot_style.py",
+    "bytes": 1064,
+    "sha256": "3123f3ead891432997239358af12cfcbbbc64fb87d120e1c8f231195193b6dc2"
+  },
+  {
+    "path": "host/portable_main.py",
+    "bytes": 3276,
+    "sha256": "820460b84700907198dde6c3c0c9b87a48ac488b518318df9dcd9c7e739153e8"
+  },
+  {
+    "path": "host/portable_program.py",
+    "bytes": 3956,
+    "sha256": "d091438e908a4c27df252aaa8b0397e771824af203dd34de80e48358365c5940"
+  },
+  {
+    "path": "host/portable_report_content.py",
+    "bytes": 9741,
+    "sha256": "95045a6fa050febbf7b8c2068c740b70ecb86fb71fcbb6797d25160fe46e1885"
+  },
+  {
+    "path": "host/prepare_monitor_pins.py",
+    "bytes": 2118,
+    "sha256": "c54d331c32118ca5ec52c66c8b40da37ad1461e91c22305503198920f05e4a48"
+  },
+  {
+    "path": "host/prepare_monitor_ui_review.py",
+    "bytes": 1706,
+    "sha256": "6df64ee2db0d306b45fccb7a3716ae4b965595b043df4c47a3bab50d2e981853"
+  },
+  {
+    "path": "host/prepare_music.py",
+    "bytes": 5542,
+    "sha256": "bb54c7830a613d46f847d4068aa539f97aeb0eafc19f27a508cfff7114e0d27f"
+  },
+  {
+    "path": "host/prepare_music_library.py",
+    "bytes": 2290,
+    "sha256": "1e90500d0a7ab16d8294c54d2c7617de2f72d3a07c4d08f4f01d4880123b20e1"
+  },
+  {
+    "path": "host/prepare_portable_tools.py",
+    "bytes": 2315,
+    "sha256": "1eaa5d84c8e91aed60f39d7983fbb85d0e4829be04c0c3bfe6a45cd64d8a777e"
+  },
+  {
+    "path": "host/prepare_report.py",
+    "bytes": 3043,
+    "sha256": "17c5fdcc1773f1a11e7995bc5850816800ca862386a15728bdb92338b47bf63a"
+  },
+  {
+    "path": "host/pressure_check.py",
+    "bytes": 2131,
+    "sha256": "04c09a8cf35a67556dd55015a05621e8e75ca94820f7c8fbafa164c6e786c9d4"
+  },
+  {
+    "path": "host/probe_openocd.py",
+    "bytes": 1300,
+    "sha256": "34a9137400d9ed416e6b1f89b2ba2055cac66380a8aac617f312682bcdd6510c"
+  },
+  {
+    "path": "host/program.py",
+    "bytes": 2159,
+    "sha256": "76c472c8929ba9b90fdfca97d53e2f7ab373aa74617ae1565e7f2c01f202197d"
+  },
+  {
+    "path": "host/program_monitor.py",
+    "bytes": 385,
+    "sha256": "d235b36e9c4c7b8e01d8f32ea3c7f26b580fa8e301fad48352ad5860026bf7fa"
+  },
+  {
+    "path": "host/protocol.py",
+    "bytes": 4219,
+    "sha256": "4dd0848bcacc08452f7d93b2b14e0439573a2a9639d1ab470d088bb426a9a1ac"
+  },
+  {
+    "path": "host/publish_game_integration.py",
+    "bytes": 8432,
+    "sha256": "c4f83be12f3500a2a243ca4dfb3e0c9995d047f8eba0bff8fb1302416f4880d4"
+  },
+  {
+    "path": "host/recover_build.py",
+    "bytes": 1922,
+    "sha256": "742935be3d0009456df15897d3e472399c7f602a869ac94c8a4fa636b8d2f669"
+  },
+  {
+    "path": "host/reference.py",
+    "bytes": 4034,
+    "sha256": "088b5c61c71e27c1ef9bb4d9babb8a98d5b603cdc5d688a7a01db181bb86d29e"
+  },
+  {
+    "path": "host/refine.py",
+    "bytes": 1528,
+    "sha256": "2352a3806b3368e4bbd715610332d5a1ddfda332693ffed8cbf59961b48d412a"
+  },
+  {
+    "path": "host/refine_music_tap_from_evidence.py",
+    "bytes": 1656,
+    "sha256": "c802ea646216472eeeb4ce20920eb82d58c4de890d743514e9cc2e4e8b978252"
+  },
+  {
+    "path": "host/render_pdf.py",
+    "bytes": 1150,
+    "sha256": "24753d6ee07c3a448e1c8e872d93d14b1c4aeb7a302a2ec25bec1b71de61e3af"
+  },
+  {
+    "path": "host/report.py",
+    "bytes": 10150,
+    "sha256": "b3590a9361371ce4b8b20115ac24804a48507f3e55b6933f5ffd7afef76c3c5b"
+  },
+  {
+    "path": "host/report_content.py",
+    "bytes": 23013,
+    "sha256": "359b4547ce13acaf7983c0b34c9dcca78aeea16e5db65170b5da1bbc8548ba67"
+  },
+  {
+    "path": "host/report_visuals.py",
+    "bytes": 35013,
+    "sha256": "26e14e1fb39846c521480b6ceb1a56dd54c1348e3cb57fac4b0dd2fad00ef37d"
+  },
+  {
+    "path": "host/resume_route.py",
+    "bytes": 1281,
+    "sha256": "5e72a5ffa3fe204c939e05def9fea280c299ec5041c21f50879f9f48254ddb33"
+  },
+  {
+    "path": "host/save_pause.py",
+    "bytes": 2787,
+    "sha256": "413def99442b769516f548d7ed84901608e64a5d1f0880961d46a3aaa20dc064"
+  },
+  {
+    "path": "host/select_music_playlist.py",
+    "bytes": 1625,
+    "sha256": "18671c2bcd294f26ec14639d7ffab46246e9873b5ffa046c7facb30bd8e6bc32"
+  },
+  {
+    "path": "host/selftest.py",
+    "bytes": 5880,
+    "sha256": "2b8c471915d272feadb7d7b653153a15217cf487cc9e5e122395eb3945b4e22f"
+  },
+  {
+    "path": "host/songrec_probe.py",
+    "bytes": 16939,
+    "sha256": "ff8d70a642d2a73e289eb2789694f1ae790a765610bd50baf0db93ec8ad294e2"
+  },
+  {
+    "path": "host/songrec_probe_gui.py",
+    "bytes": 14609,
+    "sha256": "b2cfb650f770028876735f08098d3e936599f8d766bd0bb650449bdb703f6a00"
+  },
+  {
+    "path": "host/stage_music_assets.py",
+    "bytes": 1839,
+    "sha256": "58f67a32276c785f170a959d8aff10f6c90aeb4abf84f84a220eee1b4896d535"
+  },
+  {
+    "path": "host/stop_build.py",
+    "bytes": 757,
+    "sha256": "5ab63b0f19c572025c9824d9bb2e885b3a5d3f3d2adea802bbf089e9aa3971c4"
+  },
+  {
+    "path": "host/test_board_panel_rtl.py",
+    "bytes": 2558,
+    "sha256": "f2f3488a3c2d80bc0585cb09b8151a4f2056d1c7f7a4df66274df8b554b9c701"
+  },
+  {
+    "path": "host/test_engine.py",
+    "bytes": 4688,
+    "sha256": "777a707624b7426f2450ceea0911934a2dd89ebabafafc50771d0e29ead6fe29"
+  },
+  {
+    "path": "host/test_features.py",
+    "bytes": 1864,
+    "sha256": "ddabd0bbfcfd4087861fe184e5c722cdd7d97692e05a7a90225e67e05cf4b3e4"
+  },
+  {
+    "path": "host/test_game_integration_contracts.py",
+    "bytes": 2000,
+    "sha256": "cb89b12a36958f8bdbab5e9bed2c1ade09b9d33fe149c1da85fe2ced4e23d0bb"
+  },
+  {
+    "path": "host/test_game_session.py",
+    "bytes": 6238,
+    "sha256": "83afe5f93fae726b6ff72003afb05f1c4aefb5be9ca63a6df8d8873a5cb8fa6e"
+  },
+  {
+    "path": "host/test_latency.py",
+    "bytes": 3083,
+    "sha256": "8bb63a009a550890d64de6b5ffe422b8fd4c7842a53a5c6e025c775b66bb3504"
+  },
+  {
+    "path": "host/test_link.py",
+    "bytes": 1642,
+    "sha256": "8751eba162fa8ad0ab3b1397e3f325d87344da0aa97a392736da37e9241fda43"
+  },
+  {
+    "path": "host/test_monitor.py",
+    "bytes": 3718,
+    "sha256": "b9721689f4b6014cff0939ea4a028cd7fd3a8f0d434615ff912ea320ad7da56b"
+  },
+  {
+    "path": "host/test_music_abort_rtl.py",
+    "bytes": 3039,
+    "sha256": "b606452f8e6620e6be49a3e79bdae94fd1cd7cc5edd18a7b922b6a5a3f464bd9"
+  },
+  {
+    "path": "host/test_music_api.py",
+    "bytes": 4612,
+    "sha256": "19a9122cf1bc638889487bc990b5fd6113ce80c44309f88cbb1344d2af1f23b2"
+  },
+  {
+    "path": "host/test_music_api_wizard.py",
+    "bytes": 2405,
+    "sha256": "fb8a5ee222cb4c82a9ca85e4f3a6b5cff403419977891bbe1dab3815bcffa03a"
+  },
+  {
+    "path": "host/test_music_board_cancel.py",
+    "bytes": 14850,
+    "sha256": "b9c08c3be9a02fadb7035540b6cae920173265a8cd3ed969db9967393cdd1940"
+  },
+  {
+    "path": "host/test_music_cancel.py",
+    "bytes": 10010,
+    "sha256": "6da985485e0923bd6e0ff318074446da5b164472d2a5d0adc9e8e95aa42dcc08"
+  },
+  {
+    "path": "host/test_music_decimator.py",
+    "bytes": 2376,
+    "sha256": "dc16c801fe8451f5ae4fd0fdf7560deee8febe9052cf53583a924abc5e133b9a"
+  },
+  {
+    "path": "host/test_music_engine_cancel.py",
+    "bytes": 7139,
+    "sha256": "041ae3fde70ebdc718c178894a62f1d7c3dabe5468f57ec05ebeb10361506ea8"
+  },
+  {
+    "path": "host/test_music_packaged.py",
+    "bytes": 3292,
+    "sha256": "53b6be4596e7bcc4eddb777b7677b8285d1dd83742b4ed5a0150fc33cf10d110"
+  },
+  {
+    "path": "host/test_music_panel_quiet.py",
+    "bytes": 2095,
+    "sha256": "ed7c1505eeff2f9f7c0a2d6dbedfdc38398b4ea8b77053eecfb7d99a4c6b94eb"
+  },
+  {
+    "path": "host/test_music_resume.py",
+    "bytes": 4238,
+    "sha256": "909717bb8b0b48b77e6fc4da8266baa2de1967e55feb89ddfcb941a0dc3343d4"
+  },
+  {
+    "path": "host/test_music_rtl.py",
+    "bytes": 2095,
+    "sha256": "ba4f610b06cc70d04c65c06e5776dad487d20dcbbfc4456393c442a40225bca6"
+  },
+  {
+    "path": "host/test_music_seed.py",
+    "bytes": 1677,
+    "sha256": "efe2091cb95e8fb870a218d2ac70ff272db29646bcdddad9d8f222ab45b71c5d"
+  },
+  {
+    "path": "host/test_music_shazam.py",
+    "bytes": 5435,
+    "sha256": "25bc167cd0994c9e78db2e24936a8ee34021f5998c5e9663873b48d4a089ea9c"
+  },
+  {
+    "path": "host/test_music_software.py",
+    "bytes": 7212,
+    "sha256": "5af5a7d3c2263e95416a55e61086c4d4e7568b2705f33f1b847729f294d48545"
+  },
+  {
+    "path": "host/test_music_tap.py",
+    "bytes": 950,
+    "sha256": "73d813c6c1edaa416c76c40b848a7fa46074f0aef182ddd853bd31b77e836d38"
+  },
+  {
+    "path": "host/test_music_tap1000.py",
+    "bytes": 1265,
+    "sha256": "94755523d0ecb39ed64286eb454a46e3c5977b0ca8dcdab49725abb5add90b00"
+  },
+  {
+    "path": "host/test_music_triple_rtl.py",
+    "bytes": 2510,
+    "sha256": "f19231cc2ac0171056c6ac2363ce07a26aed6fffa1c1a33d1732d7194390c239"
+  },
+  {
+    "path": "host/test_numeric.py",
+    "bytes": 2145,
+    "sha256": "9e9fb47964fbe931c8a3ecc6aeb078cf846bce3dba464cd936f7392d8671d809"
+  },
+  {
+    "path": "host/test_panel_contracts.py",
+    "bytes": 5754,
+    "sha256": "229bf1eee66cbfc6752c4993b69c4c8e2b675fd56cbb8a6ccd2dd2210b6f1511"
+  },
+  {
+    "path": "host/test_panel_host.py",
+    "bytes": 22557,
+    "sha256": "87823a3736089ef0a66f6233d08ba84efc1f138426f489ec232f5335141198be"
+  },
+  {
+    "path": "host/test_pc_mic_tester.py",
+    "bytes": 3804,
+    "sha256": "54d6ea37bb085324633fa8d05e600489f547b818157233b919b6b7a5557ac7bd"
+  },
+  {
+    "path": "host/test_pc_shazam.py",
+    "bytes": 7717,
+    "sha256": "e4f91632c707aed99ea847c8315f85051f6735135f72c8761bea2af294619005"
+  },
+  {
+    "path": "host/test_portable.py",
+    "bytes": 3667,
+    "sha256": "f9af572e0aeb66e4d006b058137026726f8b7717c3b48783c5f9d27f799ab9a5"
+  },
+  {
+    "path": "host/test_rtl.py",
+    "bytes": 2124,
+    "sha256": "ccbf0283d38c69cbad5f8f573793d69ae2ecc9fb476716a308ff49bd2baef58b"
+  },
+  {
+    "path": "host/test_songrec_probe.py",
+    "bytes": 5492,
+    "sha256": "cd381b755f378d62814e5124f6ed98eb8d0914799708cf4f6a34d3d73e73e158"
+  },
+  {
+    "path": "host/test_tilt_game.py",
+    "bytes": 10247,
+    "sha256": "888392b4d106ce239581bbeb466944b5a6674e035338321241f8276e46d29ba2"
+  },
+  {
+    "path": "host/test_tilt_game_board.py",
+    "bytes": 2641,
+    "sha256": "d60bd42235b68d12f38da08b639512d33ee53aa6c8cddcb95199558f639e59b2"
+  },
+  {
+    "path": "host/test_triggers.py",
+    "bytes": 2861,
+    "sha256": "8ce030d8fe76598aa933a70a44165086f8f1f4b2b8adad47393af0b7f94fdffb"
+  },
+  {
+    "path": "host/test_ui_contracts.py",
+    "bytes": 7315,
+    "sha256": "6fba33b0b410230c00be2fbb486207e6a3210b7ea69aca2a9ca399fb82f19944"
+  },
+  {
+    "path": "host/tilt_game/__init__.py",
+    "bytes": 119,
+    "sha256": "02dca50243d628ba84f17d1894a7a284a9d0e34a392d43cc3344679312bf77f3"
+  },
+  {
+    "path": "host/tilt_game/app.py",
+    "bytes": 32009,
+    "sha256": "d0a3ac30e8dd68ab1f01861e897577a9e74b2c9b971054e73451c7854873a3e2"
+  },
+  {
+    "path": "host/tilt_game/audio.py",
+    "bytes": 1669,
+    "sha256": "6605ec9d5235c8344b44cfa244c8ea601ae9e6e6148d306ca680f7d60526e31d"
+  },
+  {
+    "path": "host/tilt_game/board.py",
+    "bytes": 3466,
+    "sha256": "127e53748b8ba0a5363f60288f3d56c5803ead489e7c6e0dfbf37f3803a8c67f"
+  },
+  {
+    "path": "host/tilt_game/embedded.py",
+    "bytes": 7724,
+    "sha256": "56333c04fa7e7aa23351503236e0c0319f918c91b7e4d66d67dc708d068b750e"
+  },
+  {
+    "path": "host/tilt_game/engine.py",
+    "bytes": 6517,
+    "sha256": "0eda531550c1b343b287000573087fce403dfb464c7a54adf1f7d0673c65b192"
+  },
+  {
+    "path": "host/tilt_game/input.py",
+    "bytes": 8188,
+    "sha256": "738e8b04c18a0d904fb818e93485bdc7e761f7d8852d0e9931a1231113332682"
+  },
+  {
+    "path": "host/tilt_game/levels.py",
+    "bytes": 4748,
+    "sha256": "0e0e907bb3a7092da2908951f50c933123833e29e76f633818b62e4722745fad"
+  },
+  {
+    "path": "host/tilt_game/render.py",
+    "bytes": 19951,
+    "sha256": "c7d6591121d23da93702f39cbd0a64572f9d1b6957def3de83d5c29ccf8ed118"
+  },
+  {
+    "path": "host/tilt_game/storage.py",
+    "bytes": 4039,
+    "sha256": "fba1790df817e8f3d505b48b3bbd3a911e05963aa178a0f2dc7192a547bce40c"
+  },
+  {
+    "path": "host/tilt_game_main.py",
+    "bytes": 9888,
+    "sha256": "eda3520cd979cca7593ea6ff6f279b749c0d90efbfcbc8e322d6ed983e9adfb9"
+  },
+  {
+    "path": "host/tune_music_profile.py",
+    "bytes": 4970,
+    "sha256": "ef8e8d45af1f50d2704f5dedc6cf4c8ebd693a8e617abe49831739a3d80c5879"
+  },
+  {
+    "path": "host/ui/__init__.py",
+    "bytes": 80,
+    "sha256": "fe46190a2929aefbf1d4da853867086ce4caa3d5f928710e170b905e0f2afc9e"
+  },
+  {
+    "path": "host/ui/dashboard.py",
+    "bytes": 10327,
+    "sha256": "93ec5fe05ab4fc67280847323d33aea052df75c8855d515e8658bcbcc4748b7f"
+  },
+  {
+    "path": "host/ui/theme.py",
+    "bytes": 7060,
+    "sha256": "f7cba1341eb4be7281d6e38763983a7ad4c730416c778280a83fdf25e8e31c21"
+  },
+  {
+    "path": "host/ui_benchmark.py",
+    "bytes": 15215,
+    "sha256": "811733f1bbed94092891123909f813a9d1c6b9423db63ca0302c871fda3f06c4"
+  },
+  {
+    "path": "host/ui_smoke.py",
+    "bytes": 13819,
+    "sha256": "79d93aa25e8577381f8f153aa68dafa440a760e8bf7fe9e3b3fdb068ca116edd"
+  },
+  {
+    "path": "host/verify_game_embedding.py",
+    "bytes": 2526,
+    "sha256": "8612f46baa0c53fce16045744e0abc5430dfb2156de852cfadd6ed71ea2c8d62"
+  },
+  {
+    "path": "host/verify_game_frozen.py",
+    "bytes": 3328,
+    "sha256": "508cb62e74d09aa241dbde21546a1a3c5cef4c459082c7d4a7d32e6dd51afbc3"
+  },
+  {
+    "path": "host/verify_game_integration_live.py",
+    "bytes": 6611,
+    "sha256": "8bb7ec91c5abaa9a91e60c28c7b636ce7a1dc0d5fcb3334b46c03ee40acc1be6"
+  },
+  {
+    "path": "host/verify_music_account.py",
+    "bytes": 1024,
+    "sha256": "1a686c6dc4734f180dbb060470adec808936b0a263b8b2814ea81fee773dc4d9"
+  },
+  {
+    "path": "host/verify_music_api_capture.py",
+    "bytes": 3643,
+    "sha256": "59b142fb8a57e343a1c08e6a95f913a6ede62e5618575b60db378314d00022f9"
+  },
+  {
+    "path": "host/verify_music_priority.py",
+    "bytes": 2333,
+    "sha256": "4c93921f84692ee354756b666969495eb22858cdb8480cbbdea4b4aec7731dbc"
+  },
+  {
+    "path": "host/verify_offline.py",
+    "bytes": 1225,
+    "sha256": "d6718b273fdb3004bc87f1848be69109c929332e2511ca696aa1e097c5892f54"
+  },
+  {
+    "path": "host/verify_pin_compatibility.py",
+    "bytes": 2506,
+    "sha256": "b5f03bc9bdfbc1f03461a3ad92c5964efc5c342abbdf866de4837dd4acfb60a8"
+  },
+  {
+    "path": "host/verify_shazam_main.py",
+    "bytes": 6094,
+    "sha256": "5d6f243760eaaffc6c6b9deb4970dae1d511766c0508afb4239c08dc4461db3e"
+  },
+  {
+    "path": "host/verify_speaker.py",
+    "bytes": 2684,
+    "sha256": "850e1d968ed8fb8391742985159260e4538fe1b792bf11728d9a22d3b99538c6"
+  },
+  {
+    "path": "host/verify_tilt_game.py",
+    "bytes": 8639,
+    "sha256": "d160fbae9e3ce73d64281b1641e4bcf946c4d9e864e7b82320a8398f798a70d7"
+  },
+  {
+    "path": "host/verify_tilt_game_physical.py",
+    "bytes": 3712,
+    "sha256": "107545b34d2618a59d242a4150dde20d1f00813c799d6fbc146d7223879dbb02"
+  },
+  {
+    "path": "host/verify_tilt_game_ui.py",
+    "bytes": 5297,
+    "sha256": "6291d60eba0cba889811a2436adeeee99f660949cb0dd1d4e2dabd113fee5d1c"
+  },
+  {
+    "path": "host/watch_portable_hotplug.py",
+    "bytes": 1597,
+    "sha256": "1e12395ba3d298db656298ae76b7611b2601fc2eee61175ea5d13489f4237b3c"
+  },
+  {
+    "path": "monitor.ps1",
+    "bytes": 1735,
+    "sha256": "91d11f896e879ee0fb408239a2a7e706a9552ab10f66bc466a3dfdaf00dc4aad"
+  },
+  {
+    "path": "publication/accepted-host-source.json",
+    "bytes": 27860,
+    "sha256": "b880923c26a68744fbcb2f0347bba61f7cd918e9ed2f4f3a13b5845baa7fe5d8"
+  },
+  {
+    "path": "publication/release.json",
+    "bytes": 1811,
+    "sha256": "7d8b037632bb81375c3314e086b2b8bde689bf8cf0cdeeb716c29ab6c7a242b8"
+  },
+  {
+    "path": "publication/source-boundary.md",
+    "bytes": 702,
+    "sha256": "de353139ad15acf95b4f627db32aac63e46f622f53ba213f5d20637249aa81a6"
+  },
+  {
+    "path": "README.md",
+    "bytes": 6334,
+    "sha256": "d180ca00d0b9905549d885b03aedffaa43c4d35f364d09b47c0cf547fc32f507"
+  },
+  {
+    "path": "report/final/01-functions.tex",
+    "bytes": 7576,
+    "sha256": "631a40dec941aefacb0dce1f781dd5b8222b44ffa84538c1903279659157d2fc"
+  },
+  {
+    "path": "report/final/02-hardware.tex",
+    "bytes": 7489,
+    "sha256": "09cb637ec921c978a497de2b97953bae31a9c4105d944673a1fc528cfe4c8296"
+  },
+  {
+    "path": "report/final/03-software.tex",
+    "bytes": 8028,
+    "sha256": "b68d063a107916b8b6c2f8fd96cf47eaf68ae5e1019f9ed4d8148a7ee98b6cf9"
+  },
+  {
+    "path": "report/final/04-techniques.tex",
+    "bytes": 7825,
+    "sha256": "63e8774fbdcb849f03d49555321f5d7d29d44a77b140c13def37edfbb9d486c9"
+  },
+  {
+    "path": "report/final/05-validation.tex",
+    "bytes": 8433,
+    "sha256": "8c1a6aa230a1b97ecee415ff79365560a05de03bbecb4af3d8ae3a487752afa6"
+  },
+  {
+    "path": "report/final/06-conclusion.tex",
+    "bytes": 2284,
+    "sha256": "36377b3c67390b9d5418cfe4a9c277297fa52d328e715a956501d2de925afad7"
+  },
+  {
+    "path": "report/final/appendix.tex",
+    "bytes": 2387,
+    "sha256": "da461fd978342fd26eef32c23148c07f05af5d32bc5649dbb3d01550289ce643"
+  },
+  {
+    "path": "report/final/data/check_timing.rpt",
+    "bytes": 3905,
+    "sha256": "a4a9eeefbe6b61c163f0850ebbb785a92add4e05533b4c853d1baf3751ad8799"
+  },
+  {
+    "path": "report/final/data/drc.rpt",
+    "bytes": 12627,
+    "sha256": "12c1bd7fdfb4323c04ca795b982b53cfa9d9924a37722e0dc68fc1a002852b45"
+  },
+  {
+    "path": "report/final/data/event_audio.csv",
+    "bytes": 5841,
+    "sha256": "e96fa7c6778c15592be9aebe635a969cb9a7003b9b367b11fabf2b9c8b29482b"
+  },
+  {
+    "path": "report/final/data/event_source.json",
+    "bytes": 1816,
+    "sha256": "4a0ef326a28f61b496dbca3772a9949b65d5601d719ee015446efb7561e29905"
+  },
+  {
+    "path": "report/final/data/fir_design.json",
+    "bytes": 669,
+    "sha256": "4cd80178255d62ede8233b36eeb1eb0b3e53efb673bf368d50f0629f860e31bf"
+  },
+  {
+    "path": "report/final/data/holdout_rows.tex",
+    "bytes": 134,
+    "sha256": "55bcaef681435e6c4928c470f79034683093cba17031b1979357c4a9e7549547"
+  },
+  {
+    "path": "report/final/data/level_rows.tex",
+    "bytes": 273,
+    "sha256": "195b4efa96a645d242be49ef659b1afc7e736411e96fd6221663159dcc531460"
+  },
+  {
+    "path": "report/final/data/levels.csv",
+    "bytes": 127,
+    "sha256": "85f151d7a1e26e9156c3e2f2dc23c2d57e38b985ca2952fccac9704cbc717370"
+  },
+  {
+    "path": "report/final/data/measured.json",
+    "bytes": 44166,
+    "sha256": "7bb81f9fa290dd9da48a857747a57450ebea0ce454dd06e55b339e919af3af36"
+  },
+  {
+    "path": "report/final/data/resource.csv",
+    "bytes": 94,
+    "sha256": "2cb0a1706bc64cd9107770b2b6747c51fed60ac8fd92ce1e8962f391736ee4f4"
+  },
+  {
+    "path": "report/final/data/sample_intervals.json",
+    "bytes": 2452,
+    "sha256": "77c9fcd87000d2554219943e55941c393cd42c67155c6a91dc96c06409687d58"
+  },
+  {
+    "path": "report/final/data/shazam.csv",
+    "bytes": 67,
+    "sha256": "417b312008d5f052fa72ff03e4fff056e96b090c07fcf27e5749e77efbe27b4a"
+  },
+  {
+    "path": "report/final/data/shazam_rows.tex",
+    "bytes": 136,
+    "sha256": "0c72188b21be6c894d9f392f94eb227a397e7b7eda436118306ebfdc2b6d43bf"
+  },
+  {
+    "path": "report/final/data/tables.tex",
+    "bytes": 633,
+    "sha256": "22d1323d4ca4eb4b0d3f21d32a1a5a9903d171ec327dad796fdd38d6014a45aa"
+  },
+  {
+    "path": "report/final/data/timing_summary.rpt",
+    "bytes": 34035,
+    "sha256": "093b1f6a36deb53d5f85b79ddbdb457cb5f241c7350b94d616b7c8e57cdd1e8b"
+  },
+  {
+    "path": "report/final/data/trigger_comparison.json",
+    "bytes": 68519,
+    "sha256": "d2ecaf0d391ba9d19de1855b4c5b939c9399539209fe563a7dfbe3313416bfdd"
+  },
+  {
+    "path": "report/final/data/utilization_routed.rpt",
+    "bytes": 11800,
+    "sha256": "ef1b12cd4a28a69edb68ac625315243c5d5953c44ca1591ebacebc6bab60feba"
+  },
+  {
+    "path": "report/final/data/values.tex",
+    "bytes": 597,
+    "sha256": "4b1a3eb553e10651a2544f1fae50deb306289fc666b23f8b5a182fb0fd0c05c5"
+  },
+  {
+    "path": "report/final/diagrams/architecture.tex",
+    "bytes": 1096,
+    "sha256": "8fc8a46e5096a0bf0ebbd71f6f985becf94ea70a40d758d36218f15646755d54"
+  },
+  {
+    "path": "report/final/diagrams/audio.tex",
+    "bytes": 727,
+    "sha256": "c34e81d6e78d49531d3678a437673f1916f2d451cbe32062c062a74af10cde82"
+  },
+  {
+    "path": "report/final/diagrams/board.tex",
+    "bytes": 703,
+    "sha256": "d4b7e1543fd5a18bfaf0cc6ab086bbf9b13a2e0a13252a1cc4770787df63825f"
+  },
+  {
+    "path": "report/final/diagrams/buffers.tex",
+    "bytes": 754,
+    "sha256": "80ffe913ec6d6c87657319aa4f2a1a8183d9e4ed83ad32ea5aa439d113ca25e8"
+  },
+  {
+    "path": "report/final/diagrams/event.tex",
+    "bytes": 481,
+    "sha256": "03dc3b12c46ebc458b761d3451cba14e56973fc3f8671efcc0688e3055107567"
+  },
+  {
+    "path": "report/final/diagrams/export.tex",
+    "bytes": 900,
+    "sha256": "45ac2734415bde88fd351ffdb2da7697ccd4df21b89abd2605abbd302ec1b9d6"
+  },
+  {
+    "path": "report/final/diagrams/fusion.tex",
+    "bytes": 1070,
+    "sha256": "2789cc6c317023a7968736e6c91d855d96f3703449991c0f869a35a5369d60db"
+  },
+  {
+    "path": "report/final/diagrams/game.tex",
+    "bytes": 907,
+    "sha256": "e996e13e1b0bf1195d3cf0bde4e86dcbc7cbdbacd94382802d1e0c3e491200ab"
+  },
+  {
+    "path": "report/final/diagrams/hardware.tex",
+    "bytes": 979,
+    "sha256": "00cea403b5b162c3ee0261ca4b1ca174fbe8a983fc99391da5cdac3165e9057a"
+  },
+  {
+    "path": "report/final/diagrams/intelligence.tex",
+    "bytes": 767,
+    "sha256": "9b292b1b94940f5467d3506e318f503bd35684c4121ad63c64e81adf0084217d"
+  },
+  {
+    "path": "report/final/diagrams/music.tex",
+    "bytes": 1138,
+    "sha256": "cf7e43730be2f952fe07bb234a1806af925cadbb6779c221311163d0aae41642"
+  },
+  {
+    "path": "report/final/diagrams/protocol.tex",
+    "bytes": 1210,
+    "sha256": "cb46dae2e5396e6e65556505a0176c0727b4eb9f8c3ca316edd21213bdb25a56"
+  },
+  {
+    "path": "report/final/diagrams/resources.tex",
+    "bytes": 593,
+    "sha256": "4b52ff424d1064f54f0afb9069c17b53a7988e016aa7b25b0660da98fccd5ea9"
+  },
+  {
+    "path": "report/final/diagrams/software.tex",
+    "bytes": 954,
+    "sha256": "c1f169681540c84fde4d70b589ef9923be1ede6287d8a54204b84f47f243819d"
+  },
+  {
+    "path": "report/final/figures/board.jpg",
+    "bytes": 386626,
+    "sha256": "12c8ef1e60cc3a98222245de0f53fbdd1ede0551112fd583e3e7953b5ac3271f"
+  },
+  {
+    "path": "report/final/figures/calibration.png",
+    "bytes": 164321,
+    "sha256": "b1f832e90f8f5a7a6c2621481fe2a061e7086b1ed283a52bdb6dbd0ff405d465"
+  },
+  {
+    "path": "report/final/figures/game.png",
+    "bytes": 212468,
+    "sha256": "cb93cc03506b527f516ec4f781f08c4898e55288dc752917b19680bf521a4cf4"
+  },
+  {
+    "path": "report/final/figures/monitor.png",
+    "bytes": 301896,
+    "sha256": "0c5bccc87873c6acf7ebd8789f403bb6e4e9369bfb460add96680ce59080a7b7"
+  },
+  {
+    "path": "report/final/figures/music.png",
+    "bytes": 178053,
+    "sha256": "27b361dead909ad74592050e071444cc064890591d69e508ed310b28f9a0c242"
+  },
+  {
+    "path": "report/final/figures/whulogo.pdf",
+    "bytes": 20352,
+    "sha256": "7e24d93d32049ae91a725c4deb400fb5fcf9f912756de93f802247badcc27285"
+  },
+  {
+    "path": "report/final/front.tex",
+    "bytes": 4261,
+    "sha256": "d17232a0cdd5721b8270398ceb6275a9c03d0bd2ffaffc69ea805319809479dd"
+  },
+  {
+    "path": "report/final/main.tex",
+    "bytes": 5002,
+    "sha256": "88ee005a7f8212a8347a5788f870cbd7950f83af283c77077ddfc56281eeb6b0"
+  },
+  {
+    "path": "report/final/references.tex",
+    "bytes": 2060,
+    "sha256": "aaba5f2f921f0150dff65c01d0bbb5b2be71f003ae9ea627a17c7ebe35b01b55"
+  },
+  {
+    "path": "report/final/WHUBachelor.cls",
+    "bytes": 10838,
+    "sha256": "fc34d46b4113a594d745347cd759e684342114c80d1f3784aa0831e349519816"
+  },
+  {
+    "path": "requirements-locked.txt",
+    "bytes": 901,
+    "sha256": "9fdeddb3d856990687e1b6d8bfd2ef46903a63f3ad11f7c13631646c54a188a7"
+  },
+  {
+    "path": "requirements-music.txt",
+    "bytes": 192,
+    "sha256": "52809c796dec9633a076b2fb05eef486d721f20ca4ff456f618c637f2123e61a"
+  },
+  {
+    "path": "requirements-pc-shazam.txt",
+    "bytes": 153,
+    "sha256": "d2c97717b92640b15052d5b9437a0fcc8db9a0ab75ddc509d2497462512126f1"
+  },
+  {
+    "path": "requirements-portable-build.txt",
+    "bytes": 34,
+    "sha256": "c1ba0135ce9ded3222da44473334753a50cfde71051630765d196a532bd4e01b"
+  },
+  {
+    "path": "requirements-runtime.txt",
+    "bytes": 174,
+    "sha256": "b347eea6e188f74e50f7e02e7055c4511ec4c54003ec2a1d8ecba20c80349a21"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 110,
+    "sha256": "79df75ad0835a262e8aeeae63d4489ef93c160416285d8f628b152595b651652"
+  },
+  {
+    "path": "rtl/00_recorder_pkg.sv",
+    "bytes": 318,
+    "sha256": "157fb406e175c6006f6a548fcf13995f8614bfd4809785a075e08b46f308cc31"
+  },
+  {
+    "path": "rtl/adt7420.sv",
+    "bytes": 1957,
+    "sha256": "8f7cee6608db2db9239855e50d3ca5035a358224328071a88dd56f5b2f35004b"
+  },
+  {
+    "path": "rtl/adxl362.sv",
+    "bytes": 3673,
+    "sha256": "b00edd637521746a3fa567608aa67f503e9678bbd6313996e2dcbb04d25c76f0"
+  },
+  {
+    "path": "rtl/analysis_engine.sv",
+    "bytes": 9274,
+    "sha256": "ae41e1dc2639c5acbdd17289ca2c5df812d9e2e3395a1b82f780c92bdffb3a5f"
+  },
+  {
+    "path": "rtl/board_panel.sv",
+    "bytes": 20952,
+    "sha256": "b63743a44ed52b70b17dd65bb4933a885fa07ad58025a53acd7d5fe62ac89fe3"
+  },
+  {
+    "path": "rtl/build_id.svh",
+    "bytes": 40,
+    "sha256": "783d77278f61a44ee39268fd2187a96cc3d66a15d761a2ceb27b3168145b581b"
+  },
+  {
+    "path": "rtl/feature_core.sv",
+    "bytes": 5925,
+    "sha256": "7e2ee4ee7d394170446b44cb400b5eaf2f87813bd7aad9f79c9e0d77826cb48b"
+  },
+  {
+    "path": "rtl/gpio_monitor.sv",
+    "bytes": 1944,
+    "sha256": "cabcb96e50e0a7602d8b3937c4805bf3f344cbc9caf5048e8934053ddae3a109"
+  },
+  {
+    "path": "rtl/i2c_register.sv",
+    "bytes": 4812,
+    "sha256": "22deb34da49c725d37f64c9f41d3d2b2aa60d9d3633ae1f903e82248ed5c5d94"
+  },
+  {
+    "path": "rtl/monitor_core.sv",
+    "bytes": 8145,
+    "sha256": "b4c5b93b1edd3366844a45f4bf432597099d6d6703110ec52dbace762930b6f4"
+  },
+  {
+    "path": "rtl/music_core.sv",
+    "bytes": 13966,
+    "sha256": "71130281338e0876c2d064558f64d59b21acbe8691571e5bf86846fe6de21c74"
+  },
+  {
+    "path": "rtl/music_decimator.sv",
+    "bytes": 2856,
+    "sha256": "dded5fdd9ca32dd9cf8cfd6aa4e6cd0adc97ad319ea707ab5d67015daac3ae35"
+  },
+  {
+    "path": "rtl/packet_link.sv",
+    "bytes": 4730,
+    "sha256": "8c5ed93fd251a800201a566b98cc523b697ef335f2414ce9298cde35cdabe7d8"
+  },
+  {
+    "path": "rtl/pdm_cic.sv",
+    "bytes": 2153,
+    "sha256": "4fcf857dbe4f66eed54d27e7daf73dd3db3462a2bb4e9b7e0797433d2d9768da"
+  },
+  {
+    "path": "rtl/record_bank.sv",
+    "bytes": 9450,
+    "sha256": "600ccf1fb970a674699c71c1f030383a97fe4fcbf3ad42da0c966dc5aad88a1d"
+  },
+  {
+    "path": "rtl/recorder_top.sv",
+    "bytes": 22469,
+    "sha256": "5ac82dd335737d7405ee222159916947cbc38e8915266b4f9df544f3c9ed5572"
+  },
+  {
+    "path": "rtl/spi_master.sv",
+    "bytes": 1248,
+    "sha256": "47587bea347239f9b2d732fe639608faf43adc986ec9f176060449800425ece1"
+  },
+  {
+    "path": "rtl/trigger_core.sv",
+    "bytes": 2393,
+    "sha256": "dd894787fc76259f911dc0446bf4a75575759afd2360444e2406911bbd499b1e"
+  },
+  {
+    "path": "rtl/uart.sv",
+    "bytes": 1681,
+    "sha256": "544a22519ce85db8b3de8b7de2108269ad6c7c03fedb2af67918094114f40230"
+  },
+  {
+    "path": "rtl/xadc_monitor.sv",
+    "bytes": 1569,
+    "sha256": "7858710a628cad10110d6f2c9c3d08e13d581a93a49e10e3cf2c9215f1ad0714"
+  },
+  {
+    "path": "run.ps1",
+    "bytes": 680,
+    "sha256": "628c763b463acc4d1a15a18eeb19b3798cd0cca66fc38e10937e28b5ca4a7c6a"
+  },
+  {
+    "path": "scripts/board_panel_acceptance.py",
+    "bytes": 19808,
+    "sha256": "f1f042fdba9274b78e48a5c63d6386ca30ac2395f2778c77e653ac4c5899f266"
+  },
+  {
+    "path": "scripts/bootstrap.ps1",
+    "bytes": 674,
+    "sha256": "77021a30d60e303a8f4cbfd4e02e6d894e8b501fb2b83db1ca9fdeb77c645af1"
+  },
+  {
+    "path": "scripts/build.tcl",
+    "bytes": 1115,
+    "sha256": "caae26fb820d05d85188a9f2408f702951b891326a7df3d6f5f1f4e752d447c3"
+  },
+  {
+    "path": "scripts/build_portable.ps1",
+    "bytes": 1639,
+    "sha256": "15c9d6eaa1659ead2a9cbe8bef003e0df4cf811b0961a465139f9e306b1faa48"
+  },
+  {
+    "path": "scripts/check_output_constraints.tcl",
+    "bytes": 616,
+    "sha256": "af4bdda629c268557569fed35a271e2a36debba1b3801fb951699c83090d4eb8"
+  },
+  {
+    "path": "scripts/check_serial_timing.tcl",
+    "bytes": 911,
+    "sha256": "e04064a85897f00cb12fe5d7749d23d6687a5fdaf777c8cb980b56f4bd9a1d17"
+  },
+  {
+    "path": "scripts/diagnose_runtime.ps1",
+    "bytes": 1244,
+    "sha256": "7b98c7c5fd1ec184639f9e9e7f54f39cd4fb451a71773fbf638a65f438869731"
+  },
+  {
+    "path": "scripts/enumerate.tcl",
+    "bytes": 865,
+    "sha256": "1efa600949c17e3ef16a95a512bc61f2c4c48137c29e9f764b11b5cfd1a4c55f"
+  },
+  {
+    "path": "scripts/finalize.tcl",
+    "bytes": 1080,
+    "sha256": "52eda4489999b0b835b687f775483cab59764ea58d17201db6e66dec5dbcf7de"
+  },
+  {
+    "path": "scripts/inspect_binding.ps1",
+    "bytes": 862,
+    "sha256": "ad3be0e5bce46a83190836d8afb339ccb18ab2cf82f7ccb0c2a41e3dcfcab4c5"
+  },
+  {
+    "path": "scripts/inspect_final_report.py",
+    "bytes": 2336,
+    "sha256": "e0a053000e6bedaa49ab10902ac4bbf04d0c03e83c9504cd8536319b03c7cbcd"
+  },
+  {
+    "path": "scripts/inspect_openocd.ps1",
+    "bytes": 738,
+    "sha256": "4ac7447e42cf5ac31356f1a5d1e322d81d57e75c073a5db02647e9b00946ee9c"
+  },
+  {
+    "path": "scripts/inventory.ps1",
+    "bytes": 1303,
+    "sha256": "bef398452d8debf4666e06e968353619fddb4c4b47c8af7a9b1aa1a4c4bef29f"
+  },
+  {
+    "path": "scripts/launch_after_collect.ps1",
+    "bytes": 593,
+    "sha256": "172a31704977a48aa9100fa367cb04ae932180f99875000c2de04fcb1c4b100f"
+  },
+  {
+    "path": "scripts/package_final_release.py",
+    "bytes": 22820,
+    "sha256": "f5e33bcb47025686387d151c97d5343396dbaa85b910813a311f8c90f1abdf63"
+  },
+  {
+    "path": "scripts/prepare_final_report.py",
+    "bytes": 8428,
+    "sha256": "b0ddd2a9ac634e2ae41a222de0b9852283df09d34e1fd7f17d87625b4eb06964"
+  },
+  {
+    "path": "scripts/promote_music15.py",
+    "bytes": 7037,
+    "sha256": "3d582237f9c22fee33f7ccd283102a5ba6589d910876b1f73e05722c1745f1af"
+  },
+  {
+    "path": "scripts/promote_panel_release.py",
+    "bytes": 32790,
+    "sha256": "d26ea92851b048eb08d79d9feb9be8991581bbdfb3d1d3469b55741ee7607ca1"
+  },
+  {
+    "path": "scripts/promote_ui_release.py",
+    "bytes": 17853,
+    "sha256": "bccd8481c45dc85948d6124beba79c3df7b2f7f6a7cb33ceb9ed890319c6286c"
+  },
+  {
+    "path": "scripts/refine.tcl",
+    "bytes": 342,
+    "sha256": "05e8b796ae356bd4a85f1b226f8e2c354690033aaf89105e45f44ec49d8b0e6b"
+  },
+  {
+    "path": "scripts/resume_route.tcl",
+    "bytes": 265,
+    "sha256": "c629934b7b0946f71388e3f1fa248b19e4bfd2a5f868da6d17142e7f1d38e472"
+  },
+  {
+    "path": "scripts/simple_panel_acceptance.py",
+    "bytes": 13699,
+    "sha256": "382387ef380a83783a227c10c676faf29fc678f9c1923dbde0d55ed9cf01aa22"
+  },
+  {
+    "path": "scripts/ui_review_scene.py",
+    "bytes": 1297,
+    "sha256": "118360337a2f1d942b04d8a10825a59659c30a81bcca491a1f3cb3cf3369215d"
+  },
+  {
+    "path": "scripts/verify_music15.py",
+    "bytes": 11016,
+    "sha256": "7b751f36b53ec9adf3bebc7171741c15a06ca96761bcc960fd7474771d8439f4"
+  },
+  {
+    "path": "scripts/verify_panel_digital.py",
+    "bytes": 3818,
+    "sha256": "564872c9f5e3abc03296ae48200fa3b91e8b3cde6a33954e3458133127f40cc5"
+  },
+  {
+    "path": "scripts/verify_panel_frozen.py",
+    "bytes": 6485,
+    "sha256": "c0ec46155f86e391daa675aef3c26640d0e22bc69521dbdf93058931d2fdce41"
+  },
+  {
+    "path": "scripts/verify_ui_frozen.py",
+    "bytes": 4676,
+    "sha256": "31b571ec2193fb8ee92522f14c28ca0311132ec85dd28ba57817942924f43f07"
+  },
+  {
+    "path": "scripts/verify_ui_live_flow.py",
+    "bytes": 12146,
+    "sha256": "fbde0ac3a133cd2ab18f05363aad8cd5df13a89318307b9ddd18c1e51481109d"
+  },
+  {
+    "path": "scripts/verify_ui_online_replay.py",
+    "bytes": 6519,
+    "sha256": "c4904d40b47687edb4dfdad8179c82ccc6c9681711a97a37f80abbb62d0d4d68"
+  },
+  {
+    "path": "Start-From-Source.ps1",
+    "bytes": 715,
+    "sha256": "9b18b11ebec395cb3cfa7dc4c964d91d8410d62d2573261ebed5fe46cd569a26"
+  },
+  {
+    "path": "tests/tb_bank.sv",
+    "bytes": 2709,
+    "sha256": "4e175f5aeccb2b879acba19db8008b26fd1b5531264726434600541777bdbe41"
+  },
+  {
+    "path": "tests/tb_board_panel.sv",
+    "bytes": 15981,
+    "sha256": "7b90d345b7210bd0eb9de71114192065044e2e3bd184aceafc8316aafcb6ce03"
+  },
+  {
+    "path": "tests/tb_cic.sv",
+    "bytes": 1100,
+    "sha256": "8ef41e5d96cb8ab68999d4969cc94aed1aca9bfc0743c60f3154411fe3286dd1"
+  },
+  {
+    "path": "tests/tb_features.sv",
+    "bytes": 1107,
+    "sha256": "82b83b862327c25e16a3728022ce94143bb1c041f0841e47502a6ee6a5159fb3"
+  },
+  {
+    "path": "tests/tb_gpio_monitor.sv",
+    "bytes": 1122,
+    "sha256": "a3125ab96e44524d857bc52ea181501a986d1e61ab085a42c42c21d61ad32414"
+  },
+  {
+    "path": "tests/tb_i2c_register.sv",
+    "bytes": 3412,
+    "sha256": "652494414af049670fe4ff65882223d6727f5e6ac7827cda6f31ba1a16a9f2d9"
+  },
+  {
+    "path": "tests/tb_link.sv",
+    "bytes": 2437,
+    "sha256": "ec4093aee0bb1eb6a0ef42d3498d03db80ed10539ce8434f22a53c032db09e46"
+  },
+  {
+    "path": "tests/tb_monitor_core.sv",
+    "bytes": 3777,
+    "sha256": "8cebc7e13766a72eb0f8d01e0e8bcf171ce71605ed38f12887172a7927d727b7"
+  },
+  {
+    "path": "tests/tb_music.sv",
+    "bytes": 3739,
+    "sha256": "64cedc2afd8d307ccfffd6b269722b0eaa9bee087490096514b79c312b32f88e"
+  },
+  {
+    "path": "tests/tb_music_abort.sv",
+    "bytes": 5543,
+    "sha256": "716c14329750695774af2f0f1c8fe3c95fc42391357d54ac7c1d17d28d1c22a3"
+  },
+  {
+    "path": "tests/tb_music_decimator.sv",
+    "bytes": 871,
+    "sha256": "6aa4733da8b17838a83410050a6d53c1f6e6a363066c9326cbbfb900ed237876"
+  },
+  {
+    "path": "tests/tb_music_half.sv",
+    "bytes": 2280,
+    "sha256": "d2f0d9dac39078f98529ec19d61ab25a854c029daa33d39f56f51b09d3b4c5bb"
+  },
+  {
+    "path": "tests/tb_music_panel_quiet.sv",
+    "bytes": 4418,
+    "sha256": "238288938cff54d94c2660e810f394efd9f9765a3fca4ff7d1f629e93bb245ba"
+  },
+  {
+    "path": "tests/tb_music_tap.sv",
+    "bytes": 2129,
+    "sha256": "65a20391b84819618273c5f7b2a8c19cf76dcc9befc55cccea8c44d4f4a434d0"
+  },
+  {
+    "path": "tests/tb_music_triple.sv",
+    "bytes": 5920,
+    "sha256": "33eb484b917e75f918d99d0063b3892334d42b0abf5cf07cee255c3943d3f857"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 2518,
+    "sha256": "eeb04834f536c8f80749e7feeff462d332b7af4db20704cdfc238309e77582df"
+  },
+  {
+    "path": "upstream/music/audfprint/__init__.py",
+    "bytes": 15,
+    "sha256": "7a867a19f89f6ea84c2cdce396a44356297ecb20643a654df6e8d280958d0656"
+  },
+  {
+    "path": "upstream/music/audfprint/audfprint.py",
+    "bytes": 20786,
+    "sha256": "039b5807386da29febc94707b428ad8a1ef03dca6e2d2bc0ca208a6175a371d9"
+  },
+  {
+    "path": "upstream/music/audfprint/audfprint_analyze.py",
+    "bytes": 22767,
+    "sha256": "46a9401e04cd31b1ffff1ce327c0dc84d852d3fb557e8195940e895d4391f9e1"
+  },
+  {
+    "path": "upstream/music/audfprint/audfprint_match.py",
+    "bytes": 21347,
+    "sha256": "58f609722a4623c56bb18ac28bd099ea7e29f0784cf5e4c86cf5813c484d016f"
+  },
+  {
+    "path": "upstream/music/audfprint/audio_read.py",
+    "bytes": 12385,
+    "sha256": "a09f1477115560aaf4c9fd85fc19e6d39ace8ad790f2c300759f17ae335f1cfa"
+  },
+  {
+    "path": "upstream/music/audfprint/comp_file_lines.py",
+    "bytes": 1454,
+    "sha256": "8c709771f484dec722f29f24acee6a8360e515eed1e5be75e0d4f0042cfe4b02"
+  },
+  {
+    "path": "upstream/music/audfprint/config.txt",
+    "bytes": 269,
+    "sha256": "42846b07bd3f2f7bd6e0dea3f1bb8d9fa0318871b41601aeaa81a8c20648d2b4"
+  },
+  {
+    "path": "upstream/music/audfprint/config_tiny.txt",
+    "bytes": 372,
+    "sha256": "692e2da3ede1e431d1a64b2107c14b69ee7a2f38c804a8d2ea0ad8d99beef871"
+  },
+  {
+    "path": "upstream/music/audfprint/dpwe_builder.py",
+    "bytes": 2485,
+    "sha256": "52718a0f123afd6038878b5866b7e45c539b5b24afeae7edd36159d6ac1e029a"
+  },
+  {
+    "path": "upstream/music/audfprint/dpwe_matcher.py",
+    "bytes": 2766,
+    "sha256": "269ca9540162cedba3c9f32824858e1c9c9e6430fce17047d3cdcb0078c0caf2"
+  },
+  {
+    "path": "upstream/music/audfprint/hash_table.py",
+    "bytes": 16286,
+    "sha256": "6e112ece3298e2d1f20bb44e640b2a78d1f8a994c31b75f4df8a0449f1a4a201"
+  },
+  {
+    "path": "upstream/music/audfprint/LICENSE",
+    "bytes": 1112,
+    "sha256": "4126a69d389028fd8ed1ab2f3f36fc66227f6498b942afb1f9cb684cc088b9b1"
+  },
+  {
+    "path": "upstream/music/audfprint/README-dpwe-audfprint.txt",
+    "bytes": 5210,
+    "sha256": "6e1303a1617bae711974283bb3e51d77f51f11fe2abe040cb59b2d02eb7802d9"
+  },
+  {
+    "path": "upstream/music/audfprint/README.md",
+    "bytes": 9714,
+    "sha256": "b77f4e9b1b354ca219067f15b96d94ad33b5740053c7f3902615907c15775fdb"
+  },
+  {
+    "path": "upstream/music/audfprint/requirements.txt",
+    "bytes": 33,
+    "sha256": "34f6d1a4577e9dcc1930fda85036623b49d4e006090ff19aaddebe1420a720b3"
+  },
+  {
+    "path": "upstream/music/audfprint/searching_for_ads.md",
+    "bytes": 4369,
+    "sha256": "8302ba1ec78b32cb596d828f78854327127e883f3c78eb00093cc8c3766186fa"
+  },
+  {
+    "path": "upstream/music/audfprint/stft.py",
+    "bytes": 3608,
+    "sha256": "bb865cfc8c1f5404e085fac9b108cdf312b1ba58e6fdfdb3037945269c0ede2a"
+  },
+  {
+    "path": "upstream/music/audfprint/tests/profile_audfprint.py",
+    "bytes": 918,
+    "sha256": "ac3e9fc7e8400abd0b081ea0c5623a5bf07a4e628ed6d30952ba3f96219cf9bd"
+  },
+  {
+    "path": "upstream/music/audfprint/tests/profile_audfprint_match.py",
+    "bytes": 307,
+    "sha256": "d8d2c1368db97bfeec83b2da7a2d1530167a69fc8cbc7eefc56e55e947a8d6b7"
+  },
+  {
+    "path": "upstream/music/audfprint/tests/report_prof.py",
+    "bytes": 469,
+    "sha256": "5bd97cbdc310aaf75a25eac580e41ad3f68f23ca2fdc8f223e45199f9bdeac69"
+  },
+  {
+    "path": "重力迷航.ps1",
+    "bytes": 398,
+    "sha256": "008f0afd03733ea164cc5838e5a5535e71a909c21022937943f065582bc27c76"
+  }
+]

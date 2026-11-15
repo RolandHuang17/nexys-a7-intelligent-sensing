@@ -1,0 +1,10 @@
+\begin{tikzpicture}
+\begin{axis}[width=.95\linewidth,height=53mm,ybar,bar width=14mm,ymin=0,ymax=103,
+ ylabel={使用率 / \%},symbolic x coords={LUT,FF,BRAM,DSP},xtick=data,
+ ytick={0,25,50,75,100},grid=major,grid style={gray!15},axis line style={navy!40},
+ tick label style={font=\small},label style={font=\small},nodes near coords,
+ every node near coord/.append style={font=\footnotesize,/pgf/number format/fixed,/pgf/number format/precision=2},
+ enlarge x limits=.18]
+\addplot[fill=teal!75,draw=teal] table[x=name,y=percent,col sep=comma]{data/resource.csv};
+\end{axis}
+\end{tikzpicture}

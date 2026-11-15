@@ -1,0 +1,2545 @@
+{
+  "development": {
+    "audio": {
+      "metrics": {
+        "TP": 4,
+        "FP": 6,
+        "TN": 4,
+        "FN": 1,
+        "extra_triggers": 11,
+        "sound_false_trials": 5,
+        "quiet_false_trials": 1,
+        "Precision": 0.4,
+        "Recall": 0.8,
+        "F1": 0.5333333333333333,
+        "precision_denominator": 10,
+        "recall_denominator": 5,
+        "f1_denominator": 15
+      },
+      "trials": [
+        {
+          "trial_id": "development_01_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_02_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 1,
+          "ticks": [
+            120010004
+          ]
+        },
+        {
+          "trial_id": "development_03_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_04_sound_a1",
+          "label": "sound",
+          "outcome": "FP",
+          "count": 2,
+          "ticks": [
+            77010004,
+            131010004
+          ]
+        },
+        {
+          "trial_id": "development_05_sound_a1",
+          "label": "sound",
+          "outcome": "FP",
+          "count": 1,
+          "ticks": [
+            72010004
+          ]
+        },
+        {
+          "trial_id": "development_06_sound_a1",
+          "label": "sound",
+          "outcome": "FP",
+          "count": 1,
+          "ticks": [
+            74010004
+          ]
+        },
+        {
+          "trial_id": "development_07_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 2,
+          "ticks": [
+            101010004,
+            147010004
+          ]
+        },
+        {
+          "trial_id": "development_08_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 1,
+          "ticks": [
+            137010004
+          ]
+        },
+        {
+          "trial_id": "development_09_sound_a1",
+          "label": "sound",
+          "outcome": "FP",
+          "count": 1,
+          "ticks": [
+            74010004
+          ]
+        },
+        {
+          "trial_id": "development_10_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_11_quiet_a1",
+          "label": "quiet",
+          "outcome": "FP",
+          "count": 2,
+          "ticks": [
+            95010004,
+            99010004
+          ]
+        },
+        {
+          "trial_id": "development_12_sound_a1",
+          "label": "sound",
+          "outcome": "FP",
+          "count": 8,
+          "ticks": [
+            53010004,
+            57010004,
+            64010004,
+            70010004,
+            75010004,
+            120010004,
+            123010004,
+            146010004
+          ]
+        },
+        {
+          "trial_id": "development_13_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_14_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 2,
+          "ticks": [
+            127010004,
+            147010004
+          ]
+        },
+        {
+          "trial_id": "development_15_tap_a1",
+          "label": "tap",
+          "outcome": "FN",
+          "count": 0,
+          "ticks": []
+        }
+      ]
+    },
+    "accel": {
+      "metrics": {
+        "TP": 3,
+        "FP": 1,
+        "TN": 9,
+        "FN": 2,
+        "extra_triggers": 3,
+        "sound_false_trials": 1,
+        "quiet_false_trials": 0,
+        "Precision": 0.75,
+        "Recall": 0.6,
+        "F1": 0.6666666666666666,
+        "precision_denominator": 4,
+        "recall_denominator": 5,
+        "f1_denominator": 9
+      },
+      "trials": [
+        {
+          "trial_id": "development_01_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_02_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 2,
+          "ticks": [
+            121010004,
+            132010004
+          ]
+        },
+        {
+          "trial_id": "development_03_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_04_sound_a1",
+          "label": "sound",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_05_sound_a1",
+          "label": "sound",
+          "outcome": "FP",
+          "count": 1,
+          "ticks": [
+            104010004
+          ]
+        },
+        {
+          "trial_id": "development_06_sound_a1",
+          "label": "sound",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_07_tap_a1",
+          "label": "tap",
+          "outcome": "FN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_08_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 2,
+          "ticks": [
+            137010004,
+            150010004
+          ]
+        },
+        {
+          "trial_id": "development_09_sound_a1",
+          "label": "sound",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_10_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_11_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_12_sound_a1",
+          "label": "sound",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_13_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_14_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 2,
+          "ticks": [
+            128010004,
+            143010004
+          ]
+        },
+        {
+          "trial_id": "development_15_tap_a1",
+          "label": "tap",
+          "outcome": "FN",
+          "count": 0,
+          "ticks": []
+        }
+      ]
+    },
+    "joint": {
+      "metrics": {
+        "TP": 3,
+        "FP": 0,
+        "TN": 10,
+        "FN": 2,
+        "extra_triggers": 0,
+        "sound_false_trials": 0,
+        "quiet_false_trials": 0,
+        "Precision": 1.0,
+        "Recall": 0.6,
+        "F1": 0.75,
+        "precision_denominator": 3,
+        "recall_denominator": 5,
+        "f1_denominator": 8
+      },
+      "trials": [
+        {
+          "trial_id": "development_01_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_02_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 1,
+          "ticks": [
+            121010004
+          ]
+        },
+        {
+          "trial_id": "development_03_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_04_sound_a1",
+          "label": "sound",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_05_sound_a1",
+          "label": "sound",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_06_sound_a1",
+          "label": "sound",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_07_tap_a1",
+          "label": "tap",
+          "outcome": "FN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_08_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 1,
+          "ticks": [
+            137010004
+          ]
+        },
+        {
+          "trial_id": "development_09_sound_a1",
+          "label": "sound",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_10_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_11_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_12_sound_a1",
+          "label": "sound",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_13_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "development_14_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 1,
+          "ticks": [
+            128010004
+          ]
+        },
+        {
+          "trial_id": "development_15_tap_a1",
+          "label": "tap",
+          "outcome": "FN",
+          "count": 0,
+          "ticks": []
+        }
+      ]
+    }
+  },
+  "holdout": {
+    "audio": {
+      "metrics": {
+        "TP": 5,
+        "FP": 10,
+        "TN": 0,
+        "FN": 0,
+        "extra_triggers": 111,
+        "sound_false_trials": 5,
+        "quiet_false_trials": 5,
+        "Precision": 0.3333333333333333,
+        "Recall": 1.0,
+        "F1": 0.5,
+        "precision_denominator": 15,
+        "recall_denominator": 5,
+        "f1_denominator": 20
+      },
+      "trials": [
+        {
+          "trial_id": "holdout_01_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 8,
+          "ticks": [
+            51010004,
+            59010004,
+            65010004,
+            67010004,
+            89010004,
+            92010004,
+            95010004,
+            108010004
+          ]
+        },
+        {
+          "trial_id": "holdout_02_sound_a1",
+          "label": "sound",
+          "outcome": "FP",
+          "count": 4,
+          "ticks": [
+            60010004,
+            67010004,
+            70010004,
+            117010004
+          ]
+        },
+        {
+          "trial_id": "holdout_03_quiet_a1",
+          "label": "quiet",
+          "outcome": "FP",
+          "count": 5,
+          "ticks": [
+            51010004,
+            74010004,
+            87010004,
+            135010004,
+            143010004
+          ]
+        },
+        {
+          "trial_id": "holdout_04_sound_a1",
+          "label": "sound",
+          "outcome": "FP",
+          "count": 1,
+          "ticks": [
+            72010004
+          ]
+        },
+        {
+          "trial_id": "holdout_05_quiet_a1",
+          "label": "quiet",
+          "outcome": "FP",
+          "count": 6,
+          "ticks": [
+            69010004,
+            95010004,
+            104010004,
+            124010004,
+            134010004,
+            147010004
+          ]
+        },
+        {
+          "trial_id": "holdout_06_quiet_a1",
+          "label": "quiet",
+          "outcome": "FP",
+          "count": 14,
+          "ticks": [
+            64010004,
+            81010004,
+            88010004,
+            91010004,
+            96010004,
+            98010004,
+            106010004,
+            110010004,
+            115010004,
+            118010004,
+            126010004,
+            128010004,
+            134010004,
+            137010004
+          ]
+        },
+        {
+          "trial_id": "holdout_07_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 2,
+          "ticks": [
+            79010004,
+            145010004
+          ]
+        },
+        {
+          "trial_id": "holdout_08_quiet_a1",
+          "label": "quiet",
+          "outcome": "FP",
+          "count": 12,
+          "ticks": [
+            52010004,
+            61010004,
+            65010004,
+            88010004,
+            92010004,
+            96010004,
+            104010004,
+            114010004,
+            123010004,
+            127010004,
+            130010004,
+            139010004
+          ]
+        },
+        {
+          "trial_id": "holdout_09_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 10,
+          "ticks": [
+            75010004,
+            78010004,
+            84010004,
+            95010004,
+            97010004,
+            100010004,
+            110010004,
+            119010004,
+            122010004,
+            131010004
+          ]
+        },
+        {
+          "trial_id": "holdout_10_quiet_a1",
+          "label": "quiet",
+          "outcome": "FP",
+          "count": 11,
+          "ticks": [
+            53010004,
+            66010004,
+            74010004,
+            84010004,
+            88010004,
+            97010004,
+            101010004,
+            110010004,
+            113010004,
+            115010004,
+            141010004
+          ]
+        },
+        {
+          "trial_id": "holdout_11_sound_a1",
+          "label": "sound",
+          "outcome": "FP",
+          "count": 13,
+          "ticks": [
+            59010004,
+            65010004,
+            72010004,
+            74010004,
+            116010004,
+            119010004,
+            127010004,
+            133010004,
+            139010004,
+            142010004,
+            145010004,
+            147010004,
+            149010004
+          ]
+        },
+        {
+          "trial_id": "holdout_12_sound_a1",
+          "label": "sound",
+          "outcome": "FP",
+          "count": 9,
+          "ticks": [
+            57010004,
+            66010004,
+            72010004,
+            117010004,
+            126010004,
+            130010004,
+            133010004,
+            141010004,
+            149010004
+          ]
+        },
+        {
+          "trial_id": "holdout_13_sound_a1",
+          "label": "sound",
+          "outcome": "FP",
+          "count": 8,
+          "ticks": [
+            57010004,
+            67010004,
+            69010004,
+            118010004,
+            126010004,
+            136010004,
+            145010004,
+            148010004
+          ]
+        },
+        {
+          "trial_id": "holdout_14_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 12,
+          "ticks": [
+            55010004,
+            59010004,
+            62010004,
+            68010004,
+            72010004,
+            75010004,
+            77010004,
+            80010004,
+            100010004,
+            106010004,
+            118010004,
+            149010004
+          ]
+        },
+        {
+          "trial_id": "holdout_15_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 11,
+          "ticks": [
+            53010004,
+            56010004,
+            63010004,
+            66010004,
+            92010004,
+            105010004,
+            114010004,
+            123010004,
+            131010004,
+            140010004,
+            144010004
+          ]
+        }
+      ]
+    },
+    "accel": {
+      "metrics": {
+        "TP": 3,
+        "FP": 0,
+        "TN": 10,
+        "FN": 2,
+        "extra_triggers": 4,
+        "sound_false_trials": 0,
+        "quiet_false_trials": 0,
+        "Precision": 1.0,
+        "Recall": 0.6,
+        "F1": 0.75,
+        "precision_denominator": 3,
+        "recall_denominator": 5,
+        "f1_denominator": 8
+      },
+      "trials": [
+        {
+          "trial_id": "holdout_01_tap_a1",
+          "label": "tap",
+          "outcome": "FN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_02_sound_a1",
+          "label": "sound",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_03_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_04_sound_a1",
+          "label": "sound",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_05_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_06_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_07_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 1,
+          "ticks": [
+            146010004
+          ]
+        },
+        {
+          "trial_id": "holdout_08_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_09_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 2,
+          "ticks": [
+            133010004,
+            147010004
+          ]
+        },
+        {
+          "trial_id": "holdout_10_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_11_sound_a1",
+          "label": "sound",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_12_sound_a1",
+          "label": "sound",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_13_sound_a1",
+          "label": "sound",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_14_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 4,
+          "ticks": [
+            125010004,
+            132010004,
+            134010004,
+            136010004
+          ]
+        },
+        {
+          "trial_id": "holdout_15_tap_a1",
+          "label": "tap",
+          "outcome": "FN",
+          "count": 0,
+          "ticks": []
+        }
+      ]
+    },
+    "joint": {
+      "metrics": {
+        "TP": 2,
+        "FP": 0,
+        "TN": 10,
+        "FN": 3,
+        "extra_triggers": 0,
+        "sound_false_trials": 0,
+        "quiet_false_trials": 0,
+        "Precision": 1.0,
+        "Recall": 0.4,
+        "F1": 0.5714285714285714,
+        "precision_denominator": 2,
+        "recall_denominator": 5,
+        "f1_denominator": 7
+      },
+      "trials": [
+        {
+          "trial_id": "holdout_01_tap_a1",
+          "label": "tap",
+          "outcome": "FN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_02_sound_a1",
+          "label": "sound",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_03_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_04_sound_a1",
+          "label": "sound",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_05_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_06_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_07_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 1,
+          "ticks": [
+            146010004
+          ]
+        },
+        {
+          "trial_id": "holdout_08_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_09_tap_a1",
+          "label": "tap",
+          "outcome": "TP",
+          "count": 1,
+          "ticks": [
+            133010004
+          ]
+        },
+        {
+          "trial_id": "holdout_10_quiet_a1",
+          "label": "quiet",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_11_sound_a1",
+          "label": "sound",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_12_sound_a1",
+          "label": "sound",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_13_sound_a1",
+          "label": "sound",
+          "outcome": "TN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_14_tap_a1",
+          "label": "tap",
+          "outcome": "FN",
+          "count": 0,
+          "ticks": []
+        },
+        {
+          "trial_id": "holdout_15_tap_a1",
+          "label": "tap",
+          "outcome": "FN",
+          "count": 0,
+          "ticks": []
+        }
+      ]
+    }
+  },
+  "collection_run_id": "20261113T232625_950296_collect",
+  "config": {
+    "threshold_id": 1,
+    "thresholds": {
+      "audio": 13,
+      "accel": 39
+    },
+    "window_ms": 50,
+    "statistics": {
+      "audio": {
+        "median": 3.0,
+        "MAD": 1.0,
+        "development_quiet_p99_ceiling": 13,
+        "calibration_valid_windows": 999,
+        "development_quiet_valid_windows": 500
+      },
+      "accel": {
+        "median": 15.0,
+        "MAD": 4.0,
+        "development_quiet_p99_ceiling": 31,
+        "calibration_valid_windows": 999,
+        "development_quiet_valid_windows": 500
+      }
+    },
+    "selection_rule": "F1 descending; tie 50 ms, then distance to 50 ms, then smaller",
+    "comparison_triggered_by_development_errors": true,
+    "development_comparison": {
+      "20": {
+        "audio": {
+          "metrics": {
+            "TP": 4,
+            "FP": 6,
+            "TN": 4,
+            "FN": 1,
+            "extra_triggers": 11,
+            "sound_false_trials": 5,
+            "quiet_false_trials": 1,
+            "Precision": 0.4,
+            "Recall": 0.8,
+            "F1": 0.5333333333333333,
+            "precision_denominator": 10,
+            "recall_denominator": 5,
+            "f1_denominator": 15
+          },
+          "trials": [
+            {
+              "trial_id": "development_01_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_02_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 1,
+              "ticks": [
+                120010004
+              ]
+            },
+            {
+              "trial_id": "development_03_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_04_sound_a1",
+              "label": "sound",
+              "outcome": "FP",
+              "count": 2,
+              "ticks": [
+                77010004,
+                131010004
+              ]
+            },
+            {
+              "trial_id": "development_05_sound_a1",
+              "label": "sound",
+              "outcome": "FP",
+              "count": 1,
+              "ticks": [
+                72010004
+              ]
+            },
+            {
+              "trial_id": "development_06_sound_a1",
+              "label": "sound",
+              "outcome": "FP",
+              "count": 1,
+              "ticks": [
+                74010004
+              ]
+            },
+            {
+              "trial_id": "development_07_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 2,
+              "ticks": [
+                101010004,
+                147010004
+              ]
+            },
+            {
+              "trial_id": "development_08_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 1,
+              "ticks": [
+                137010004
+              ]
+            },
+            {
+              "trial_id": "development_09_sound_a1",
+              "label": "sound",
+              "outcome": "FP",
+              "count": 1,
+              "ticks": [
+                74010004
+              ]
+            },
+            {
+              "trial_id": "development_10_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_11_quiet_a1",
+              "label": "quiet",
+              "outcome": "FP",
+              "count": 2,
+              "ticks": [
+                95010004,
+                99010004
+              ]
+            },
+            {
+              "trial_id": "development_12_sound_a1",
+              "label": "sound",
+              "outcome": "FP",
+              "count": 8,
+              "ticks": [
+                53010004,
+                57010004,
+                64010004,
+                70010004,
+                75010004,
+                120010004,
+                123010004,
+                146010004
+              ]
+            },
+            {
+              "trial_id": "development_13_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_14_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 2,
+              "ticks": [
+                127010004,
+                147010004
+              ]
+            },
+            {
+              "trial_id": "development_15_tap_a1",
+              "label": "tap",
+              "outcome": "FN",
+              "count": 0,
+              "ticks": []
+            }
+          ]
+        },
+        "accel": {
+          "metrics": {
+            "TP": 3,
+            "FP": 1,
+            "TN": 9,
+            "FN": 2,
+            "extra_triggers": 3,
+            "sound_false_trials": 1,
+            "quiet_false_trials": 0,
+            "Precision": 0.75,
+            "Recall": 0.6,
+            "F1": 0.6666666666666666,
+            "precision_denominator": 4,
+            "recall_denominator": 5,
+            "f1_denominator": 9
+          },
+          "trials": [
+            {
+              "trial_id": "development_01_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_02_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 2,
+              "ticks": [
+                121010004,
+                132010004
+              ]
+            },
+            {
+              "trial_id": "development_03_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_04_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_05_sound_a1",
+              "label": "sound",
+              "outcome": "FP",
+              "count": 1,
+              "ticks": [
+                104010004
+              ]
+            },
+            {
+              "trial_id": "development_06_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_07_tap_a1",
+              "label": "tap",
+              "outcome": "FN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_08_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 2,
+              "ticks": [
+                137010004,
+                150010004
+              ]
+            },
+            {
+              "trial_id": "development_09_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_10_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_11_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_12_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_13_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_14_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 2,
+              "ticks": [
+                128010004,
+                143010004
+              ]
+            },
+            {
+              "trial_id": "development_15_tap_a1",
+              "label": "tap",
+              "outcome": "FN",
+              "count": 0,
+              "ticks": []
+            }
+          ]
+        },
+        "joint": {
+          "metrics": {
+            "TP": 3,
+            "FP": 0,
+            "TN": 10,
+            "FN": 2,
+            "extra_triggers": 0,
+            "sound_false_trials": 0,
+            "quiet_false_trials": 0,
+            "Precision": 1.0,
+            "Recall": 0.6,
+            "F1": 0.75,
+            "precision_denominator": 3,
+            "recall_denominator": 5,
+            "f1_denominator": 8
+          },
+          "trials": [
+            {
+              "trial_id": "development_01_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_02_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 1,
+              "ticks": [
+                121010004
+              ]
+            },
+            {
+              "trial_id": "development_03_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_04_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_05_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_06_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_07_tap_a1",
+              "label": "tap",
+              "outcome": "FN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_08_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 1,
+              "ticks": [
+                137010004
+              ]
+            },
+            {
+              "trial_id": "development_09_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_10_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_11_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_12_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_13_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_14_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 1,
+              "ticks": [
+                128010004
+              ]
+            },
+            {
+              "trial_id": "development_15_tap_a1",
+              "label": "tap",
+              "outcome": "FN",
+              "count": 0,
+              "ticks": []
+            }
+          ]
+        }
+      },
+      "50": {
+        "audio": {
+          "metrics": {
+            "TP": 4,
+            "FP": 6,
+            "TN": 4,
+            "FN": 1,
+            "extra_triggers": 11,
+            "sound_false_trials": 5,
+            "quiet_false_trials": 1,
+            "Precision": 0.4,
+            "Recall": 0.8,
+            "F1": 0.5333333333333333,
+            "precision_denominator": 10,
+            "recall_denominator": 5,
+            "f1_denominator": 15
+          },
+          "trials": [
+            {
+              "trial_id": "development_01_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_02_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 1,
+              "ticks": [
+                120010004
+              ]
+            },
+            {
+              "trial_id": "development_03_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_04_sound_a1",
+              "label": "sound",
+              "outcome": "FP",
+              "count": 2,
+              "ticks": [
+                77010004,
+                131010004
+              ]
+            },
+            {
+              "trial_id": "development_05_sound_a1",
+              "label": "sound",
+              "outcome": "FP",
+              "count": 1,
+              "ticks": [
+                72010004
+              ]
+            },
+            {
+              "trial_id": "development_06_sound_a1",
+              "label": "sound",
+              "outcome": "FP",
+              "count": 1,
+              "ticks": [
+                74010004
+              ]
+            },
+            {
+              "trial_id": "development_07_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 2,
+              "ticks": [
+                101010004,
+                147010004
+              ]
+            },
+            {
+              "trial_id": "development_08_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 1,
+              "ticks": [
+                137010004
+              ]
+            },
+            {
+              "trial_id": "development_09_sound_a1",
+              "label": "sound",
+              "outcome": "FP",
+              "count": 1,
+              "ticks": [
+                74010004
+              ]
+            },
+            {
+              "trial_id": "development_10_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_11_quiet_a1",
+              "label": "quiet",
+              "outcome": "FP",
+              "count": 2,
+              "ticks": [
+                95010004,
+                99010004
+              ]
+            },
+            {
+              "trial_id": "development_12_sound_a1",
+              "label": "sound",
+              "outcome": "FP",
+              "count": 8,
+              "ticks": [
+                53010004,
+                57010004,
+                64010004,
+                70010004,
+                75010004,
+                120010004,
+                123010004,
+                146010004
+              ]
+            },
+            {
+              "trial_id": "development_13_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_14_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 2,
+              "ticks": [
+                127010004,
+                147010004
+              ]
+            },
+            {
+              "trial_id": "development_15_tap_a1",
+              "label": "tap",
+              "outcome": "FN",
+              "count": 0,
+              "ticks": []
+            }
+          ]
+        },
+        "accel": {
+          "metrics": {
+            "TP": 3,
+            "FP": 1,
+            "TN": 9,
+            "FN": 2,
+            "extra_triggers": 3,
+            "sound_false_trials": 1,
+            "quiet_false_trials": 0,
+            "Precision": 0.75,
+            "Recall": 0.6,
+            "F1": 0.6666666666666666,
+            "precision_denominator": 4,
+            "recall_denominator": 5,
+            "f1_denominator": 9
+          },
+          "trials": [
+            {
+              "trial_id": "development_01_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_02_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 2,
+              "ticks": [
+                121010004,
+                132010004
+              ]
+            },
+            {
+              "trial_id": "development_03_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_04_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_05_sound_a1",
+              "label": "sound",
+              "outcome": "FP",
+              "count": 1,
+              "ticks": [
+                104010004
+              ]
+            },
+            {
+              "trial_id": "development_06_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_07_tap_a1",
+              "label": "tap",
+              "outcome": "FN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_08_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 2,
+              "ticks": [
+                137010004,
+                150010004
+              ]
+            },
+            {
+              "trial_id": "development_09_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_10_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_11_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_12_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_13_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_14_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 2,
+              "ticks": [
+                128010004,
+                143010004
+              ]
+            },
+            {
+              "trial_id": "development_15_tap_a1",
+              "label": "tap",
+              "outcome": "FN",
+              "count": 0,
+              "ticks": []
+            }
+          ]
+        },
+        "joint": {
+          "metrics": {
+            "TP": 3,
+            "FP": 0,
+            "TN": 10,
+            "FN": 2,
+            "extra_triggers": 0,
+            "sound_false_trials": 0,
+            "quiet_false_trials": 0,
+            "Precision": 1.0,
+            "Recall": 0.6,
+            "F1": 0.75,
+            "precision_denominator": 3,
+            "recall_denominator": 5,
+            "f1_denominator": 8
+          },
+          "trials": [
+            {
+              "trial_id": "development_01_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_02_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 1,
+              "ticks": [
+                121010004
+              ]
+            },
+            {
+              "trial_id": "development_03_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_04_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_05_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_06_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_07_tap_a1",
+              "label": "tap",
+              "outcome": "FN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_08_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 1,
+              "ticks": [
+                137010004
+              ]
+            },
+            {
+              "trial_id": "development_09_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_10_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_11_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_12_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_13_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_14_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 1,
+              "ticks": [
+                128010004
+              ]
+            },
+            {
+              "trial_id": "development_15_tap_a1",
+              "label": "tap",
+              "outcome": "FN",
+              "count": 0,
+              "ticks": []
+            }
+          ]
+        }
+      },
+      "80": {
+        "audio": {
+          "metrics": {
+            "TP": 4,
+            "FP": 6,
+            "TN": 4,
+            "FN": 1,
+            "extra_triggers": 11,
+            "sound_false_trials": 5,
+            "quiet_false_trials": 1,
+            "Precision": 0.4,
+            "Recall": 0.8,
+            "F1": 0.5333333333333333,
+            "precision_denominator": 10,
+            "recall_denominator": 5,
+            "f1_denominator": 15
+          },
+          "trials": [
+            {
+              "trial_id": "development_01_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_02_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 1,
+              "ticks": [
+                120010004
+              ]
+            },
+            {
+              "trial_id": "development_03_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_04_sound_a1",
+              "label": "sound",
+              "outcome": "FP",
+              "count": 2,
+              "ticks": [
+                77010004,
+                131010004
+              ]
+            },
+            {
+              "trial_id": "development_05_sound_a1",
+              "label": "sound",
+              "outcome": "FP",
+              "count": 1,
+              "ticks": [
+                72010004
+              ]
+            },
+            {
+              "trial_id": "development_06_sound_a1",
+              "label": "sound",
+              "outcome": "FP",
+              "count": 1,
+              "ticks": [
+                74010004
+              ]
+            },
+            {
+              "trial_id": "development_07_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 2,
+              "ticks": [
+                101010004,
+                147010004
+              ]
+            },
+            {
+              "trial_id": "development_08_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 1,
+              "ticks": [
+                137010004
+              ]
+            },
+            {
+              "trial_id": "development_09_sound_a1",
+              "label": "sound",
+              "outcome": "FP",
+              "count": 1,
+              "ticks": [
+                74010004
+              ]
+            },
+            {
+              "trial_id": "development_10_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_11_quiet_a1",
+              "label": "quiet",
+              "outcome": "FP",
+              "count": 2,
+              "ticks": [
+                95010004,
+                99010004
+              ]
+            },
+            {
+              "trial_id": "development_12_sound_a1",
+              "label": "sound",
+              "outcome": "FP",
+              "count": 8,
+              "ticks": [
+                53010004,
+                57010004,
+                64010004,
+                70010004,
+                75010004,
+                120010004,
+                123010004,
+                146010004
+              ]
+            },
+            {
+              "trial_id": "development_13_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_14_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 2,
+              "ticks": [
+                127010004,
+                147010004
+              ]
+            },
+            {
+              "trial_id": "development_15_tap_a1",
+              "label": "tap",
+              "outcome": "FN",
+              "count": 0,
+              "ticks": []
+            }
+          ]
+        },
+        "accel": {
+          "metrics": {
+            "TP": 3,
+            "FP": 1,
+            "TN": 9,
+            "FN": 2,
+            "extra_triggers": 3,
+            "sound_false_trials": 1,
+            "quiet_false_trials": 0,
+            "Precision": 0.75,
+            "Recall": 0.6,
+            "F1": 0.6666666666666666,
+            "precision_denominator": 4,
+            "recall_denominator": 5,
+            "f1_denominator": 9
+          },
+          "trials": [
+            {
+              "trial_id": "development_01_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_02_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 2,
+              "ticks": [
+                121010004,
+                132010004
+              ]
+            },
+            {
+              "trial_id": "development_03_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_04_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_05_sound_a1",
+              "label": "sound",
+              "outcome": "FP",
+              "count": 1,
+              "ticks": [
+                104010004
+              ]
+            },
+            {
+              "trial_id": "development_06_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_07_tap_a1",
+              "label": "tap",
+              "outcome": "FN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_08_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 2,
+              "ticks": [
+                137010004,
+                150010004
+              ]
+            },
+            {
+              "trial_id": "development_09_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_10_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_11_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_12_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_13_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_14_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 2,
+              "ticks": [
+                128010004,
+                143010004
+              ]
+            },
+            {
+              "trial_id": "development_15_tap_a1",
+              "label": "tap",
+              "outcome": "FN",
+              "count": 0,
+              "ticks": []
+            }
+          ]
+        },
+        "joint": {
+          "metrics": {
+            "TP": 3,
+            "FP": 0,
+            "TN": 10,
+            "FN": 2,
+            "extra_triggers": 0,
+            "sound_false_trials": 0,
+            "quiet_false_trials": 0,
+            "Precision": 1.0,
+            "Recall": 0.6,
+            "F1": 0.75,
+            "precision_denominator": 3,
+            "recall_denominator": 5,
+            "f1_denominator": 8
+          },
+          "trials": [
+            {
+              "trial_id": "development_01_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_02_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 1,
+              "ticks": [
+                121010004
+              ]
+            },
+            {
+              "trial_id": "development_03_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_04_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_05_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_06_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_07_tap_a1",
+              "label": "tap",
+              "outcome": "FN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_08_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 1,
+              "ticks": [
+                137010004
+              ]
+            },
+            {
+              "trial_id": "development_09_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_10_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_11_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_12_sound_a1",
+              "label": "sound",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_13_quiet_a1",
+              "label": "quiet",
+              "outcome": "TN",
+              "count": 0,
+              "ticks": []
+            },
+            {
+              "trial_id": "development_14_tap_a1",
+              "label": "tap",
+              "outcome": "TP",
+              "count": 1,
+              "ticks": [
+                128010004
+              ]
+            },
+            {
+              "trial_id": "development_15_tap_a1",
+              "label": "tap",
+              "outcome": "FN",
+              "count": 0,
+              "ticks": []
+            }
+          ]
+        }
+      }
+    },
+    "initialization": "REPLAY fresh DC_Q8=0, no previous XYZ, phase 0, candidates empty; 0.5 s raw pre-roll",
+    "score_window": "50,000,000 < feature_tick - 10,002 <= 150,000,000; 100 full 10 ms windows",
+    "seeds": {
+      "development": 20261113,
+      "holdout": 20261114
+    }
+  },
+  "board_reference_windows": 4500,
+  "comparisons": [
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "development_01_quiet_a1",
+      "input_hash": "16ced1a79439e33b2d974438c0b7e70220c5f0d19799300aeb41c9cda941c2bb",
+      "event_id": 6
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "development_02_tap_a1",
+      "input_hash": "360669febd97c41f73c8d74f6bc0504ad32c0e11873f8428ddb6b9dc23a0e6ec",
+      "event_id": 7
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "development_03_quiet_a1",
+      "input_hash": "9d549e6bd419f43875324375e683197aac9c1312d18d1ab6a9eb6b324284f10f",
+      "event_id": 8
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "development_04_sound_a1",
+      "input_hash": "5bc1a39bca3b252c4625eae5f89469c359869ff00e69d78afe6e6b2bb6936b30",
+      "event_id": 9
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "development_05_sound_a1",
+      "input_hash": "2dcb732a4cb803948fbed3bc4d9c5ad731efde05c0e829cb20c4681715dcb820",
+      "event_id": 10
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "development_06_sound_a1",
+      "input_hash": "7e3441a532972e5efc2ea68a23733056b949e9dd78fc18d5732f70e6da9443de",
+      "event_id": 11
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "development_07_tap_a1",
+      "input_hash": "14308adbbc6caaf10114763c71ca97af9f8e563e1af870b0ece20a8b9e5e037b",
+      "event_id": 12
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "development_08_tap_a1",
+      "input_hash": "3bfaebcc2914894fa47b8524c6d8a2d67c1276b20479f6a25c820477829c0f91",
+      "event_id": 13
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "development_09_sound_a1",
+      "input_hash": "e7dc4004853e4ef30e9a2a566ef8b0a2366be8bab77ac1a89a93a5ca6c2531a1",
+      "event_id": 14
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "development_10_quiet_a1",
+      "input_hash": "cb54f20219b546f7991c71512c8e6a712cde64c57f48d88862e7d52a046cb060",
+      "event_id": 15
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "development_11_quiet_a1",
+      "input_hash": "a4d9fca42fa0cf11b56fd098058d217f223b00cfb29e3f4804289778ecb6213e",
+      "event_id": 16
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "development_12_sound_a1",
+      "input_hash": "eaa71e68ded6a6bf8f1d8066ff078f5cb259e2ab29e966cfcaaa20c2b760f30d",
+      "event_id": 17
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "development_13_quiet_a1",
+      "input_hash": "b36b6c30d1af9d251b428c2ab31dd1b2eea89481939d8d2b25c0e0ebfea174bb",
+      "event_id": 18
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "development_14_tap_a1",
+      "input_hash": "6df95588b972522e1336afc5ad144d9b35e133c723a2b0f988efcffdb4869e49",
+      "event_id": 19
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "development_15_tap_a1",
+      "input_hash": "785783b30f953cdcc59bcd881ef783be47b1d20b3d2e0778175aa45771150470",
+      "event_id": 20
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "holdout_01_tap_a1",
+      "input_hash": "457c31764489b0ead721f0fc375f91cd0d616b381653e82f374474e39bdde7f1",
+      "event_id": 21
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "holdout_02_sound_a1",
+      "input_hash": "bb8f89a67443cfc0983b5c2e3a76929d740c173192193cd69a29ceabfa5c62e4",
+      "event_id": 22
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "holdout_03_quiet_a1",
+      "input_hash": "f79929c581f92b2ec4dea0f4fc540974d69a4cc350cef7783c6d1c270ea2d943",
+      "event_id": 23
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "holdout_04_sound_a1",
+      "input_hash": "d19133bb408b7aab7fdb6f69666f28da3cf91e9dd9373d531ee3706b91a7a675",
+      "event_id": 24
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "holdout_05_quiet_a1",
+      "input_hash": "4656b70eda653cfc54d33b293c2eec878adf856932a498cff8f25566f6af3bae",
+      "event_id": 25
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "holdout_06_quiet_a1",
+      "input_hash": "69b1760281b524dff74ae5d97478b96a8ed57413c5d90917a8e0e7b9567e6213",
+      "event_id": 26
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "holdout_07_tap_a1",
+      "input_hash": "a24e4e1c6e783a78eb8328964532dda381d35f13240cd2fcd273b1530f7e9fc9",
+      "event_id": 27
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "holdout_08_quiet_a1",
+      "input_hash": "fc3199e218b051e2fab23d7a174475d4ccd3483abdadc92c871e87c0f06f9bae",
+      "event_id": 28
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "holdout_09_tap_a1",
+      "input_hash": "00dac02eae2a66ffe68f977aa541748f36697c8c04c6585ca5aefc04ada6029a",
+      "event_id": 29
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "holdout_10_quiet_a1",
+      "input_hash": "4f57b02a71b5a326865600d8afe3fd01ecb7f0d0353ba0ae35d5e13a5b14653a",
+      "event_id": 30
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "holdout_11_sound_a1",
+      "input_hash": "b2a5d523da370e338314eb34b6d4e1a74bdf9e78b01e6ae9d9331e07d1e9728d",
+      "event_id": 31
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "holdout_12_sound_a1",
+      "input_hash": "9280186f3436a134fb37beadc9c1aef4f504a9d3103a12f688b235ccdb6a6cf7",
+      "event_id": 32
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "holdout_13_sound_a1",
+      "input_hash": "0297f298de3752291d234627aecb627459c744acda4d19dc1e6b354952c8761b",
+      "event_id": 33
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "holdout_14_tap_a1",
+      "input_hash": "3702a479a9b8b12bbf8315c1e3239500e479d0caa3c90f834d290e0d1969b3f7",
+      "event_id": 34
+    },
+    {
+      "windows": 150,
+      "features_equal": true,
+      "all_three_strategies_equal": true,
+      "trial_id": "holdout_15_tap_a1",
+      "input_hash": "30327430afb6fc731367d3aac71e44682744f27d6f30a2ae3febdb60364c9cf9",
+      "event_id": 35
+    }
+  ],
+  "bitstream_sha256": "34918c849baa72bff90249738707d6a996f298667e79a0cd2a36da6533e41ec1",
+  "real_tap_responses": [
+    {
+      "trial_id": "development_02_tap_a1",
+      "max_audio": 7803,
+      "max_accel": 835,
+      "input_hash": "360669febd97c41f73c8d74f6bc0504ad32c0e11873f8428ddb6b9dc23a0e6ec"
+    },
+    {
+      "trial_id": "development_07_tap_a1",
+      "max_audio": 27,
+      "max_accel": 25,
+      "input_hash": "14308adbbc6caaf10114763c71ca97af9f8e563e1af870b0ece20a8b9e5e037b"
+    },
+    {
+      "trial_id": "development_08_tap_a1",
+      "max_audio": 3621,
+      "max_accel": 509,
+      "input_hash": "3bfaebcc2914894fa47b8524c6d8a2d67c1276b20479f6a25c820477829c0f91"
+    },
+    {
+      "trial_id": "development_14_tap_a1",
+      "max_audio": 2705,
+      "max_accel": 371,
+      "input_hash": "6df95588b972522e1336afc5ad144d9b35e133c723a2b0f988efcffdb4869e49"
+    },
+    {
+      "trial_id": "development_15_tap_a1",
+      "max_audio": 12,
+      "max_accel": 29,
+      "input_hash": "785783b30f953cdcc59bcd881ef783be47b1d20b3d2e0778175aa45771150470"
+    }
+  ],
+  "single_modes_verified": true,
+  "quiet60": {
+    "duration_s": 60.15424475,
+    "windows": 6014,
+    "audio_candidates": 126,
+    "accel_candidates": 1,
+    "pairs": 0,
+    "confirmations": 0,
+    "audio_valid": 6014,
+    "accel_valid": 6014,
+    "pcm_samples": 962467,
+    "xyz_samples": 11176,
+    "overrun_delta": 0
+  },
+  "live_verified": true
+}

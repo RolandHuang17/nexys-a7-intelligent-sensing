@@ -1,0 +1,141 @@
+{
+  "time": "2026-11-15T19:34:52+08:00",
+  "source": "human_played_real_board",
+  "game_version": "0.1.0",
+  "exe_sha256": "4c159003c238ea784c5beb08447e7e177be6a659aec9fc28cd029db26075d44e",
+  "device": {
+    "usb_serial": "210292B7F4F8",
+    "port": "COM5",
+    "build_id": "9f3f5cbf"
+  },
+  "source_session": "C:\\Users\\roland\\AppData\\Local\\NexysGravityVoyager\\game\\sessions\\20261115T182404_977659_board_5cec",
+  "source_board_run": "C:\\Users\\roland\\AppData\\Local\\NexysGravityVoyager\\runs\\20261115T182447_978696_tilt_game_board",
+  "guided_calibration_passed": true,
+  "calibrations": [
+    {
+      "kind": "calibrated",
+      "serial": "210292B7F4F8",
+      "neutral": [
+        -7.398302157042352,
+        -0.5717381226936907
+      ],
+      "mapping": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "gravity_raw": 751.2115669302341
+    },
+    {
+      "kind": "calibrated",
+      "serial": "210292B7F4F8",
+      "neutral": [
+        -7.284690585061385,
+        -1.343569114555572
+      ],
+      "mapping": [
+        [
+          1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "gravity_raw": 751.6236484469496
+    }
+  ],
+  "four_directions_passed": true,
+  "direction_coverage": {
+    "left": true,
+    "right": true,
+    "up": true,
+    "down": true
+  },
+  "physical_center_brake_passed": true,
+  "active_game_brake_samples": 109,
+  "physical_center_presses": 9,
+  "physical_eight_level_playthrough_passed": true,
+  "first_campaign": [
+    {
+      "level": 1,
+      "kind": "win",
+      "t": 28.133333,
+      "stars": 2,
+      "deaths": 3,
+      "energy": 3
+    },
+    {
+      "level": 2,
+      "kind": "win",
+      "t": 16.75,
+      "stars": 1,
+      "deaths": 0,
+      "energy": 2
+    },
+    {
+      "level": 3,
+      "kind": "win",
+      "t": 10.916667,
+      "stars": 3,
+      "deaths": 0,
+      "energy": 3
+    },
+    {
+      "level": 4,
+      "kind": "win",
+      "t": 24.016667,
+      "stars": 2,
+      "deaths": 2,
+      "energy": 3
+    },
+    {
+      "level": 5,
+      "kind": "win",
+      "t": 15.725,
+      "stars": 2,
+      "deaths": 1,
+      "energy": 3
+    },
+    {
+      "level": 6,
+      "kind": "win",
+      "t": 16.558333,
+      "stars": 3,
+      "deaths": 0,
+      "energy": 3
+    },
+    {
+      "level": 7,
+      "kind": "win",
+      "t": 41.225,
+      "stars": 2,
+      "deaths": 12,
+      "energy": 3
+    },
+    {
+      "level": 8,
+      "kind": "win",
+      "t": 32.95,
+      "stars": 2,
+      "deaths": 2,
+      "energy": 3
+    }
+  ],
+  "sum_active_game_seconds": 186.275,
+  "time_excludes_calibration_pause_and_menus": true,
+  "control_records": 3797,
+  "retained_monitor_rows": 5633,
+  "fps": 55.33493078874013,
+  "receive_to_canvas_submit_p95_ms": 26.949500000228,
+  "user_playtest_approval": "approved",
+  "user_feedback": "我都亲身测试完了，很不错",
+  "latest_user_instruction": "先不合并，先这样独立的就行",
+  "integration": "deferred_by_user_keep_standalone"
+}

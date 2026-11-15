@@ -1,0 +1,167 @@
+{
+  "status": "passed",
+  "app_version": "1.6.0",
+  "exe_sha256": "23079c2a76c0939dc407192c474db4e7055a56d8937ef376ff8c5c4fa47a4951",
+  "previous_version": "1.5.0",
+  "previous_version_backup": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\deliver\\软件\\历史版本\\1.5.0_b5ba70ae",
+  "firmware_unchanged": true,
+  "firmware": {
+    "build_run_id": "20261115T210422_219255_build",
+    "build_id": "ec0351f8",
+    "bitstream_sha256": "3e193418e7ec9ba208277e7f9af63601b042ccfa4eab1b16bef2ea7184d0aa48",
+    "config_sha256": "65fd06441943fd2b0b233c5bb6423138c1d6267d16cf440d9bbe34ed1d283c90",
+    "board_model": "Nexys A7-100T",
+    "target_part": "xc7a100tcsg324-1",
+    "protocol_version": 1
+  },
+  "automatic_tests": 100,
+  "source_ui": {
+    "passed": true,
+    "source": "real_Tk_host_with_digital_game_input",
+    "serial_ports_opened": 0,
+    "checks": [
+      "lazy_game_page",
+      "no_second_worker",
+      "pause_on_navigation",
+      "manual_resume",
+      "dark_game_canvas_in_both_host_themes",
+      "footer_wrap_at_1060_width",
+      "events_navigation"
+    ],
+    "callback_errors": []
+  },
+  "real_board_integration": {
+    "source": "real_board_and_actual_Dashboard",
+    "physical_game_campaign_repeated": false,
+    "firmware_programmed": false,
+    "online_requests": 0,
+    "real_neutral_calibration_stage": "right",
+    "xyz_from_shared_worker": 486,
+    "exact_trigger_configuration_restore": true,
+    "music_mode_blocks_real_game_entry": true,
+    "full_event": {
+      "directory": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\runs\\game_integration_live\\runtime\\runs\\20261115T220147_953836_monitor_session\\physical\\e1_event2",
+      "pcm_count": 24000,
+      "xyz_count": 281,
+      "payload_sha256": "9c67491c741dc26b7569967b1a271798f365a74efb366d5c262eeff8092f2928",
+      "WAV_playback_API_returned": true,
+      "waveform_dialog_opened": true
+    },
+    "performance_with_live_board": {
+      "source": "keyboard",
+      "preview": true,
+      "rendered_frames": 602,
+      "fps": 60.21597047969507,
+      "frame_p95_ms": 16.91230000142241,
+      "update_p95_ms": 0.6579000000783708,
+      "receive_to_canvas_submit_p95_ms": 56.443099998432444,
+      "delivery_measurement": "host decoder publish to Canvas update; excludes sensor and display hardware latency",
+      "xyz_received": 4068,
+      "xyz_missing": 76,
+      "board_serial": "210292B7F4F8",
+      "state": "playing",
+      "result": {
+        "level": 1,
+        "won": false,
+        "stars": 0,
+        "seconds": 9.992,
+        "deaths": 0,
+        "energy": 0,
+        "core": false
+      }
+    },
+    "passed": true,
+    "device": {
+      "usb_serial": "210292B7F4F8",
+      "port": "COM5",
+      "build_id": "ec0351f8"
+    },
+    "board_monitor_threads": 1,
+    "shared_worker_preserved": true,
+    "panel_display_synced": true,
+    "callback_errors": [],
+    "run_directory": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\runs\\game_integration_live\\runtime\\runs\\20261115T220147_953836_monitor_session"
+  },
+  "frozen": {
+    "directory": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\runs\\game_frozen_23079c2a76c0",
+    "passed": true,
+    "candidate_exe_sha256": "23079c2a76c0939dc407192c474db4e7055a56d8937ef376ff8c5c4fa47a4951",
+    "copied_exe_sha256": "23079c2a76c0939dc407192c474db4e7055a56d8937ef376ff8c5c4fa47a4951",
+    "required_modules": [
+      "game_session",
+      "tilt_game.app",
+      "tilt_game.embedded",
+      "tilt_game.engine",
+      "tilt_game.levels",
+      "tilt_game.input",
+      "tilt_game.storage",
+      "panel_control",
+      "panel_protocol",
+      "music_board",
+      "music_worker"
+    ],
+    "original_resources_verified": 158,
+    "firmware_unchanged": true,
+    "panel_protocol_version": 1,
+    "self_check": {
+      "app_version": "1.6.0",
+      "frozen": true,
+      "resources_verified": true,
+      "firmware": {
+        "build_run_id": "20261115T210422_219255_build",
+        "build_id": "ec0351f8",
+        "bitstream_sha256": "3e193418e7ec9ba208277e7f9af63601b042ccfa4eab1b16bef2ea7184d0aa48",
+        "config_sha256": "65fd06441943fd2b0b233c5bb6423138c1d6267d16cf440d9bbe34ed1d283c90",
+        "board_model": "Nexys A7-100T",
+        "target_part": "xc7a100tcsg324-1",
+        "protocol_version": 1
+      },
+      "data_directory": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\runs\\game_frozen_23079c2a76c0\\user_data",
+      "resource_directory": "C:\\Users\\roland\\AppData\\Local\\Temp\\_MEI00005a682\\release_assets",
+      "devices": [
+        {
+          "serial": "210292B7F4F8",
+          "port": "COM5",
+          "description": "USB Serial Port (COM5)",
+          "location": ""
+        }
+      ],
+      "online_provider": "shazamio",
+      "online_components": {
+        "shazamio": "0.9.0",
+        "shazamio-core": "2.0.0",
+        "aiohttp": "3.14.5",
+        "aiohttp-retry": "2.9.1",
+        "numpy": "1.26.4"
+      }
+    },
+    "clean_PATH": "C:\\WINDOWS\\System32;C:\\WINDOWS",
+    "network_requests": 0,
+    "serial_opened": false
+  },
+  "frozen_ui": {
+    "passed": true,
+    "exe_sha256": "23079c2a76c0939dc407192c474db4e7055a56d8937ef376ff8c5c4fa47a4951",
+    "source": "actual_frozen_EXE_with_real_board_and_visual_inspection",
+    "game_page_visible": true,
+    "all_eight_level_cards_visible": true,
+    "prior_board_progress_imported": 8,
+    "prior_stars_imported": 17,
+    "real_neutral_calibration_stage": "right",
+    "trigger_state_restored_after_page_exit": true,
+    "normal_close": true,
+    "firmware_programmed": false,
+    "game_campaign_repeated": false,
+    "candidate_run_directory": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\runs\\game_candidate_gui\\runs\\20261115T221058_703387_monitor_session",
+    "screenshots": [
+      "主程序游戏星图.png",
+      "主程序实板校准.png"
+    ]
+  },
+  "standalone_preserved": true,
+  "standalone_exe_sha256": "4c159003c238ea784c5beb08447e7e177be6a659aec9fc28cd029db26075d44e",
+  "original_game_mechanics_changed": false,
+  "physical_eight_level_acceptance_source": "D:\\projects\\2222wuxiaoping_codex\\nexys-event-recorder\\deliver\\独立小游戏\\验收与测试\\真人实板试玩\\result.json",
+  "latest_user_instruction": "现在合并吧",
+  "time": "2026-11-15T22:14:09+08:00"
+}
